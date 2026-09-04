@@ -20,9 +20,10 @@ def main():
 
     try:
         with urlopen(request, timeout=60) as response:
-    html = response.read().decode("utf-8", errors="replace")
+            html = response.read().decode("utf-8", errors="replace")
 
-print(html[:5000])
+    print(html[:5000])
+    
     except HTTPError as error:
         body = error.read().decode("utf-8", errors="replace")
         print(f"Jina HTTP error: {error.code}")
