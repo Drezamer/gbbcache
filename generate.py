@@ -1,88 +1,20 @@
-import json
-import re
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError, URLError
-
-
-URL = "https://r.jina.ai/https://boardgamegeek.com/browse/boardgame?sort=rank"
-OUTPUT = "top100.json"
-
-
-def main():
-    print("Fetching BGG through Jina Reader...")
-
-    request = Request(
-        URL,
-        headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DnDClub-BGG-Cache/1.0)"
-        },
-    )
-
-    try:
-        with urlopen(request, timeout=60) as response:
-            html = response.read().decode("utf-8", errors="replace")
-            print(html[:5000])
-    except HTTPError as error:
-        body = error.read().decode("utf-8", errors="replace")
-        print(f"Jina HTTP error: {error.code}")
-        print(body[:1000])
-        raise
-    except URLError as error:
-        print(f"Jina connection error: {error}")
-        raise
-
-    print(f"Received {len(html)} characters from Jina")
-
-    pattern = re.compile(
-        r"\[([^\]]+)\]\(https://boardgamegeek\.com/boardgame/(\d+)(?:/[^)]*)?\)"
-    )
-
-    games = []
-    seen_ids = set()
-
-    for match in pattern.finditer(html):
-        name = match.group(1).strip()
-        game_id = int(match.group(2))
-
-        if game_id in seen_ids:
-            continue
-
-        seen_ids.add(game_id)
-
-        games.append(
-            {
-                "rank": len(games) + 1,
-                "id": game_id,
-                "name": name,
-                "bayesaverage": None,
-                "average": None,
-            }
-        )
-
-        if len(games) >= 100:
-            break
-
-    print(f"Detected {len(games)} unique games")
-
-    if len(games) < 100:
-        print("Could not find 100 games.")
-        print("First 5000 characters received from Jina:")
-        print(html[:5000])
-        raise RuntimeError(
-            f"Expected 100 games, found only {len(games)}"
-        )
-
-    with open(OUTPUT, "w", encoding="utf-8") as file:
-        json.dump(
-            games,
-            file,
-            ensure_ascii=False,
-            indent=2
-        )
-
-    print(f"Successfully saved {len(games)} games to {OUTPUT}")
-    print(f"Top game: #{games[0]['rank']} {games[0]['name']}")
-
-
-if __name__ == "__main__":
-    main()
+Run python generate.py
+  
+Fetching BGG through Jina Reader...
+Title: Browse Board Games | BoardGameGeek
+URL Source: https://boardgamegeek.com/browse/boardgame?sort=rank
+Markdown Content:
+| [Board Game Rank![Image 1: ascending sort](https://cf.geekdo-static.com/images/collection/arrow_up.gif)](https://boardgamegeek.com/browse/boardgame?sort=rank&sortdir=desc) | Thumbnail image | [Title](https://boardgamegeek.com/browse/boardgame?sort=title) | [Geek Rating](https://boardgamegeek.com/browse/boardgame?sort=bggrating) | [Avg Rating](https://boardgamegeek.com/browse/boardgame?sort=avgrating) | [Num Voters](https://boardgamegeek.com/browse/boardgame?sort=numvoters) | Shop |
+| --- | --- | --- | --- | --- | --- | --- |
+| [](https://boardgamegeek.com/) 1 | [![Image 2: Board Game: Brass: Birmingham](https://cf.geekdo-images.com/x3zxjr-Vw5iU4yDPg70Jgw__micro/img/4Od3GYCiqptga0VbmyumPbJlBsU=/fit-in/64x64/filters:strip_icc()/pic3490053.jpg)](https://boardgamegeek.com/boardgame/224517/brass-birmingham) | [Brass: Birmingham](https://boardgamegeek.com/boardgame/224517/brass-birmingham)(2018) Build networks, grow industries, and navigate the world of the Industrial Revolution. | 8.390 | 8.56 | 59998 | List:$79.99 [Amazon:$75.19](https://www.amazon.com/dp/1988884047?tag=browse-boardgamegeek-20&linkCode=ogi&th=1&psc=1) |
+| [](https://boardgamegeek.com/) 2 | [![Image 3: Board Game: Ark Nova](https://cf.geekdo-images.com/SoU8p28Sk1s8MSvoM4N8pQ__micro/img/LSAi1pmhbTbWwtBrziutDOXzfdY=/fit-in/64x64/filters:strip_icc()/pic6293412.jpg)](https://boardgamegeek.com/boardgame/342942/ark-nova) | [Ark Nova](https://boardgamegeek.com/boardgame/342942/ark-nova)(2021) Plan and build a modern, scientifically managed zoo to support conservation projects. | 8.354 | 8.54 | 62852 | List:$79.99 [Amazon:$73.49](https://www.amazon.com/dp/B09L6FCP9S?tag=browse-boardgamegeek-20&linkCode=ogi&th=1&psc=1) |
+| [](https://boardgamegeek.com/) 3 | [![Image 4: Board Game: Pandemic Legacy: Season 1](https://cf.geekdo-images.com/-Qer2BBPG7qGGDu6KcVDIw__micro/img/n6-sXYD6XXZoqIxq4P6AG7VPCuA=/fit-in/64x64/filters:strip_icc()/pic2452831.png)](https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1) | [Pandemic Legacy: Season 1](https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1)(2015) Mutating diseases are spreading around the world - can your team save humanity? | 8.343 | 8.50 | 57767 | List:$99.99 [Amazon:$79.99](https://www.amazon.com/dp/B00TQ5SEAI?tag=browse-boardgamegeek-20&linkCode=ogi&th=1&psc=1) |
+| [](https://boardgamegeek.com/) 4 | [![Image 5: Board Game: Gloomhaven](https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__micro/img/sQyh47ClBO3d5sxPm73hMvM-JV4=/fit-in/64x64/filters:strip_icc()/pic2437871.jpg)](https://boardgamegeek.com/boardgame/174430/gloomhaven) | [Gloomhaven](https://boardgamegeek.com/boardgame/174430/gloomhaven)(2017) Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy! | 8.290 | 8.53 | 67651 |  |
+| [](https://boardgamegeek.com/) 5 | [![Image 6: Board Game: Dune: Imperium – Uprising](https://cf.geekdo-images.com/UVUkjMV_Q2paVUIUP30Vvw__micro/img/NLUsSSVMHts8-v1gJxC_LbAjSaE=/fit-in/64x64/filters:strip_icc()/pic7664424.jpg)](https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising) | [Dune: Imperium – Uprising](https://boardgamegeek.com/boardgame/397598/dune-imperium-uprising)(2023) Deploy agents, build your deck, and engage in strategic battles to control Arrakis. | 8.260 | 8.70 | 20035 | [Amazon:$122.66](https://www.amazon.com/dp/B0CQZB5ZQC?tag=browse-boardgamegeek-20&linkCode=ogi&th=1&psc=1) |
+| [](https://boardgamegeek.com/) 6 | [![Image 7: Board Game: Twilight Imperium: Fourth Edition](https://cf.geekdo-images.com/_Ppn5lssO5OaildSE-FgFA__micro/img/2gymaKs35_2yj7eyyA6cYyVmd9c=/fit-in/64x64/filters:strip_icc()/pic3727516.jpg)](https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition) | [Twilight Imperium: Fourth Edition](https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition)(2017) Build an intergalactic empire through trade, research, conquest and grand politics. | 8.218 | 8.56 | 28957 |  |
+| [](https://boardgamegeek.com/) 7 | [![Image 8: Board Game: Dune: Imperium](https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__micro/img/mfU7-dEFnVyXJrF-BWAO0buexao=/fit-in/64x64/filters:strip_icc()/pic5666597.jpg)](https://boardgamegeek.com/boardgame/316554/dune-imperium) | [Dune: Imperium](https://boardgamegeek.com/boardgame/316554/dune-imperium)(2020) Influence, intrigue, and combat in the universe of Dune. | 8.218 | 8.41 | 59636 | [Amazon:$51.43](https://www.amazon.com/dp/B08JHB9V72?tag=browse-boardgamegeek-20&linkCode=ogi&th=1&psc=1) |
+| [](https://boardgamegeek.com/) 8 | [![Image 9: Board Game: War of the Ring: Second Edition](https://cf.geekdo-images.com/ImPgGag98W6gpV1KV812aA__micro/img/NT-Av_3kdYUcwuti5ocmIQXow3g=/fit-in/64x64/filters:strip_icc()/pic1215633.jpg)](https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition) | [War of the Ring: Second Edition](https://boardgameg
+Received 59821 characters from Jina
+Detected 100 unique games
+Successfully saved 100 games to top100.json
+Top game: #1 Brass: Birmingham
