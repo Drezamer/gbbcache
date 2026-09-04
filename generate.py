@@ -229,9 +229,9 @@ def parse_games(text):
         if len(cells) > 1:
 
             image_match = re.search(
-                r"!\[[^\]]*\]"
-                r"\((https?://.*)\)\s*$",
-                cells[1]
+                r"(https?://cf\.geekdo-images\.com/.*?\.(?:jpg|jpeg|png|webp))",
+                cells[1],
+                re.IGNORECASE
             )
 
             if image_match:
