@@ -6,38 +6,59 @@ from urllib.request import Request, urlopen
 
 
 URL = "https://r.jina.ai/https://boardgamegeek.com/browse/boardgame?sort=rank"
+
 OUTPUT = "top100.json"
+
+IMAGES_DIR = "images"
+
+GITHUB_RAW_BASE = (
+    "https://raw.githubusercontent.com/"
+    "Drezamer/gbbcache/main/images"
+)
 
 TIMEOUT = 60
 
 
+def fetch_url(url, user_agent, timeout=TIMEOUT):
+
+    request = Request(
+        url,
+        headers={
+            "User-Agent": user_agent
+        },
+    )
+
+    with urlopen(
+        request,
+        timeout=timeout
+    ) as response:
+
+        data = response.read()
+
+    return data
+
+
 def fetch_bgg():
+
     print("========================================")
     print("STEP 1: FETCH BGG")
     print("========================================")
     print(f"URL: {URL}")
 
-    request = Request(
-        URL,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 "
-                "(compatible; DnDClub-BGG-Cache/1.0)"
-            )
-        },
-    )
-
     try:
 
-        with urlopen(
-            request,
-            timeout=TIMEOUT
-        ) as response:
+        data = fetch_url(
+            URL,
+            (
+                "Mozilla/5.0 "
+                "(compatible; DnDClub-BGG-Cache/1.0)"
+            ),
+        )
 
-            text = response.read().decode(
-                "utf-8",
-                errors="replace"
-            )
+        text = data.decode(
+            "utf-8",
+            errors="replace"
+        )
 
     except HTTPError as error:
 
@@ -46,8 +67,13 @@ def fetch_bgg():
             errors="replace"
         )
 
-        print(f"ERROR: HTTP {error.code}")
-        print(body[:2000])
+        print(
+            f"ERROR: HTTP {error.code}"
+        )
+
+        print(
+            body[:2000]
+        )
 
         raise
 
@@ -122,7 +148,9 @@ def parse_games(text):
         if not rank_match:
             continue
 
-        rank = int(rank_match.group(1))
+        rank = int(
+            rank_match.group(1)
+        )
 
         if rank < 1 or rank > 100:
             continue
@@ -160,8 +188,6 @@ def parse_games(text):
 
         # ----------------------------------------
         # Year
-        # Example:
-        # ...(2018) Build networks...
         # ----------------------------------------
 
         after_title = cells[2][
@@ -195,10 +221,10 @@ def parse_games(text):
             description = None
 
         # ----------------------------------------
-        # Thumbnail
+        # Thumbnail URL
         # ----------------------------------------
 
-        thumbnail = None
+        source_thumbnail = None
 
         if len(cells) > 1:
 
@@ -210,14 +236,18 @@ def parse_games(text):
 
             if image_match:
 
-                thumbnail = image_match.group(1)
+                source_thumbnail = (
+                    image_match.group(1)
+                )
 
         # ----------------------------------------
         # Ratings
         # ----------------------------------------
 
         bayesaverage = None
+
         average = None
+
         numvoters = None
 
         if len(cells) > 3:
@@ -254,10 +284,12 @@ def parse_games(text):
                 value
             ):
 
-                numvoters = int(value)
+                numvoters = int(
+                    value
+                )
 
         # ----------------------------------------
-        # Final game object
+        # Initial game object
         # ----------------------------------------
 
         game = {
@@ -272,7 +304,9 @@ def parse_games(text):
 
             "description": description,
 
-            "thumbnail": thumbnail,
+            "thumbnail": source_thumbnail,
+
+            "source_thumbnail": source_thumbnail,
 
             "bayesaverage": bayesaverage,
 
@@ -285,12 +319,13 @@ def parse_games(text):
         games.append(game)
 
         seen_ranks.add(rank)
+
         seen_ids.add(game_id)
 
         valid_rows += 1
 
         # ----------------------------------------
-        # Diagnostic output
+        # Diagnostics
         # ----------------------------------------
 
         if len(games) <= 3:
@@ -319,8 +354,8 @@ def parse_games(text):
             )
 
             print(
-                f"  Thumbnail: "
-                f"{'YES' if thumbnail else 'NO'}"
+                "  Source Thumbnail: "
+                f"{'YES' if source_thumbnail else 'NO'}"
             )
 
             print(
@@ -336,6 +371,7 @@ def parse_games(text):
     )
 
     print()
+
     print(
         f"Table rows detected: "
         f"{table_rows}"
@@ -354,11 +390,224 @@ def parse_games(text):
     return games
 
 
+def get_image_extension(content_type):
+
+    if not content_type:
+        return ".jpg"
+
+    content_type = content_type.lower()
+
+    if "image/jpeg" in content_type:
+        return ".jpg"
+
+    if "image/png" in content_type:
+        return ".png"
+
+    if "image/webp" in content_type:
+        return ".webp"
+
+    if "image/gif" in content_type:
+        return ".gif"
+
+    return ".jpg"
+
+
+def download_thumbnail(game):
+
+    game_id = game["id"]
+
+    source_url = game.get(
+        "source_thumbnail"
+    )
+
+    if not source_url:
+
+        raise RuntimeError(
+            f"No source thumbnail for "
+            f"game {game_id}"
+        )
+
+    os.makedirs(
+        IMAGES_DIR,
+        exist_ok=True
+    )
+
+    # ----------------------------------------
+    # Check whether image already exists
+    # ----------------------------------------
+
+    possible_extensions = [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".webp",
+        ".gif",
+    ]
+
+    for extension in possible_extensions:
+
+        existing_path = os.path.join(
+            IMAGES_DIR,
+            f"{game_id}{extension}"
+        )
+
+        if os.path.isfile(existing_path):
+
+            game["thumbnail"] = (
+                f"{GITHUB_RAW_BASE}/"
+                f"{game_id}{extension}"
+            )
+
+            print(
+                f"  EXISTS: {existing_path}"
+            )
+
+            return
+
+    # ----------------------------------------
+    # Download image
+    # ----------------------------------------
+
+    print(
+        f"  DOWNLOAD: {source_url}"
+    )
+
+    request = Request(
+        source_url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 "
+                "(compatible; DnDClub-BGG-ImageCache/1.0)"
+            ),
+
+            "Referer":
+                "https://boardgamegeek.com/",
+        },
+    )
+
+    try:
+
+        with urlopen(
+            request,
+            timeout=TIMEOUT
+        ) as response:
+
+            image_data = response.read()
+
+            content_type = response.headers.get(
+                "Content-Type",
+                ""
+            )
+
+    except HTTPError as error:
+
+        raise RuntimeError(
+            f"Image download failed for "
+            f"game {game_id}: "
+            f"HTTP {error.code}"
+        )
+
+    except URLError as error:
+
+        raise RuntimeError(
+            f"Image download failed for "
+            f"game {game_id}: "
+            f"{error}"
+        )
+
+    if not image_data:
+
+        raise RuntimeError(
+            f"Empty image received for "
+            f"game {game_id}"
+        )
+
+    extension = get_image_extension(
+        content_type
+    )
+
+    filename = (
+        f"{game_id}{extension}"
+    )
+
+    filepath = os.path.join(
+        IMAGES_DIR,
+        filename
+    )
+
+    with open(
+        filepath,
+        "wb"
+    ) as file:
+
+        file.write(
+            image_data
+        )
+
+    file_size = os.path.getsize(
+        filepath
+    )
+
+    print(
+        f"  SAVED: {filepath} "
+        f"({file_size} bytes)"
+    )
+
+    game["thumbnail"] = (
+        f"{GITHUB_RAW_BASE}/"
+        f"{filename}"
+    )
+
+
+def cache_images(games):
+
+    print()
+    print("========================================")
+    print("STEP 3: CACHE THUMBNAILS")
+    print("========================================")
+
+    success_count = 0
+
+    for index, game in enumerate(
+        games,
+        start=1
+    ):
+
+        print(
+            f"[{index}/{len(games)}] "
+            f"#{game['rank']} "
+            f"{game['name']}"
+        )
+
+        download_thumbnail(
+            game
+        )
+
+        success_count += 1
+
+    print()
+
+    print(
+        f"Thumbnail cache complete: "
+        f"{success_count}/{len(games)}"
+    )
+
+
+def remove_source_thumbnail(games):
+
+    for game in games:
+
+        game.pop(
+            "source_thumbnail",
+            None
+        )
+
+
 def validate_games(games):
 
     print()
     print("========================================")
-    print("STEP 3: VALIDATE DATA")
+    print("STEP 4: VALIDATE DATA")
     print("========================================")
 
     if len(games) != 100:
@@ -405,6 +654,13 @@ def validate_games(games):
             raise RuntimeError(
                 f"Missing game name at "
                 f"rank {game['rank']}"
+            )
+
+        if not game["thumbnail"]:
+
+            raise RuntimeError(
+                f"Missing cached thumbnail "
+                f"at rank {game['rank']}"
             )
 
     print(
@@ -482,7 +738,7 @@ def validate_games(games):
     )
 
     print(
-        f"Thumbnails found: "
+        f"Cached thumbnails found: "
         f"{thumbnails_count}/100"
     )
 
@@ -512,7 +768,7 @@ def validate_games(games):
     if thumbnails_count < 90:
 
         raise RuntimeError(
-            "Too many missing thumbnails"
+            "Too many missing cached thumbnails"
         )
 
     print(
@@ -524,7 +780,7 @@ def save_json(games):
 
     print()
     print("========================================")
-    print("STEP 4: SAVE JSON")
+    print("STEP 5: SAVE JSON")
     print("========================================")
 
     with open(
@@ -570,19 +826,34 @@ def main():
 
     text = fetch_bgg()
 
-    games = parse_games(text)
+    games = parse_games(
+        text
+    )
 
-    validate_games(games)
+    cache_images(
+        games
+    )
 
-    save_json(games)
+    remove_source_thumbnail(
+        games
+    )
+
+    validate_games(
+        games
+    )
+
+    save_json(
+        games
+    )
 
     print()
+
     print(
         "========================================"
     )
 
     print(
-        "STEP 5: FINAL RESULT"
+        "STEP 6: FINAL RESULT"
     )
 
     print(
@@ -617,10 +888,11 @@ def main():
 
     print(
         f"Thumbnail: "
-        f"{'YES' if first['thumbnail'] else 'NO'}"
+        f"{first['thumbnail']}"
     )
 
     print()
+
     print(
         "========================================"
     )
@@ -635,4 +907,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
