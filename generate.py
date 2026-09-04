@@ -230,7 +230,7 @@ def parse_games(text):
 
             image_match = re.search(
                 r"!\[[^\]]*\]"
-                r"\((https?://[^)]+)\)",
+                r"\((https?://.*)\)\s*$",
                 cells[1]
             )
 
