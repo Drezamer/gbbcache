@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -11,24 +12,35 @@ TIMEOUT = 60
 
 
 def fetch_bgg():
-    print("=== STEP 1: FETCH BGG ===")
+    print("========================================")
+    print("STEP 1: FETCH BGG")
+    print("========================================")
     print(f"URL: {URL}")
 
     request = Request(
         URL,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; DnDClub-BGG-Cache/1.0)"
+            "User-Agent": (
+                "Mozilla/5.0 "
+                "(compatible; DnDClub-BGG-Cache/1.0)"
+            )
         },
     )
 
     try:
-        with urlopen(request, timeout=TIMEOUT) as response:
+
+        with urlopen(
+            request,
+            timeout=TIMEOUT
+        ) as response:
+
             text = response.read().decode(
                 "utf-8",
                 errors="replace"
             )
 
     except HTTPError as error:
+
         body = error.read().decode(
             "utf-8",
             errors="replace"
@@ -40,32 +52,48 @@ def fetch_bgg():
         raise
 
     except URLError as error:
-        print(f"ERROR: URL connection failed: {error}")
+
+        print(
+            f"ERROR: URL connection failed: {error}"
+        )
+
         raise
 
     except TimeoutError:
+
         print(
-            f"ERROR: request timed out after {TIMEOUT} seconds"
+            f"ERROR: request timed out "
+            f"after {TIMEOUT} seconds"
         )
+
         raise
 
-    print(f"SUCCESS: received {len(text)} characters")
+    print(
+        f"SUCCESS: received {len(text)} characters"
+    )
 
     return text
 
 
 def parse_games(text):
+
     print()
-    print("=== STEP 2: PARSE BGG TABLE ===")
+    print("========================================")
+    print("STEP 2: PARSE BGG TABLE")
+    print("========================================")
 
     games = []
+
     seen_ids = set()
     seen_ranks = set()
 
     table_rows = 0
     valid_rows = 0
 
-    for line_number, line in enumerate(text.splitlines(), start=1):
+    for line_number, line in enumerate(
+        text.splitlines(),
+        start=1
+    ):
 
         line = line.strip()
 
@@ -82,11 +110,9 @@ def parse_games(text):
         if len(cells) < 6:
             continue
 
-        # -------------------------------------------------
+        # ----------------------------------------
         # Rank
-        # Example first cell:
-        # [](...) 1
-        # -------------------------------------------------
+        # ----------------------------------------
 
         rank_match = re.search(
             r"(\d+)\s*$",
@@ -101,16 +127,14 @@ def parse_games(text):
         if rank < 1 or rank > 100:
             continue
 
-        # -------------------------------------------------
-        # Game title / ID
-        #
-        # Example:
-        # [Brass: Birmingham](https://boardgamegeek.com/boardgame/224517/brass-birmingham)
-        # -------------------------------------------------
+        # ----------------------------------------
+        # Game link and ID
+        # ----------------------------------------
 
         title_match = re.search(
             r"\[([^\]]+)\]\("
-            r"https?://boardgamegeek\.com/boardgame/(\d+)"
+            r"https?://boardgamegeek\.com/"
+            r"boardgame/(\d+)"
             r"(?:/[^)]*)?\)",
             cells[2]
         )
@@ -119,11 +143,14 @@ def parse_games(text):
             continue
 
         name = title_match.group(1).strip()
-        game_id = int(title_match.group(2))
 
-        # -------------------------------------------------
+        game_id = int(
+            title_match.group(2)
+        )
+
+        # ----------------------------------------
         # Duplicate protection
-        # -------------------------------------------------
+        # ----------------------------------------
 
         if rank in seen_ranks:
             continue
@@ -131,49 +158,128 @@ def parse_games(text):
         if game_id in seen_ids:
             continue
 
-        # -------------------------------------------------
+        # ----------------------------------------
+        # Year
+        # Example:
+        # ...(2018) Build networks...
+        # ----------------------------------------
+
+        after_title = cells[2][
+            title_match.end():
+        ].strip()
+
+        year = None
+
+        year_match = re.match(
+            r"\((\d{4})\)",
+            after_title
+        )
+
+        if year_match:
+
+            year = int(
+                year_match.group(1)
+            )
+
+            after_title = after_title[
+                year_match.end():
+            ].strip()
+
+        # ----------------------------------------
+        # Description
+        # ----------------------------------------
+
+        description = after_title.strip()
+
+        if not description:
+            description = None
+
+        # ----------------------------------------
+        # Thumbnail
+        # ----------------------------------------
+
+        thumbnail = None
+
+        if len(cells) > 1:
+
+            image_match = re.search(
+                r"!\[[^\]]*\]"
+                r"\((https?://[^)]+)\)",
+                cells[1]
+            )
+
+            if image_match:
+
+                thumbnail = image_match.group(1)
+
+        # ----------------------------------------
         # Ratings
-        #
-        # Expected columns:
-        #
-        # cells[3] = Geek Rating
-        # cells[4] = Average Rating
-        # cells[5] = Num Voters
-        # -------------------------------------------------
+        # ----------------------------------------
 
         bayesaverage = None
         average = None
         numvoters = None
 
         if len(cells) > 3:
+
             value = cells[3].strip()
 
-            if re.fullmatch(r"\d+(?:\.\d+)?", value):
+            if re.fullmatch(
+                r"\d+(?:\.\d+)?",
+                value
+            ):
+
                 bayesaverage = value
 
         if len(cells) > 4:
+
             value = cells[4].strip()
 
-            if re.fullmatch(r"\d+(?:\.\d+)?", value):
+            if re.fullmatch(
+                r"\d+(?:\.\d+)?",
+                value
+            ):
+
                 average = value
 
         if len(cells) > 5:
-            value = cells[5].replace(",", "").strip()
 
-            if re.fullmatch(r"\d+", value):
+            value = cells[5].replace(
+                ",",
+                ""
+            ).strip()
+
+            if re.fullmatch(
+                r"\d+",
+                value
+            ):
+
                 numvoters = int(value)
 
-        # -------------------------------------------------
-        # Save game
-        # -------------------------------------------------
+        # ----------------------------------------
+        # Final game object
+        # ----------------------------------------
 
         game = {
+
             "rank": rank,
+
             "id": game_id,
+
             "name": name,
+
+            "year": year,
+
+            "description": description,
+
+            "thumbnail": thumbnail,
+
             "bayesaverage": bayesaverage,
+
             "average": average,
+
             "numvoters": numvoters,
+
         }
 
         games.append(game)
@@ -183,82 +289,176 @@ def parse_games(text):
 
         valid_rows += 1
 
-        # -------------------------------------------------
+        # ----------------------------------------
         # Diagnostic output
-        # -------------------------------------------------
+        # ----------------------------------------
 
         if len(games) <= 3:
+
             print(
-                f"Game #{rank}: "
-                f"{name} | "
-                f"Geek={bayesaverage} | "
-                f"Average={average} | "
-                f"Voters={numvoters}"
+                f"Game #{rank}: {name}"
+            )
+
+            print(
+                f"  Year: {year}"
+            )
+
+            print(
+                f"  Geek Rating: "
+                f"{bayesaverage}"
+            )
+
+            print(
+                f"  Average: "
+                f"{average}"
+            )
+
+            print(
+                f"  Voters: "
+                f"{numvoters}"
+            )
+
+            print(
+                f"  Thumbnail: "
+                f"{'YES' if thumbnail else 'NO'}"
+            )
+
+            print(
+                f"  Description: "
+                f"{'YES' if description else 'NO'}"
             )
 
         if len(games) >= 100:
             break
 
+    games.sort(
+        key=lambda game: game["rank"]
+    )
+
     print()
-    print(f"Table rows detected: {table_rows}")
-    print(f"Valid game rows: {valid_rows}")
-    print(f"Unique games: {len(games)}")
+    print(
+        f"Table rows detected: "
+        f"{table_rows}"
+    )
+
+    print(
+        f"Valid game rows: "
+        f"{valid_rows}"
+    )
+
+    print(
+        f"Unique games: "
+        f"{len(games)}"
+    )
 
     return games
 
 
 def validate_games(games):
+
     print()
-    print("=== STEP 3: VALIDATE DATA ===")
+    print("========================================")
+    print("STEP 3: VALIDATE DATA")
+    print("========================================")
 
     if len(games) != 100:
+
         raise RuntimeError(
-            f"Expected exactly 100 games, found {len(games)}"
+            f"Expected exactly 100 games, "
+            f"found {len(games)}"
         )
 
-    print("Count check: OK (100 games)")
+    print(
+        "Count check: OK (100 games)"
+    )
 
-    for index, game in enumerate(games):
+    for index, game in enumerate(
+        games
+    ):
 
         expected_rank = index + 1
 
         if game["rank"] != expected_rank:
+
             raise RuntimeError(
-                f"Invalid rank at index {index}: "
-                f"expected {expected_rank}, "
-                f"got {game['rank']}"
+                f"Invalid rank at index "
+                f"{index}: expected "
+                f"{expected_rank}, got "
+                f"{game['rank']}"
             )
 
-        if not isinstance(game["id"], int) or game["id"] <= 0:
+        if (
+            not isinstance(
+                game["id"],
+                int
+            )
+            or game["id"] <= 0
+        ):
+
             raise RuntimeError(
-                f"Invalid game ID at rank {game['rank']}"
+                f"Invalid game ID at rank "
+                f"{game['rank']}"
             )
 
         if not game["name"]:
+
             raise RuntimeError(
-                f"Missing game name at rank {game['rank']}"
+                f"Missing game name at "
+                f"rank {game['rank']}"
             )
 
-    print("Rank check: OK")
-    print("Game ID check: OK")
-    print("Game name check: OK")
+    print(
+        "Rank check: OK"
+    )
+
+    print(
+        "Game ID check: OK"
+    )
+
+    print(
+        "Game name check: OK"
+    )
 
     ratings_count = sum(
         1
         for game in games
-        if game["bayesaverage"] is not None
+        if game["bayesaverage"]
+        is not None
     )
 
     averages_count = sum(
         1
         for game in games
-        if game["average"] is not None
+        if game["average"]
+        is not None
     )
 
     voters_count = sum(
         1
         for game in games
-        if game["numvoters"] is not None
+        if game["numvoters"]
+        is not None
+    )
+
+    years_count = sum(
+        1
+        for game in games
+        if game["year"]
+        is not None
+    )
+
+    thumbnails_count = sum(
+        1
+        for game in games
+        if game["thumbnail"]
+        is not None
+    )
+
+    descriptions_count = sum(
+        1
+        for game in games
+        if game["description"]
+        is not None
     )
 
     print(
@@ -276,27 +476,56 @@ def validate_games(games):
         f"{voters_count}/100"
     )
 
+    print(
+        f"Years found: "
+        f"{years_count}/100"
+    )
+
+    print(
+        f"Thumbnails found: "
+        f"{thumbnails_count}/100"
+    )
+
+    print(
+        f"Descriptions found: "
+        f"{descriptions_count}/100"
+    )
+
     if ratings_count < 90:
+
         raise RuntimeError(
             "Too many missing Geek Ratings"
         )
 
     if averages_count < 90:
+
         raise RuntimeError(
             "Too many missing Average Ratings"
         )
 
     if voters_count < 90:
+
         raise RuntimeError(
             "Too many missing Num Voters"
         )
 
-    print("Validation: SUCCESS")
+    if thumbnails_count < 90:
+
+        raise RuntimeError(
+            "Too many missing thumbnails"
+        )
+
+    print(
+        "Validation: SUCCESS"
+    )
 
 
 def save_json(games):
+
     print()
-    print("=== STEP 4: SAVE JSON ===")
+    print("========================================")
+    print("STEP 4: SAVE JSON")
+    print("========================================")
 
     with open(
         OUTPUT,
@@ -311,21 +540,33 @@ def save_json(games):
             indent=2
         )
 
-    print(
-        f"Saved {len(games)} games to {OUTPUT}"
+    file_size = os.path.getsize(
+        OUTPUT
     )
 
     print(
-        f"File size: "
-        f"{__import__('os').path.getsize(OUTPUT)} bytes"
+        f"Saved {len(games)} games "
+        f"to {OUTPUT}"
+    )
+
+    print(
+        f"File size: {file_size} bytes"
     )
 
 
 def main():
 
-    print("========================================")
-    print("BGG TOP 100 CACHE GENERATOR")
-    print("========================================")
+    print(
+        "========================================"
+    )
+
+    print(
+        "BGG TOP 100 CACHE GENERATOR"
+    )
+
+    print(
+        "========================================"
+    )
 
     text = fetch_bgg()
 
@@ -336,13 +577,27 @@ def main():
     save_json(games)
 
     print()
-    print("=== STEP 5: FINAL RESULT ===")
+    print(
+        "========================================"
+    )
+
+    print(
+        "STEP 5: FINAL RESULT"
+    )
+
+    print(
+        "========================================"
+    )
 
     first = games[0]
 
     print(
         f"Top game: #{first['rank']} "
         f"{first['name']}"
+    )
+
+    print(
+        f"Year: {first['year']}"
     )
 
     print(
@@ -360,10 +615,23 @@ def main():
         f"{first['numvoters']}"
     )
 
+    print(
+        f"Thumbnail: "
+        f"{'YES' if first['thumbnail'] else 'NO'}"
+    )
+
     print()
-    print("========================================")
-    print("SUCCESS: BGG TOP 100 UPDATED")
-    print("========================================")
+    print(
+        "========================================"
+    )
+
+    print(
+        "SUCCESS: BGG TOP 100 UPDATED"
+    )
+
+    print(
+        "========================================"
+    )
 
 
 if __name__ == "__main__":
