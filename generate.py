@@ -1,15 +1,16 @@
 import json
 import re
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
-from bs4 import BeautifulSoup
 
-
-URL = "https://boardgamegeek.com/browse/boardgame?sort=rank"
+URL = "https://r.jina.ai/https://boardgamegeek.com/browse/boardgame?sort=rank"
 OUTPUT = "top100.json"
 
 
 def main():
+    print("Fetching BGG through Jina Reader...")
+
     request = Request(
         URL,
         headers={
@@ -17,74 +18,58 @@ def main():
         },
     )
 
-    with urlopen(request, timeout=30) as response:
-        html = response.read()
+    try:
+        with urlopen(request, timeout=60) as response:
+            html = response.read().decode("utf-8", errors="replace")
+    except HTTPError as error:
+        body = error.read().decode("utf-8", errors="replace")
+        print(f"Jina HTTP error: {error.code}")
+        print(body[:1000])
+        raise
+    except URLError as error:
+        print(f"Jina connection error: {error}")
+        raise
 
-    soup = BeautifulSoup(html, "html.parser")
+    print(f"Received {len(html)} characters from Jina")
+
+    pattern = re.compile(
+        r"\[([^\]]+)\]\(https://boardgamegeek\.com/boardgame/(\d+)(?:/[^)]*)?\)"
+    )
 
     games = []
     seen_ids = set()
 
-    for row in soup.find_all("tr"):
-        cells = row.find_all("td")
-
-        if len(cells) < 5:
-            continue
-
-        link = row.find(
-            "a",
-            href=re.compile(r"^/boardgame/\d+(?:/.*)?$")
-        )
-
-        if not link:
-            continue
-
-        match = re.search(
-            r"/boardgame/(\d+)",
-            link.get("href", "")
-        )
-
-        if not match:
-            continue
-
-        game_id = int(match.group(1))
+    for match in pattern.finditer(html):
+        name = match.group(1).strip()
+        game_id = int(match.group(2))
 
         if game_id in seen_ids:
             continue
 
-        rank_text = cells[0].get_text(" ", strip=True)
-        rank_match = re.search(r"\d+", rank_text)
-
-        if not rank_match:
-            continue
-
-        name = link.get_text(" ", strip=True)
-        rank = int(rank_match.group())
-
-        geek_rating = cells[3].get_text(" ", strip=True)
-        average = cells[4].get_text(" ", strip=True)
+        seen_ids.add(game_id)
 
         games.append(
             {
-                "rank": rank,
+                "rank": len(games) + 1,
                 "id": game_id,
                 "name": name,
-                "bayesaverage": geek_rating,
-                "average": average,
+                "bayesaverage": None,
+                "average": None,
             }
         )
-
-        seen_ids.add(game_id)
 
         if len(games) >= 100:
             break
 
+    print(f"Detected {len(games)} unique games")
+
     if len(games) < 100:
+        print("Could not find 100 games.")
+        print("First 5000 characters received from Jina:")
+        print(html[:5000])
         raise RuntimeError(
             f"Expected 100 games, found only {len(games)}"
         )
-
-    games.sort(key=lambda game: game["rank"])
 
     with open(OUTPUT, "w", encoding="utf-8") as file:
         json.dump(
@@ -94,13 +79,8 @@ def main():
             indent=2
         )
 
-    print(
-        f"Successfully saved {len(games)} games to {OUTPUT}"
-    )
-
-    print(
-        f"Top game: #{games[0]['rank']} {games[0]['name']}"
-    )
+    print(f"Successfully saved {len(games)} games to {OUTPUT}")
+    print(f"Top game: #{games[0]['rank']} {games[0]['name']}")
 
 
 if __name__ == "__main__":
