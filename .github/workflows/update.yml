@@ -1,11 +1,17 @@
-name: Update BGG Top 200
+name: Data Update
 
 concurrency:
-  group: update-bgg
+  group: data-update
   cancel-in-progress: true
 
 on:
   workflow_dispatch:
+    inputs:
+      target_games:
+        description: "Optional target count"
+        required: false
+        type: string
+        default: ""
 
   schedule:
     - cron: "0 4 * * *"
@@ -14,45 +20,37 @@ permissions:
   contents: write
 
 jobs:
-
-  update-bgg:
-
+  update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
-    timeout-minutes: 20
+    env:
+      TARGET_GAMES: ${{ inputs.target_games }}
 
     steps:
-
-      - name: Checkout repository
-
+      - name: Checkout
         uses: actions/checkout@v5
 
-
-      - name: Set up Python
-
+      - name: Setup Python
         uses: actions/setup-python@v6
-
         with:
           python-version: "3.13"
 
-
-      - name: Generate Top 200 and cache thumbnails
-
+      - name: Generate data
         run: python generate.py
 
+      - name: Transfer data
+        env:
+          SYNC_URL: ${{ secrets.SYNC_URL }}
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: python transfer.py
 
-      - name: Commit updated data and images
-
+      - name: Commit data
         run: |
-
           git config user.name "github-actions[bot]"
-
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add top100.json images/
-
+          git add top100.json cache_config.json
           git diff --cached --quiet && exit 0
-
-          git commit -m "Update BGG Top 200"
-
+          git commit -m "Update data"
           git push
