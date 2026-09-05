@@ -5,24 +5,45 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-URL_TEMPLATE = (
+SOURCE_URL_TEMPLATE = (
     "https://r.jina.ai/"
     "https://boardgamegeek.com/browse/boardgame/"
     "page/{page}?sort=rank"
 )
 
-TARGET_GAMES = 200
-
+DEFAULT_TARGET_GAMES = 200
+CONFIG_FILE = "cache_config.json"
 OUTPUT = "top100.json"
-
 IMAGES_DIR = "images"
-
-GITHUB_RAW_BASE = (
-    "https://raw.githubusercontent.com/"
-    "Drezamer/gbbcache/main/images"
-)
-
 TIMEOUT = 60
+
+
+def load_target_games():
+    override = os.environ.get("TARGET_GAMES", "").strip()
+
+    if override:
+        try:
+            value = int(override)
+        except ValueError:
+            raise RuntimeError("TARGET_GAMES must be an integer")
+    else:
+        if not os.path.isfile(CONFIG_FILE):
+            raise RuntimeError(f"Missing {CONFIG_FILE}")
+
+        try:
+            with open(CONFIG_FILE, "r", encoding="utf-8") as file:
+                config = json.load(file)
+            value = int(config.get("target_games", DEFAULT_TARGET_GAMES))
+        except Exception as exc:
+            raise RuntimeError(f"Could not read {CONFIG_FILE}: {exc}")
+
+    if value < 100 or value > 5000:
+        raise RuntimeError("target_games must be between 100 and 5000")
+
+    return value
+
+
+TARGET_GAMES = load_target_games()
 
 
 # =========================================================
@@ -45,15 +66,15 @@ def fetch_url(url, user_agent, timeout=TIMEOUT):
 
 
 # =========================================================
-# FETCH BGG PAGE
+# FETCH SOURCE PAGE
 # =========================================================
 
-def fetch_bgg(page):
+def fetch_source_page(page):
     print("========================================")
-    print(f"STEP 1: FETCH BGG PAGE {page}")
+    print(f"STEP 1: FETCH PAGE {page}")
     print("========================================")
 
-    url = URL_TEMPLATE.format(page=page)
+    url = SOURCE_URL_TEMPLATE.format(page=page)
 
     print(f"URL: {url}")
 
@@ -62,7 +83,7 @@ def fetch_bgg(page):
             url,
             (
                 "Mozilla/5.0 "
-                "(compatible; DnDClub-BGG-Cache/1.0)"
+                "(compatible; DataCollector/1.0)"
             ),
         )
 
@@ -97,13 +118,13 @@ def fetch_bgg(page):
 
 
 # =========================================================
-# PARSE BGG TABLE
+# PARSE TABLE
 # =========================================================
 
-def parse_games(text, games, seen_ids, seen_ranks):
+def parse_rows(text, games, seen_ids, seen_ranks):
     print()
     print("========================================")
-    print("STEP 2: PARSE BGG TABLE")
+    print("STEP 2: PARSE TABLE")
     print("========================================")
 
     table_rows = 0
@@ -373,11 +394,9 @@ def download_thumbnail(game):
         )
 
         if os.path.isfile(existing_path):
-            game["thumbnail"] = (
-                f"{GITHUB_RAW_BASE}/"
-                f"{game_id}{extension}"
+            game["thumbnail_local"] = (
+                f"images/{game_id}{extension}"
             )
-
             print(f"  EXISTS: {existing_path}")
             return
 
@@ -392,7 +411,7 @@ def download_thumbnail(game):
         headers={
             "User-Agent": (
                 "Mozilla/5.0 "
-                "(compatible; DnDClub-BGG-ImageCache/1.0)"
+                "(compatible; DataCollector/1.0)"
             ),
             "Referer": "https://boardgamegeek.com/",
         },
@@ -449,8 +468,8 @@ def download_thumbnail(game):
         f"  SAVED: {filepath} ({file_size} bytes)"
     )
 
-    game["thumbnail"] = (
-        f"{GITHUB_RAW_BASE}/{filename}"
+    game["thumbnail_local"] = (
+        f"images/{filename}"
     )
 
 
@@ -532,9 +551,26 @@ def validate_games(games):
                 f"Missing game name at rank {game['rank']}"
             )
 
-        if not game["thumbnail"]:
+        if not game.get("thumbnail"):
             raise RuntimeError(
-                f"Missing cached thumbnail at rank "
+                f"Missing source thumbnail at rank "
+                f"{game['rank']}"
+            )
+
+        if not game.get("thumbnail_local"):
+            raise RuntimeError(
+                f"Missing local thumbnail path at rank "
+                f"{game['rank']}"
+            )
+
+        local_path = os.path.join(
+            ".",
+            game["thumbnail_local"]
+        )
+
+        if not os.path.isfile(local_path):
+            raise RuntimeError(
+                f"Missing local thumbnail file at rank "
                 f"{game['rank']}"
             )
 
@@ -569,7 +605,7 @@ def validate_games(games):
     thumbnails_count = sum(
         1
         for game in games
-        if game["thumbnail"] is not None
+        if game.get("thumbnail_local") is not None
     )
 
     descriptions_count = sum(
@@ -674,7 +710,7 @@ def save_json(games):
 
 def main():
     print("========================================")
-    print("BGG TOP 200 CACHE GENERATOR")
+    print(f"DATA CACHE GENERATOR")
     print("========================================")
 
     games = []
@@ -694,9 +730,9 @@ def main():
         print(f"PAGE {page}/{pages_needed}")
         print("########################################")
 
-        text = fetch_bgg(page)
+        text = fetch_source_page(page)
 
-        parse_games(
+        parse_rows(
             text,
             games,
             seen_ids,
@@ -756,7 +792,7 @@ def main():
 
     print()
     print("========================================")
-    print("SUCCESS: BGG TOP 200 UPDATED")
+    print(f"SUCCESS: UPDATE COMPLETE")
     print("========================================")
 
 
