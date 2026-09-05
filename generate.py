@@ -11,7 +11,7 @@ URL_TEMPLATE = (
     "page/{page}?sort=rank"
 )
 
-TARGET_GAMES = 500
+TARGET_GAMES = 200
 
 OUTPUT = "top100.json"
 
@@ -674,7 +674,7 @@ def save_json(games):
 
 def main():
     print("========================================")
-    print("BGG TOP 500 CACHE GENERATOR")
+    print("BGG TOP 200 CACHE GENERATOR")
     print("========================================")
 
     games = []
@@ -756,7 +756,7 @@ def main():
 
     print()
     print("========================================")
-    print("SUCCESS: BGG TOP 500 UPDATED")
+    print("SUCCESS: BGG TOP 200 UPDATED")
     print("========================================")
 
 
