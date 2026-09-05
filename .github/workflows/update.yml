@@ -1,4 +1,4 @@
-name: Update BGG Top 100
+name: Update BGG Top 500
 
 concurrency:
   group: update-bgg
@@ -19,7 +19,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
 
@@ -36,7 +36,7 @@ jobs:
           python-version: "3.13"
 
 
-      - name: Generate Top 100 and cache thumbnails
+      - name: Generate Top 500 and cache thumbnails
 
         run: python generate.py
 
