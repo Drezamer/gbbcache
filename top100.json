@@ -8,7 +8,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/224517.jpg",
     "bayesaverage": "8.390",
     "average": "8.56",
-    "numvoters": 59998
+    "numvoters": 60010
   },
   {
     "rank": 2,
@@ -19,7 +19,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/342942.jpg",
     "bayesaverage": "8.354",
     "average": "8.54",
-    "numvoters": 62852
+    "numvoters": 62865
   },
   {
     "rank": 3,
@@ -30,7 +30,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/161936.png",
     "bayesaverage": "8.343",
     "average": "8.50",
-    "numvoters": 57767
+    "numvoters": 57771
   },
   {
     "rank": 4,
@@ -41,7 +41,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/174430.jpg",
     "bayesaverage": "8.290",
     "average": "8.53",
-    "numvoters": 67651
+    "numvoters": 67649
   },
   {
     "rank": 5,
@@ -50,23 +50,12 @@
     "year": 2023,
     "description": "Deploy agents, build your deck, and engage in strategic battles to control Arrakis.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/397598.jpg",
-    "bayesaverage": "8.260",
+    "bayesaverage": "8.261",
     "average": "8.70",
-    "numvoters": 20035
+    "numvoters": 20045
   },
   {
     "rank": 6,
-    "id": 233078,
-    "name": "Twilight Imperium: Fourth Edition",
-    "year": 2017,
-    "description": "Build an intergalactic empire through trade, research, conquest and grand politics.",
-    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/233078.jpg",
-    "bayesaverage": "8.218",
-    "average": "8.56",
-    "numvoters": 28957
-  },
-  {
-    "rank": 7,
     "id": 316554,
     "name": "Dune: Imperium",
     "year": 2020,
@@ -74,7 +63,18 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/316554.jpg",
     "bayesaverage": "8.218",
     "average": "8.41",
-    "numvoters": 59636
+    "numvoters": 59650
+  },
+  {
+    "rank": 7,
+    "id": 233078,
+    "name": "Twilight Imperium: Fourth Edition",
+    "year": 2017,
+    "description": "Build an intergalactic empire through trade, research, conquest and grand politics.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/233078.jpg",
+    "bayesaverage": "8.218",
+    "average": "8.56",
+    "numvoters": 28964
   },
   {
     "rank": 8,
@@ -85,7 +85,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/115746.jpg",
     "bayesaverage": "8.199",
     "average": "8.55",
-    "numvoters": 25514
+    "numvoters": 25520
   },
   {
     "rank": 9,
@@ -96,7 +96,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/167791.jpg",
     "bayesaverage": "8.180",
     "average": "8.33",
-    "numvoters": 114787
+    "numvoters": 114797
   },
   {
     "rank": 10,
@@ -107,7 +107,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/187645.jpg",
     "bayesaverage": "8.168",
     "average": "8.42",
-    "numvoters": 36817
+    "numvoters": 36818
   },
   {
     "rank": 11,
@@ -116,9 +116,9 @@
     "year": 2017,
     "description": "Island Spirits join forces using elemental powers to defend their home from invaders.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/162886.jpg",
-    "bayesaverage": "8.141",
+    "bayesaverage": "8.142",
     "average": "8.34",
-    "numvoters": 64465
+    "numvoters": 64481
   },
   {
     "rank": 12,
@@ -129,7 +129,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/291457.jpg",
     "bayesaverage": "8.090",
     "average": "8.35",
-    "numvoters": 41846
+    "numvoters": 41850
   },
   {
     "rank": 13,
@@ -140,7 +140,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/220308.png",
     "bayesaverage": "8.083",
     "average": "8.35",
-    "numvoters": 31765
+    "numvoters": 31775
   },
   {
     "rank": 14,
@@ -149,9 +149,9 @@
     "year": 2024,
     "description": "Search for signs of alien life by launching probes and analyzing distant signals.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/418059.jpg",
-    "bayesaverage": "8.050",
+    "bayesaverage": "8.049",
     "average": "8.41",
-    "numvoters": 21824
+    "numvoters": 21842
   },
   {
     "rank": 15,
@@ -162,7 +162,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/338960.png",
     "bayesaverage": "8.045",
     "average": "8.62",
-    "numvoters": 14186
+    "numvoters": 14195
   },
   {
     "rank": 16,
@@ -173,7 +173,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/12333.jpg",
     "bayesaverage": "8.036",
     "average": "8.23",
-    "numvoters": 52403
+    "numvoters": 52408
   },
   {
     "rank": 17,
@@ -184,7 +184,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/84876.jpg",
     "bayesaverage": "8.032",
     "average": "8.16",
-    "numvoters": 70447
+    "numvoters": 70453
   },
   {
     "rank": 18,
@@ -195,7 +195,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/182028.jpg",
     "bayesaverage": "8.005",
     "average": "8.24",
-    "numvoters": 35135
+    "numvoters": 35140
   },
   {
     "rank": 19,
@@ -206,7 +206,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/421006.jpg",
     "bayesaverage": "7.999",
     "average": "8.35",
-    "numvoters": 21817
+    "numvoters": 21835
   },
   {
     "rank": 20,
@@ -217,7 +217,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/295770.png",
     "bayesaverage": "7.970",
     "average": "8.72",
-    "numvoters": 10513
+    "numvoters": 10515
   },
   {
     "rank": 21,
@@ -228,7 +228,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/193738.jpg",
     "bayesaverage": "7.967",
     "average": "8.14",
-    "numvoters": 44105
+    "numvoters": 44107
   },
   {
     "rank": 22,
@@ -239,7 +239,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/28720.jpg",
     "bayesaverage": "7.959",
     "average": "8.20",
-    "numvoters": 27668
+    "numvoters": 27670
   },
   {
     "rank": 23,
@@ -250,7 +250,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/246900.jpg",
     "bayesaverage": "7.957",
     "average": "8.38",
-    "numvoters": 17819
+    "numvoters": 17822
   },
   {
     "rank": 24,
@@ -261,7 +261,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/173346.jpg",
     "bayesaverage": "7.949",
     "average": "8.07",
-    "numvoters": 110383
+    "numvoters": 110396
   },
   {
     "rank": 25,
@@ -272,7 +272,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/167355.png",
     "bayesaverage": "7.946",
     "average": "8.24",
-    "numvoters": 38174
+    "numvoters": 38178
   },
   {
     "rank": 26,
@@ -283,7 +283,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/177736.png",
     "bayesaverage": "7.939",
     "average": "8.16",
-    "numvoters": 34061
+    "numvoters": 34068
   },
   {
     "rank": 27,
@@ -294,7 +294,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/169786.jpg",
     "bayesaverage": "7.939",
     "average": "8.10",
-    "numvoters": 94454
+    "numvoters": 94464
   },
   {
     "rank": 28,
@@ -305,7 +305,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/266507.png",
     "bayesaverage": "7.929",
     "average": "8.49",
-    "numvoters": 11533
+    "numvoters": 11536
   },
   {
     "rank": 29,
@@ -316,7 +316,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/124361.jpg",
     "bayesaverage": "7.923",
     "average": "8.07",
-    "numvoters": 46275
+    "numvoters": 46280
   },
   {
     "rank": 30,
@@ -327,7 +327,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/312484.jpg",
     "bayesaverage": "7.918",
     "average": "8.08",
-    "numvoters": 58575
+    "numvoters": 58586
   },
   {
     "rank": 31,
@@ -336,9 +336,9 @@
     "year": 2021,
     "description": "Wrangle your herd of cows across the Midwest prairie and deliver it to Kansas City.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/341169.jpg",
-    "bayesaverage": "7.904",
+    "bayesaverage": "7.905",
     "average": "8.26",
-    "numvoters": 18561
+    "numvoters": 18566
   },
   {
     "rank": 32,
@@ -349,7 +349,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/373106.jpg",
     "bayesaverage": "7.891",
     "average": "8.11",
-    "numvoters": 34281
+    "numvoters": 34302
   },
   {
     "rank": 33,
@@ -360,7 +360,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/205637.jpg",
     "bayesaverage": "7.889",
     "average": "8.12",
-    "numvoters": 48168
+    "numvoters": 48169
   },
   {
     "rank": 34,
@@ -371,7 +371,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/237182.jpg",
     "bayesaverage": "7.880",
     "average": "8.07",
-    "numvoters": 65911
+    "numvoters": 65921
   },
   {
     "rank": 35,
@@ -382,7 +382,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/164928.jpg",
     "bayesaverage": "7.858",
     "average": "8.05",
-    "numvoters": 36089
+    "numvoters": 36097
   },
   {
     "rank": 36,
@@ -393,7 +393,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/120677.jpg",
     "bayesaverage": "7.856",
     "average": "8.03",
-    "numvoters": 51346
+    "numvoters": 51349
   },
   {
     "rank": 37,
@@ -402,9 +402,9 @@
     "year": 2017,
     "description": "Toss gobs of unique dice in an epic adventure en route to a final boss showdown.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/192135.png",
-    "bayesaverage": "7.848",
+    "bayesaverage": "7.847",
     "average": "8.28",
-    "numvoters": 17453
+    "numvoters": 17457
   },
   {
     "rank": 38,
@@ -415,7 +415,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/266192.jpg",
     "bayesaverage": "7.841",
     "average": "7.99",
-    "numvoters": 115181
+    "numvoters": 115204
   },
   {
     "rank": 39,
@@ -426,7 +426,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/96848.jpg",
     "bayesaverage": "7.836",
     "average": "8.08",
-    "numvoters": 35371
+    "numvoters": 35375
   },
   {
     "rank": 40,
@@ -437,7 +437,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/251247.png",
     "bayesaverage": "7.834",
     "average": "8.13",
-    "numvoters": 22193
+    "numvoters": 22197
   },
   {
     "rank": 41,
@@ -448,7 +448,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/321608.jpg",
     "bayesaverage": "7.827",
     "average": "8.36",
-    "numvoters": 12811
+    "numvoters": 12816
   },
   {
     "rank": 42,
@@ -459,7 +459,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/284378.jpg",
     "bayesaverage": "7.810",
     "average": "8.37",
-    "numvoters": 10587
+    "numvoters": 10588
   },
   {
     "rank": 43,
@@ -470,7 +470,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/183394.jpg",
     "bayesaverage": "7.802",
     "average": "7.95",
-    "numvoters": 55883
+    "numvoters": 55890
   },
   {
     "rank": 44,
@@ -481,7 +481,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/324856.jpg",
     "bayesaverage": "7.802",
     "average": "8.04",
-    "numvoters": 26475
+    "numvoters": 26482
   },
   {
     "rank": 45,
@@ -492,7 +492,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/521.jpg",
     "bayesaverage": "7.802",
     "average": "8.07",
-    "numvoters": 21461
+    "numvoters": 21469
   },
   {
     "rank": 46,
@@ -501,9 +501,9 @@
     "year": 2018,
     "description": "Gather resources to develop a harmonious village of woodland critters and structures.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/199792.png",
-    "bayesaverage": "7.800",
+    "bayesaverage": "7.799",
     "average": "7.97",
-    "numvoters": 69877
+    "numvoters": 69896
   },
   {
     "rank": 47,
@@ -514,7 +514,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/366013.png",
     "bayesaverage": "7.795",
     "average": "7.99",
-    "numvoters": 42945
+    "numvoters": 42967
   },
   {
     "rank": 48,
@@ -523,9 +523,9 @@
     "year": 2022,
     "description": "Deck-building adventure meets tile-laying in the newest incarnation of Clank!",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/365717.jpg",
-    "bayesaverage": "7.790",
+    "bayesaverage": "7.791",
     "average": "8.23",
-    "numvoters": 15112
+    "numvoters": 15127
   },
   {
     "rank": 49,
@@ -536,7 +536,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/390092.png",
     "bayesaverage": "7.788",
     "average": "8.61",
-    "numvoters": 7145
+    "numvoters": 7151
   },
   {
     "rank": 50,
@@ -547,7 +547,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/285774.jpg",
     "bayesaverage": "7.786",
     "average": "8.10",
-    "numvoters": 28243
+    "numvoters": 28247
   },
   {
     "rank": 51,
@@ -558,7 +558,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/175914.png",
     "bayesaverage": "7.773",
     "average": "8.04",
-    "numvoters": 23527
+    "numvoters": 23528
   },
   {
     "rank": 52,
@@ -569,7 +569,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/247763.png",
     "bayesaverage": "7.772",
     "average": "8.04",
-    "numvoters": 23378
+    "numvoters": 23383
   },
   {
     "rank": 53,
@@ -580,7 +580,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/414317.png",
     "bayesaverage": "7.772",
     "average": "8.03",
-    "numvoters": 32395
+    "numvoters": 32415
   },
   {
     "rank": 54,
@@ -591,7 +591,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/253344.png",
     "bayesaverage": "7.763",
     "average": "8.18",
-    "numvoters": 17368
+    "numvoters": 17374
   },
   {
     "rank": 55,
@@ -602,7 +602,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/256960.png",
     "bayesaverage": "7.761",
     "average": "8.12",
-    "numvoters": 18016
+    "numvoters": 18018
   },
   {
     "rank": 56,
@@ -613,7 +613,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/383179.jpg",
     "bayesaverage": "7.753",
     "average": "8.43",
-    "numvoters": 8857
+    "numvoters": 8860
   },
   {
     "rank": 57,
@@ -624,7 +624,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/3076.jpg",
     "bayesaverage": "7.750",
     "average": "7.90",
-    "numvoters": 74696
+    "numvoters": 74698
   },
   {
     "rank": 58,
@@ -633,9 +633,9 @@
     "year": 2025,
     "description": "As members of The Fellowship, embark on a journey to save—or doom—Middle-earth.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/436217.png",
-    "bayesaverage": "7.741",
+    "bayesaverage": "7.742",
     "average": "8.34",
-    "numvoters": 11399
+    "numvoters": 11418
   },
   {
     "rank": 59,
@@ -646,7 +646,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/184267.jpg",
     "bayesaverage": "7.740",
     "average": "8.16",
-    "numvoters": 15228
+    "numvoters": 15233
   },
   {
     "rank": 60,
@@ -668,7 +668,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/295947.jpg",
     "bayesaverage": "7.731",
     "average": "7.88",
-    "numvoters": 56910
+    "numvoters": 56923
   },
   {
     "rank": 62,
@@ -679,7 +679,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/185343.jpg",
     "bayesaverage": "7.727",
     "average": "8.04",
-    "numvoters": 21858
+    "numvoters": 21860
   },
   {
     "rank": 63,
@@ -690,7 +690,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/102794.jpg",
     "bayesaverage": "7.727",
     "average": "7.92",
-    "numvoters": 37591
+    "numvoters": 37593
   },
   {
     "rank": 64,
@@ -701,7 +701,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/251661.jpg",
     "bayesaverage": "7.723",
     "average": "8.75",
-    "numvoters": 7026
+    "numvoters": 7028
   },
   {
     "rank": 65,
@@ -710,9 +710,9 @@
     "year": 2022,
     "description": "Deduce who the Demon is through logic and bluffing. Dead players still play.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/240980.jpg",
-    "bayesaverage": "7.722",
+    "bayesaverage": "7.723",
     "average": "8.33",
-    "numvoters": 12278
+    "numvoters": 12285
   },
   {
     "rank": 66,
@@ -723,7 +723,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/31260.jpg",
     "bayesaverage": "7.720",
     "average": "7.85",
-    "numvoters": 77230
+    "numvoters": 77234
   },
   {
     "rank": 67,
@@ -734,7 +734,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/170216.jpg",
     "bayesaverage": "7.717",
     "average": "7.89",
-    "numvoters": 52315
+    "numvoters": 52317
   },
   {
     "rank": 68,
@@ -745,7 +745,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/231733.png",
     "bayesaverage": "7.716",
     "average": "8.07",
-    "numvoters": 18713
+    "numvoters": 18721
   },
   {
     "rank": 69,
@@ -756,7 +756,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/182874.jpg",
     "bayesaverage": "7.715",
     "average": "7.96",
-    "numvoters": 25601
+    "numvoters": 25607
   },
   {
     "rank": 70,
@@ -767,7 +767,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/161533.jpg",
     "bayesaverage": "7.709",
     "average": "8.17",
-    "numvoters": 13108
+    "numvoters": 13109
   },
   {
     "rank": 71,
@@ -776,9 +776,9 @@
     "year": 2024,
     "description": "Lead your research institute to explore ocean depths and publish your findings!",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/367966.jpg",
-    "bayesaverage": "7.703",
+    "bayesaverage": "7.704",
     "average": "8.21",
-    "numvoters": 11435
+    "numvoters": 11448
   },
   {
     "rank": 72,
@@ -789,7 +789,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/371942.jpg",
     "bayesaverage": "7.696",
     "average": "7.98",
-    "numvoters": 24170
+    "numvoters": 24189
   },
   {
     "rank": 73,
@@ -798,9 +798,9 @@
     "year": 2023,
     "description": "Tend to your sheep on the South Island of New Zealand.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/380607.png",
-    "bayesaverage": "7.691",
+    "bayesaverage": "7.690",
     "average": "8.45",
-    "numvoters": 7352
+    "numvoters": 7357
   },
   {
     "rank": 74,
@@ -811,7 +811,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/221107.jpg",
     "bayesaverage": "7.686",
     "average": "8.01",
-    "numvoters": 18451
+    "numvoters": 18453
   },
   {
     "rank": 75,
@@ -822,7 +822,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/255984.png",
     "bayesaverage": "7.682",
     "average": "8.08",
-    "numvoters": 16297
+    "numvoters": 16300
   },
   {
     "rank": 76,
@@ -833,7 +833,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/2651.jpg",
     "bayesaverage": "7.679",
     "average": "7.80",
-    "numvoters": 70049
+    "numvoters": 70053
   },
   {
     "rank": 77,
@@ -844,7 +844,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/126163.jpg",
     "bayesaverage": "7.679",
     "average": "7.84",
-    "numvoters": 42840
+    "numvoters": 42845
   },
   {
     "rank": 78,
@@ -855,7 +855,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/216132.png",
     "bayesaverage": "7.675",
     "average": "7.94",
-    "numvoters": 23147
+    "numvoters": 23153
   },
   {
     "rank": 79,
@@ -866,7 +866,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/205059.jpg",
     "bayesaverage": "7.673",
     "average": "7.91",
-    "numvoters": 40759
+    "numvoters": 40760
   },
   {
     "rank": 80,
@@ -877,7 +877,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/337627.jpg",
     "bayesaverage": "7.666",
     "average": "8.50",
-    "numvoters": 7360
+    "numvoters": 7367
   },
   {
     "rank": 81,
@@ -888,7 +888,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/244521.png",
     "bayesaverage": "7.665",
     "average": "7.80",
-    "numvoters": 60090
+    "numvoters": 60097
   },
   {
     "rank": 82,
@@ -899,7 +899,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/266810.png",
     "bayesaverage": "7.657",
     "average": "7.95",
-    "numvoters": 20869
+    "numvoters": 20875
   },
   {
     "rank": 83,
@@ -932,21 +932,10 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/125153.png",
     "bayesaverage": "7.650",
     "average": "8.00",
-    "numvoters": 16720
+    "numvoters": 16723
   },
   {
     "rank": 86,
-    "id": 200680,
-    "name": "Agricola (Revised Edition)",
-    "year": 2016,
-    "description": "Help your farm to prosper in this updated, streamlined edition of the acclaimed game.",
-    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/200680.jpg",
-    "bayesaverage": "7.649",
-    "average": "7.95",
-    "numvoters": 21684
-  },
-  {
-    "rank": 87,
     "id": 413246,
     "name": "Bomb Busters",
     "year": 2024,
@@ -954,7 +943,18 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/413246.png",
     "bayesaverage": "7.649",
     "average": "8.03",
-    "numvoters": 15144
+    "numvoters": 15164
+  },
+  {
+    "rank": 87,
+    "id": 200680,
+    "name": "Agricola (Revised Edition)",
+    "year": 2016,
+    "description": "Help your farm to prosper in this updated, streamlined edition of the acclaimed game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/200680.jpg",
+    "bayesaverage": "7.649",
+    "average": "7.95",
+    "numvoters": 21686
   },
   {
     "rank": 88,
@@ -965,7 +965,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/164153.jpg",
     "bayesaverage": "7.646",
     "average": "7.95",
-    "numvoters": 26137
+    "numvoters": 26139
   },
   {
     "rank": 89,
@@ -976,7 +976,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/366161.jpg",
     "bayesaverage": "7.640",
     "average": "8.21",
-    "numvoters": 10575
+    "numvoters": 10577
   },
   {
     "rank": 90,
@@ -985,9 +985,9 @@
     "year": 2023,
     "description": "Retrace Darwin’s journey to the Galapagos in a worker-placement adventure.",
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/322289.png",
-    "bayesaverage": "7.633",
+    "bayesaverage": "7.632",
     "average": "8.09",
-    "numvoters": 12767
+    "numvoters": 12772
   },
   {
     "rank": 91,
@@ -998,7 +998,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/276025.jpg",
     "bayesaverage": "7.624",
     "average": "7.93",
-    "numvoters": 18923
+    "numvoters": 18926
   },
   {
     "rank": 92,
@@ -1009,7 +1009,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/332772.jpg",
     "bayesaverage": "7.619",
     "average": "8.05",
-    "numvoters": 13322
+    "numvoters": 13329
   },
   {
     "rank": 93,
@@ -1031,7 +1031,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/28143.jpg",
     "bayesaverage": "7.614",
     "average": "7.74",
-    "numvoters": 59387
+    "numvoters": 59389
   },
   {
     "rank": 95,
@@ -1042,7 +1042,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/55690.jpg",
     "bayesaverage": "7.613",
     "average": "8.47",
-    "numvoters": 10503
+    "numvoters": 10504
   },
   {
     "rank": 96,
@@ -1053,7 +1053,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/284083.jpg",
     "bayesaverage": "7.611",
     "average": "7.75",
-    "numvoters": 49345
+    "numvoters": 49353
   },
   {
     "rank": 97,
@@ -1064,7 +1064,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/277659.jpg",
     "bayesaverage": "7.611",
     "average": "8.21",
-    "numvoters": 11828
+    "numvoters": 11833
   },
   {
     "rank": 98,
@@ -1075,7 +1075,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/157354.jpg",
     "bayesaverage": "7.606",
     "average": "7.76",
-    "numvoters": 45646
+    "numvoters": 45653
   },
   {
     "rank": 99,
@@ -1086,7 +1086,7 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/230802.png",
     "bayesaverage": "7.602",
     "average": "7.71",
-    "numvoters": 110626
+    "numvoters": 110645
   },
   {
     "rank": 100,
@@ -1097,6 +1097,4406 @@
     "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/359871.png",
     "bayesaverage": "7.594",
     "average": "7.99",
-    "numvoters": 18553
+    "numvoters": 18569
+  },
+  {
+    "rank": 101,
+    "id": 93,
+    "name": "El Grande",
+    "year": 1995,
+    "description": "Use your caballeros to control regions of medieval Spain, keeping clear of the King!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/93.jpg",
+    "bayesaverage": "7.593",
+    "average": "7.77",
+    "numvoters": 33547
+  },
+  {
+    "rank": 102,
+    "id": 159675,
+    "name": "Fields of Arle",
+    "year": 2014,
+    "description": "Construct dikes, drain bogs, harvest flax and tend to newborn animals in East Frisia.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/159675.png",
+    "bayesaverage": "7.592",
+    "average": "8.02",
+    "numvoters": 12594
+  },
+  {
+    "rank": 103,
+    "id": 201808,
+    "name": "Clank!: A Deck-Building Adventure",
+    "year": 2016,
+    "description": "Claim your treasures but don't attract the dragon in this deck-building dungeon race.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/201808.jpg",
+    "bayesaverage": "7.591",
+    "average": "7.76",
+    "numvoters": 48030
+  },
+  {
+    "rank": 104,
+    "id": 256916,
+    "name": "Concordia Venus",
+    "year": 2018,
+    "description": "Merchants build and trade throughout the Roman Empire to please the Gods.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/256916.jpg",
+    "bayesaverage": "7.590",
+    "average": "8.25",
+    "numvoters": 7788
+  },
+  {
+    "rank": 105,
+    "id": 359609,
+    "name": "Arkham Horror: The Card Game (Revised Core Set)",
+    "year": 2021,
+    "description": "Revised core set repackages the original with support for 1-4p.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/359609.jpg",
+    "bayesaverage": "7.587",
+    "average": "8.56",
+    "numvoters": 5995
+  },
+  {
+    "rank": 106,
+    "id": 72125,
+    "name": "Eclipse: New Dawn for the Galaxy",
+    "year": 2011,
+    "description": "Build an interstellar civilization by exploration, research, conquest, and diplomacy.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/72125.jpg",
+    "bayesaverage": "7.582",
+    "average": "7.82",
+    "numvoters": 29094
+  },
+  {
+    "rank": 107,
+    "id": 110327,
+    "name": "Lords of Waterdeep",
+    "year": 2012,
+    "description": "Deploy agents and hire adventurers to expand your control over the city of Waterdeep.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/110327.jpg",
+    "bayesaverage": "7.579",
+    "average": "7.73",
+    "numvoters": 59552
+  },
+  {
+    "rank": 108,
+    "id": 391137,
+    "name": "Galactic Cruise",
+    "year": 2025,
+    "description": "Build and launch ships to send guests on luxurious space vacations.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/391137.jpg",
+    "bayesaverage": "7.578",
+    "average": "8.29",
+    "numvoters": 7938
+  },
+  {
+    "rank": 109,
+    "id": 191189,
+    "name": "Aeon's End",
+    "year": 2016,
+    "description": "Mages must reach their full potential to defend humanity from terrible monstrosities.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/191189.jpg",
+    "bayesaverage": "7.577",
+    "average": "7.86",
+    "numvoters": 24378
+  },
+  {
+    "rank": 110,
+    "id": 291453,
+    "name": "SCOUT",
+    "year": 2019,
+    "description": "Poach your opponents' artists and outdo each other's circus shows.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/291453.png",
+    "bayesaverage": "7.574",
+    "average": "7.77",
+    "numvoters": 29387
+  },
+  {
+    "rank": 111,
+    "id": 364073,
+    "name": "Splendor Duel",
+    "year": 2022,
+    "description": "Renaissance merchants go head to head to please nobility by collecting jewels.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/364073.jpg",
+    "bayesaverage": "7.569",
+    "average": "7.88",
+    "numvoters": 20361
+  },
+  {
+    "rank": 112,
+    "id": 229853,
+    "name": "Teotihuacan: City of Gods",
+    "year": 2018,
+    "description": "Use your worker dice to raise the legendary and breathtaking Pyramid of the Sun.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/229853.jpg",
+    "bayesaverage": "7.559",
+    "average": "7.83",
+    "numvoters": 22292
+  },
+  {
+    "rank": 113,
+    "id": 12,
+    "name": "Ra",
+    "year": 1999,
+    "description": "Fancy an auction to acquire ancient monuments, pharaohs, and relics? Invoke Ra!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/12.png",
+    "bayesaverage": "7.559",
+    "average": "7.72",
+    "numvoters": 32890
+  },
+  {
+    "rank": 114,
+    "id": 317985,
+    "name": "Beyond the Sun",
+    "year": 2020,
+    "description": "Collectively develop a tech tree to fuel new discoveries and colonize space.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/317985.jpg",
+    "bayesaverage": "7.557",
+    "average": "7.86",
+    "numvoters": 17890
+  },
+  {
+    "rank": 115,
+    "id": 62219,
+    "name": "Dominant Species",
+    "year": 2010,
+    "description": "With an ice age approaching, which animals will best propagate, migrate, and adapt?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/62219.jpg",
+    "bayesaverage": "7.550",
+    "average": "7.80",
+    "numvoters": 22548
+  },
+  {
+    "rank": 116,
+    "id": 279537,
+    "name": "The Search for Planet X",
+    "year": 2020,
+    "description": "Plan, scan, and theorize to find a new planet at the edge of our solar system.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/279537.jpg",
+    "bayesaverage": "7.547",
+    "average": "7.89",
+    "numvoters": 16019
+  },
+  {
+    "rank": 117,
+    "id": 225694,
+    "name": "Decrypto",
+    "year": 2018,
+    "description": "Decipher your opponents' code before they decipher yours. Don't get caught.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/225694.jpg",
+    "bayesaverage": "7.547",
+    "average": "7.76",
+    "numvoters": 28049
+  },
+  {
+    "rank": 118,
+    "id": 68448,
+    "name": "7 Wonders",
+    "year": 2010,
+    "description": "Draft cards to develop your ancient civilization and build its Wonder of the World.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/68448.jpg",
+    "bayesaverage": "7.546",
+    "average": "7.66",
+    "numvoters": 113621
+  },
+  {
+    "rank": 119,
+    "id": 25613,
+    "name": "Through the Ages: A Story of Civilization",
+    "year": 2006,
+    "description": "Lead your civilization through strategic drafting of leaders, technologies, and more.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/25613.jpg",
+    "bayesaverage": "7.544",
+    "average": "7.82",
+    "numvoters": 19878
+  },
+  {
+    "rank": 120,
+    "id": 121921,
+    "name": "Robinson Crusoe: Adventures on the Cursed Island",
+    "year": 2012,
+    "description": "Work together — with friends or with Friday — to survive on a deserted island.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/121921.jpg",
+    "bayesaverage": "7.541",
+    "average": "7.72",
+    "numvoters": 47100
+  },
+  {
+    "rank": 121,
+    "id": 217372,
+    "name": "The Quest for El Dorado",
+    "year": 2017,
+    "description": "Race through a dense South American jungle in pursuit of the legendary city of gold.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/217372.jpg",
+    "bayesaverage": "7.541",
+    "average": "7.72",
+    "numvoters": 33595
+  },
+  {
+    "rank": 122,
+    "id": 171623,
+    "name": "The Voyages of Marco Polo",
+    "year": 2015,
+    "description": "Using unique abilities, fulfill contracts and reach your goals along the Silk Road.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/171623.png",
+    "bayesaverage": "7.539",
+    "average": "7.76",
+    "numvoters": 26440
+  },
+  {
+    "rank": 123,
+    "id": 410201,
+    "name": "Wyrmspan",
+    "year": 2024,
+    "description": "Build a cavernous sanctuary for dragons of all shapes and sizes!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/410201.jpg",
+    "bayesaverage": "7.537",
+    "average": "7.94",
+    "numvoters": 16864
+  },
+  {
+    "rank": 124,
+    "id": 163068,
+    "name": "Trickerion: Legends of Illusion",
+    "year": 2015,
+    "description": "Magicians perform dazzling tricks for money and fame in a Victorian steampunk world.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/163068.png",
+    "bayesaverage": "7.536",
+    "average": "7.97",
+    "numvoters": 12861
+  },
+  {
+    "rank": 125,
+    "id": 155821,
+    "name": "Inis",
+    "year": 2016,
+    "description": "Claim the crown through merit and wisdom in this Celtic island struggle.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/155821.jpg",
+    "bayesaverage": "7.532",
+    "average": "7.82",
+    "numvoters": 23479
+  },
+  {
+    "rank": 126,
+    "id": 37111,
+    "name": "Battlestar Galactica: The Board Game",
+    "year": 2008,
+    "description": "How can the human race survive when you don't know who is actually human?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/37111.jpg",
+    "bayesaverage": "7.525",
+    "average": "7.73",
+    "numvoters": 37773
+  },
+  {
+    "rank": 127,
+    "id": 429293,
+    "name": "The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game",
+    "year": 2025,
+    "description": "Travel from the Shire and overcome every obstacle as a team.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/429293.png",
+    "bayesaverage": "7.519",
+    "average": "7.99",
+    "numvoters": 11209
+  },
+  {
+    "rank": 128,
+    "id": 271055,
+    "name": "Dwellings of Eldervale",
+    "year": 2020,
+    "description": "Battle for control of a new fantasy realm in this worker placement game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/271055.jpg",
+    "bayesaverage": "7.517",
+    "average": "8.10",
+    "numvoters": 9711
+  },
+  {
+    "rank": 129,
+    "id": 310873,
+    "name": "Carnegie",
+    "year": 2022,
+    "description": "Become the most influential entrepreneur and benefactor of your era!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/310873.jpg",
+    "bayesaverage": "7.517",
+    "average": "7.95",
+    "numvoters": 12192
+  },
+  {
+    "rank": 130,
+    "id": 310100,
+    "name": "Nemesis: Lockdown",
+    "year": 2022,
+    "description": "Outsmart alien terrors and devious rivals in a treacherous Martian lab.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/310100.jpg",
+    "bayesaverage": "7.516",
+    "average": "8.24",
+    "numvoters": 8648
+  },
+  {
+    "rank": 131,
+    "id": 396790,
+    "name": "Nucleum",
+    "year": 2023,
+    "description": "Become the leader of the industrial revolution in an alternate timeline.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/396790.jpg",
+    "bayesaverage": "7.512",
+    "average": "8.11",
+    "numvoters": 8896
+  },
+  {
+    "rank": 132,
+    "id": 236457,
+    "name": "Architects of the West Kingdom",
+    "year": 2018,
+    "description": "Will you be a virtuous or nefarious servant of the king? Build your way to glory.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/236457.png",
+    "bayesaverage": "7.508",
+    "average": "7.70",
+    "numvoters": 32946
+  },
+  {
+    "rank": 133,
+    "id": 42,
+    "name": "Tigris & Euphrates",
+    "year": 1997,
+    "description": "Keep your Mesopotamian civilization in perfect balance through revolutions and wars.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/42.png",
+    "bayesaverage": "7.505",
+    "average": "7.70",
+    "numvoters": 30152
+  },
+  {
+    "rank": 134,
+    "id": 227935,
+    "name": "Wonderland's War",
+    "year": 2022,
+    "description": "The looking glass has shattered and war has come to Wonderland!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/227935.jpg",
+    "bayesaverage": "7.503",
+    "average": "8.03",
+    "numvoters": 10927
+  },
+  {
+    "rank": 135,
+    "id": 40834,
+    "name": "Dominion: Intrigue",
+    "year": 2009,
+    "description": "Enlist torturers, swindlers, and saboteurs to gain wealth and dominate the kingdom.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/40834.jpg",
+    "bayesaverage": "7.499",
+    "average": "7.69",
+    "numvoters": 34834
+  },
+  {
+    "rank": 136,
+    "id": 170042,
+    "name": "Raiders of the North Sea",
+    "year": 2015,
+    "description": "Gather your Viking crew in order to plunder seas and lands for glory!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/170042.jpg",
+    "bayesaverage": "7.497",
+    "average": "7.72",
+    "numvoters": 26705
+  },
+  {
+    "rank": 137,
+    "id": 122515,
+    "name": "Keyflower",
+    "year": 2012,
+    "description": "Compete in a unique auction system to build the most prosperous village.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/122515.jpg",
+    "bayesaverage": "7.497",
+    "average": "7.71",
+    "numvoters": 24808
+  },
+  {
+    "rank": 138,
+    "id": 4098,
+    "name": "Age of Steam",
+    "year": 2002,
+    "description": "Outperform your railroad rivals with shares, auctions, track-building, and deliveries",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/4098.png",
+    "bayesaverage": "7.495",
+    "average": "7.88",
+    "numvoters": 12853
+  },
+  {
+    "rank": 139,
+    "id": 264220,
+    "name": "Tainted Grail: The Fall of Avalon",
+    "year": 2019,
+    "description": "Embark on a fantastic adventure set in dark Arthurian lore and legends.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/264220.jpg",
+    "bayesaverage": "7.491",
+    "average": "8.02",
+    "numvoters": 14236
+  },
+  {
+    "rank": 140,
+    "id": 146021,
+    "name": "Eldritch Horror",
+    "year": 2013,
+    "description": "Investigators trek across the globe to stop the Ancient One apocalypse.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/146021.jpg",
+    "bayesaverage": "7.491",
+    "average": "7.74",
+    "numvoters": 39347
+  },
+  {
+    "rank": 141,
+    "id": 18602,
+    "name": "Caylus",
+    "year": 2005,
+    "description": "Entrepreneurs pay workers & bribe an official to build a Château & gain royal favor.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/18602.jpg",
+    "bayesaverage": "7.487",
+    "average": "7.70",
+    "numvoters": 29989
+  },
+  {
+    "rank": 142,
+    "id": 73439,
+    "name": "Troyes",
+    "year": 2010,
+    "description": "Defend the city and rise to power by influencing the clergy, nobility and peasants.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/73439.jpg",
+    "bayesaverage": "7.486",
+    "average": "7.70",
+    "numvoters": 25286
+  },
+  {
+    "rank": 143,
+    "id": 203993,
+    "name": "Lorenzo il Magnifico",
+    "year": 2016,
+    "description": "Avoid excommunication and lead your family to power during the Italian Renaissance.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/203993.jpg",
+    "bayesaverage": "7.483",
+    "average": "7.82",
+    "numvoters": 15669
+  },
+  {
+    "rank": 144,
+    "id": 269385,
+    "name": "The Lord of the Rings: Journeys in Middle-Earth",
+    "year": 2019,
+    "description": "Heroes explore Middle-earth, working together to combat evil in an epic campaign.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/269385.jpg",
+    "bayesaverage": "7.478",
+    "average": "7.89",
+    "numvoters": 18693
+  },
+  {
+    "rank": 145,
+    "id": 356080,
+    "name": "The Elder Scrolls: Betrayal of the Second Era",
+    "year": 2025,
+    "description": "Upgrade your character and gear up to explore the many regions of Tamriel.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/356080.jpg",
+    "bayesaverage": "7.477",
+    "average": "8.93",
+    "numvoters": 4216
+  },
+  {
+    "rank": 146,
+    "id": 36218,
+    "name": "Dominion",
+    "year": 2008,
+    "description": "Acquire the most valuable lands by building your deck with treasure and power cards.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/36218.jpg",
+    "bayesaverage": "7.473",
+    "average": "7.60",
+    "numvoters": 97312
+  },
+  {
+    "rank": 147,
+    "id": 172386,
+    "name": "Mombasa",
+    "year": 2015,
+    "description": "Acquire shares of unique companies and propagate their trading posts to rake in cash.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/172386.jpg",
+    "bayesaverage": "7.473",
+    "average": "7.84",
+    "numvoters": 13949
+  },
+  {
+    "rank": 148,
+    "id": 43015,
+    "name": "Hansa Teutonica",
+    "year": 2009,
+    "description": "Build networks of merchants along the roads and market towns of the Hanseatic League.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/43015.jpg",
+    "bayesaverage": "7.472",
+    "average": "7.75",
+    "numvoters": 17509
+  },
+  {
+    "rank": 149,
+    "id": 163412,
+    "name": "Patchwork",
+    "year": 2014,
+    "description": "Piece together a quilt and leave no holes to become the button master.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/163412.jpg",
+    "bayesaverage": "7.470",
+    "average": "7.58",
+    "numvoters": 74931
+  },
+  {
+    "rank": 150,
+    "id": 391163,
+    "name": "Forest Shuffle",
+    "year": 2023,
+    "description": "Curate a diverse ecology with strategic flora and fauna, winter is coming!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/391163.jpg",
+    "bayesaverage": "7.463",
+    "average": "7.73",
+    "numvoters": 22700
+  },
+  {
+    "rank": 151,
+    "id": 102680,
+    "name": "Trajan",
+    "year": 2011,
+    "description": "Manage and rule all aspects of Ancient Rome with a clever action selection mancala.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/102680.png",
+    "bayesaverage": "7.461",
+    "average": "7.74",
+    "numvoters": 19022
+  },
+  {
+    "rank": 152,
+    "id": 218417,
+    "name": "Aeon's End: War Eternal",
+    "year": 2017,
+    "description": "War Eternal is a standalone game compatible with the deck building game Aeon's End.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/218417.jpg",
+    "bayesaverage": "7.458",
+    "average": "8.22",
+    "numvoters": 6778
+  },
+  {
+    "rank": 153,
+    "id": 144733,
+    "name": "Russian Railroads",
+    "year": 2013,
+    "description": "Acquire locomotives & industry, build track, and hire the best engineers in Russia.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/144733.jpg",
+    "bayesaverage": "7.454",
+    "average": "7.72",
+    "numvoters": 19003
+  },
+  {
+    "rank": 154,
+    "id": 12493,
+    "name": "Twilight Imperium: Third Edition",
+    "year": 2005,
+    "description": "Epic empire-building game of interstellar conflict, trade, and struggle for power.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/12493.jpg",
+    "bayesaverage": "7.453",
+    "average": "7.78",
+    "numvoters": 19590
+  },
+  {
+    "rank": 155,
+    "id": 205896,
+    "name": "Rising Sun",
+    "year": 2018,
+    "description": "Lead your clan to victory through negotiation, combat, monsters and favors from Kami.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/205896.jpg",
+    "bayesaverage": "7.447",
+    "average": "7.75",
+    "numvoters": 23521
+  },
+  {
+    "rank": 156,
+    "id": 175640,
+    "name": "Vinhos: Deluxe Edition",
+    "year": 2016,
+    "description": "The strategic craft of fine winemaking.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/175640.jpg",
+    "bayesaverage": "7.444",
+    "average": "8.05",
+    "numvoters": 8112
+  },
+  {
+    "rank": 157,
+    "id": 175155,
+    "name": "Forbidden Stars",
+    "year": 2015,
+    "description": "Assemble your armies, devise your strategy, and wage war across the Herakon Cluster.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/175155.jpg",
+    "bayesaverage": "7.437",
+    "average": "7.99",
+    "numvoters": 10112
+  },
+  {
+    "rank": 158,
+    "id": 196340,
+    "name": "Yokohama",
+    "year": 2016,
+    "description": "Claim your fame as the dominant merchant in Yokohama during the Meiji period.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/196340.png",
+    "bayesaverage": "7.436",
+    "average": "7.78",
+    "numvoters": 14037
+  },
+  {
+    "rank": 159,
+    "id": 254640,
+    "name": "Just One",
+    "year": 2018,
+    "description": "Give unique one-word clues so someone can guess one word!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/254640.png",
+    "bayesaverage": "7.436",
+    "average": "7.59",
+    "numvoters": 35812
+  },
+  {
+    "rank": 160,
+    "id": 400602,
+    "name": "Civolution",
+    "year": 2024,
+    "description": "Manage the countless possibilities of evolving your civilization.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/400602.jpg",
+    "bayesaverage": "7.430",
+    "average": "8.18",
+    "numvoters": 6534
+  },
+  {
+    "rank": 161,
+    "id": 325494,
+    "name": "ISS Vanguard",
+    "year": 2022,
+    "description": "Crew the first interstellar ship in space, exploring and discovering new worlds.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/325494.jpg",
+    "bayesaverage": "7.427",
+    "average": "8.33",
+    "numvoters": 7205
+  },
+  {
+    "rank": 162,
+    "id": 198928,
+    "name": "Iberia",
+    "year": 2016,
+    "description": "Travel from Barcelona to Lisboa to cure malaria, typhus, yellow fever, and cholera.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/198928.jpg",
+    "bayesaverage": "7.427",
+    "average": "7.87",
+    "numvoters": 11934
+  },
+  {
+    "rank": 163,
+    "id": 178900,
+    "name": "Codenames",
+    "year": 2015,
+    "description": "Give your team clever one-word clues to help them spot their agents in the field.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/178900.jpg",
+    "bayesaverage": "7.427",
+    "average": "7.52",
+    "numvoters": 105470
+  },
+  {
+    "rank": 164,
+    "id": 233371,
+    "name": "Clank! In! Space!: A Deck-Building Adventure",
+    "year": 2017,
+    "description": "Tiptoe your way through Lord Eradikus' spaceship to nab artifacts and an escape pod.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/233371.jpg",
+    "bayesaverage": "7.423",
+    "average": "7.75",
+    "numvoters": 16315
+  },
+  {
+    "rank": 165,
+    "id": 358661,
+    "name": "Andromeda's Edge",
+    "year": 2024,
+    "description": "Factions clash on the edge of the galaxy!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/358661.jpg",
+    "bayesaverage": "7.421",
+    "average": "8.24",
+    "numvoters": 6545
+  },
+  {
+    "rank": 166,
+    "id": 189932,
+    "name": "Tyrants of the Underdark",
+    "year": 2016,
+    "description": "Lead a Drow house and build the best deck to establish supremacy over the Underdark.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/189932.jpg",
+    "bayesaverage": "7.415",
+    "average": "7.91",
+    "numvoters": 10987
+  },
+  {
+    "rank": 167,
+    "id": 235802,
+    "name": "Too Many Bones: Undertow",
+    "year": 2018,
+    "description": "Songstress Stanza & stealthy Duster board a raft & chuck gobs of dice on the Sibron.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/235802.jpg",
+    "bayesaverage": "7.414",
+    "average": "8.65",
+    "numvoters": 4149
+  },
+  {
+    "rank": 168,
+    "id": 258779,
+    "name": "Planet Unknown",
+    "year": 2022,
+    "description": "Develop and colonize your planet with oddly shaped tiles served on a rotating tray.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/258779.jpg",
+    "bayesaverage": "7.413",
+    "average": "7.76",
+    "numvoters": 14723
+  },
+  {
+    "rank": 169,
+    "id": 463,
+    "name": "Magic: The Gathering",
+    "year": 1993,
+    "description": "Cast spells and summon fantasy monsters in the original collectible card game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/463.jpg",
+    "bayesaverage": "7.412",
+    "average": "7.60",
+    "numvoters": 43481
+  },
+  {
+    "rank": 170,
+    "id": 220877,
+    "name": "Rajas of the Ganges",
+    "year": 2017,
+    "description": "Manage your dice to build profitable markets and grand monuments in historic India.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/220877.jpg",
+    "bayesaverage": "7.412",
+    "average": "7.72",
+    "numvoters": 16281
+  },
+  {
+    "rank": 171,
+    "id": 172287,
+    "name": "Champions of Midgard",
+    "year": 2015,
+    "description": "Gain glory by defending a Viking harbor town against trolls, draugr and other beasts.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/172287.jpg",
+    "bayesaverage": "7.411",
+    "average": "7.70",
+    "numvoters": 18908
+  },
+  {
+    "rank": 172,
+    "id": 180263,
+    "name": "The 7th Continent",
+    "year": 2017,
+    "description": "Journey through a vibrant but deadly land to uncover the key to lifting your curse.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/180263.jpg",
+    "bayesaverage": "7.409",
+    "average": "7.72",
+    "numvoters": 23261
+  },
+  {
+    "rank": 173,
+    "id": 304783,
+    "name": "Hadrian's Wall",
+    "year": 2021,
+    "description": "Compete as one of six Roman Generals in charge of a milecastle along Hadrian's Wall.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/304783.png",
+    "bayesaverage": "7.404",
+    "average": "7.86",
+    "numvoters": 10890
+  },
+  {
+    "rank": 174,
+    "id": 30549,
+    "name": "Pandemic",
+    "year": 2008,
+    "description": "Your team of experts must prevent the world from succumbing to a viral pandemic.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/30549.jpg",
+    "bayesaverage": "7.401",
+    "average": "7.51",
+    "numvoters": 136212
+  },
+  {
+    "rank": 175,
+    "id": 209418,
+    "name": "Dominion: Second Edition",
+    "year": 2016,
+    "description": "Acquire cards to grow your kingdom's influence in this classic deck-building game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/209418.jpg",
+    "bayesaverage": "7.400",
+    "average": "7.82",
+    "numvoters": 13137
+  },
+  {
+    "rank": 176,
+    "id": 132531,
+    "name": "Roll for the Galaxy",
+    "year": 2014,
+    "description": "Utilize your dice populace to develop technologies, settle worlds, and ship goods.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/132531.jpg",
+    "bayesaverage": "7.400",
+    "average": "7.56",
+    "numvoters": 33794
+  },
+  {
+    "rank": 177,
+    "id": 118048,
+    "name": "Targi",
+    "year": 2012,
+    "description": "Outwit your rival by selecting where to place nomad workers on a dynamic desert grid.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/118048.jpg",
+    "bayesaverage": "7.399",
+    "average": "7.58",
+    "numvoters": 27045
+  },
+  {
+    "rank": 178,
+    "id": 147020,
+    "name": "Star Realms",
+    "year": 2014,
+    "description": "Compete head-to-head to create the most powerful deck of spaceships and bases.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/147020.jpg",
+    "bayesaverage": "7.397",
+    "average": "7.55",
+    "numvoters": 48409
+  },
+  {
+    "rank": 179,
+    "id": 161970,
+    "name": "Alchemists",
+    "year": 2014,
+    "description": "Showcase your alchemical know-how by publishing theories in this app-driven game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/161970.png",
+    "bayesaverage": "7.393",
+    "average": "7.64",
+    "numvoters": 24654
+  },
+  {
+    "rank": 180,
+    "id": 14996,
+    "name": "Ticket to Ride: Europe",
+    "year": 2005,
+    "description": "Build train routes across Europe in this sequel to the hit family board game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/14996.jpg",
+    "bayesaverage": "7.393",
+    "average": "7.52",
+    "numvoters": 86428
+  },
+  {
+    "rank": 181,
+    "id": 266524,
+    "name": "Parks",
+    "year": 2019,
+    "description": "Hike through National Parks tiles, collecting memories and admiring gorgeous scenery.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/266524.jpg",
+    "bayesaverage": "7.391",
+    "average": "7.61",
+    "numvoters": 31093
+  },
+  {
+    "rank": 182,
+    "id": 249259,
+    "name": "War Chest",
+    "year": 2018,
+    "description": "Recruit, bolster and maneuver your way to controlling the hex-grid battlefield.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/249259.png",
+    "bayesaverage": "7.389",
+    "average": "7.82",
+    "numvoters": 12757
+  },
+  {
+    "rank": 183,
+    "id": 420033,
+    "name": "Vantage",
+    "year": 2025,
+    "description": "Explore an entire planet's open world from a first-person perspective.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/420033.jpg",
+    "bayesaverage": "7.387",
+    "average": "8.17",
+    "numvoters": 7604
+  },
+  {
+    "rank": 184,
+    "id": 268864,
+    "name": "Undaunted: Normandy",
+    "year": 2019,
+    "description": "Command your rifle platoon to victory in this WWII multi-scenario deck builder.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/268864.jpg",
+    "bayesaverage": "7.386",
+    "average": "7.76",
+    "numvoters": 14512
+  },
+  {
+    "rank": 185,
+    "id": 263918,
+    "name": "Cartographers",
+    "year": 2019,
+    "description": "Explore lands on behalf of the queen and draw the most proficient maps to earn favor.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/263918.png",
+    "bayesaverage": "7.385",
+    "average": "7.55",
+    "numvoters": 36875
+  },
+  {
+    "rank": 186,
+    "id": 262712,
+    "name": "Res Arcana",
+    "year": 2019,
+    "description": "Rival mages create artifacts, vying for places of power and ancient monuments.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/262712.jpg",
+    "bayesaverage": "7.385",
+    "average": "7.61",
+    "numvoters": 26118
+  },
+  {
+    "rank": 187,
+    "id": 77423,
+    "name": "The Lord of the Rings: The Card Game",
+    "year": 2011,
+    "description": "Guide your fellowship as it embarks on unique adventures in Tolkien's Middle-earth!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/77423.jpg",
+    "bayesaverage": "7.383",
+    "average": "7.66",
+    "numvoters": 25220
+  },
+  {
+    "rank": 188,
+    "id": 271324,
+    "name": "It's a Wonderful World",
+    "year": 2019,
+    "description": "Draft yourself the ‘perfect’ dystopia, complete projects and churn out resources.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/271324.jpg",
+    "bayesaverage": "7.381",
+    "average": "7.62",
+    "numvoters": 23688
+  },
+  {
+    "rank": 189,
+    "id": 34635,
+    "name": "Stone Age",
+    "year": 2008,
+    "description": "Prehistoric tribes struggle to survive and adapt. Which one will rise to the top?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/34635.jpg",
+    "bayesaverage": "7.377",
+    "average": "7.51",
+    "numvoters": 56217
+  },
+  {
+    "rank": 190,
+    "id": 274364,
+    "name": "Watergate",
+    "year": 2019,
+    "description": "Will Nixon triumph in his tug of war with the Press or will the truth be exposed?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/274364.jpg",
+    "bayesaverage": "7.374",
+    "average": "7.70",
+    "numvoters": 14599
+  },
+  {
+    "rank": 191,
+    "id": 271896,
+    "name": "Star Wars: Outer Rim",
+    "year": 2019,
+    "description": "Star Wars characters race across the galaxy trying to achieve the most fame!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/271896.jpg",
+    "bayesaverage": "7.372",
+    "average": "7.75",
+    "numvoters": 15515
+  },
+  {
+    "rank": 192,
+    "id": 294484,
+    "name": "Unmatched: Cobble & Fog",
+    "year": 2020,
+    "description": "Heroes from Victorian-era literature join a skirmish to the death.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/294484.jpg",
+    "bayesaverage": "7.371",
+    "average": "7.92",
+    "numvoters": 9868
+  },
+  {
+    "rank": 193,
+    "id": 316377,
+    "name": "7 Wonders (Second Edition)",
+    "year": 2020,
+    "description": "Draft cards to develop your ancient civilization and build its Wonder of the World.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/316377.jpg",
+    "bayesaverage": "7.371",
+    "average": "7.82",
+    "numvoters": 12513
+  },
+  {
+    "rank": 194,
+    "id": 328871,
+    "name": "Terraforming Mars: Ares Expedition",
+    "year": 2021,
+    "description": "Return to Mars and terraform it once again, this time using only cards.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/328871.jpg",
+    "bayesaverage": "7.370",
+    "average": "7.63",
+    "numvoters": 21502
+  },
+  {
+    "rank": 195,
+    "id": 148949,
+    "name": "Istanbul",
+    "year": 2014,
+    "description": "Send your assistants through the shops of Istanbul as you race to acquire rubies.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/148949.jpg",
+    "bayesaverage": "7.369",
+    "average": "7.53",
+    "numvoters": 33970
+  },
+  {
+    "rank": 196,
+    "id": 308765,
+    "name": "Praga Caput Regni",
+    "year": 2020,
+    "description": "Wealthy citizens of medieval Prague organize building projects to gain king's favor.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/308765.png",
+    "bayesaverage": "7.368",
+    "average": "7.83",
+    "numvoters": 10706
+  },
+  {
+    "rank": 197,
+    "id": 82222,
+    "name": "Xia: Legends of a Drift System",
+    "year": 2014,
+    "description": "Pilot your ship to stardom in a massive sci-fi sandbox.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/82222.png",
+    "bayesaverage": "7.364",
+    "average": "7.85",
+    "numvoters": 11254
+  },
+  {
+    "rank": 198,
+    "id": 364011,
+    "name": "Great Western Trail: Argentina",
+    "year": 2022,
+    "description": "Travel the beautiful plains of the Pampas with your cattle.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/364011.png",
+    "bayesaverage": "7.363",
+    "average": "8.19",
+    "numvoters": 5668
+  },
+  {
+    "rank": 199,
+    "id": 296151,
+    "name": "Viscounts of the West Kingdom",
+    "year": 2020,
+    "description": "Travel the Kingdom seeking upgrades in an attempt to bring poverty or prosperity.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/296151.png",
+    "bayesaverage": "7.363",
+    "average": "7.79",
+    "numvoters": 11717
+  },
+  {
+    "rank": 200,
+    "id": 146652,
+    "name": "Legendary Encounters: An Alien Deck Building Game",
+    "year": 2014,
+    "description": "In space, no one can hear you build a deck of marine & weapon cards to fight aliens.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/146652.jpg",
+    "bayesaverage": "7.363",
+    "average": "7.75",
+    "numvoters": 13807
+  },
+  {
+    "rank": 201,
+    "id": 400366,
+    "name": "Wondrous Creatures",
+    "year": 2024,
+    "description": "Build the best reserve in the world for 100+ fantastic creatures!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/400366.jpg",
+    "bayesaverage": "7.362",
+    "average": "8.03",
+    "numvoters": 7300
+  },
+  {
+    "rank": 202,
+    "id": 54043,
+    "name": "Jaipur",
+    "year": 2009,
+    "description": "Trade and sell goods to become the most wealthy merchant in this short game for two.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/54043.jpg",
+    "bayesaverage": "7.361",
+    "average": "7.48",
+    "numvoters": 58934
+  },
+  {
+    "rank": 203,
+    "id": 244522,
+    "name": "That's Pretty Clever!",
+    "year": 2018,
+    "description": "Draft dice to mark numbers on your scoresheet, comboing bonuses to power your points.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/244522.jpg",
+    "bayesaverage": "7.359",
+    "average": "7.55",
+    "numvoters": 28385
+  },
+  {
+    "rank": 204,
+    "id": 127023,
+    "name": "Kemet",
+    "year": 2012,
+    "description": "Play as warring Egyptian Gods and build the most powerful army to dominate Egypt.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/127023.jpg",
+    "bayesaverage": "7.358",
+    "average": "7.62",
+    "numvoters": 20196
+  },
+  {
+    "rank": 205,
+    "id": 265188,
+    "name": "Glen More II: Chronicles",
+    "year": 2019,
+    "description": "Expand your Scottish clan by trading livestock, making whisky and gaining landmarks.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/265188.jpg",
+    "bayesaverage": "7.358",
+    "average": "7.85",
+    "numvoters": 9646
+  },
+  {
+    "rank": 206,
+    "id": 103885,
+    "name": "Star Wars: X-Wing Miniatures Game",
+    "year": 2012,
+    "description": "Pilot your ships in tight arcs to take out the enemy! The universe can be yours.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/103885.jpg",
+    "bayesaverage": "7.358",
+    "average": "7.62",
+    "numvoters": 25586
+  },
+  {
+    "rank": 207,
+    "id": 281259,
+    "name": "The Isle of Cats",
+    "year": 2019,
+    "description": "Rescue as many cats as you can before Lord Vesh comes to destroy their home.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/281259.jpg",
+    "bayesaverage": "7.358",
+    "average": "7.60",
+    "numvoters": 25623
+  },
+  {
+    "rank": 208,
+    "id": 2511,
+    "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
+    "year": 1981,
+    "description": "The game is afoot as you and your irregular friends search Victorian London for clues",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/2511.jpg",
+    "bayesaverage": "7.357",
+    "average": "7.60",
+    "numvoters": 22963
+  },
+  {
+    "rank": 209,
+    "id": 283948,
+    "name": "Marco Polo II: In the Service of the Khan",
+    "year": 2019,
+    "description": "Travel to cities along the silk road, trading silk, spice, gold & jade along the way.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/283948.jpg",
+    "bayesaverage": "7.355",
+    "average": "7.91",
+    "numvoters": 8462
+  },
+  {
+    "rank": 210,
+    "id": 416851,
+    "name": "Castle Combo",
+    "year": 2024,
+    "description": "Combine medieval villagers and castle dwellers to score points.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/416851.png",
+    "bayesaverage": "7.355",
+    "average": "7.68",
+    "numvoters": 16123
+  },
+  {
+    "rank": 211,
+    "id": 233398,
+    "name": "Endeavor: Age of Sail",
+    "year": 2018,
+    "description": "Spread your glory over the vast, as of yet unexplored world in this updated classic.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/233398.jpg",
+    "bayesaverage": "7.353",
+    "average": "7.84",
+    "numvoters": 10443
+  },
+  {
+    "rank": 212,
+    "id": 350184,
+    "name": "Earth",
+    "year": 2023,
+    "description": "Strategically grow your ecosystem card engine with unique flora, fauna, and terrains.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/350184.jpg",
+    "bayesaverage": "7.353",
+    "average": "7.61",
+    "numvoters": 21905
+  },
+  {
+    "rank": 213,
+    "id": 339789,
+    "name": "Welcome to the Moon",
+    "year": 2021,
+    "description": "Escape from Earth and plan the humankind journey to the moon to save humanity.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/339789.png",
+    "bayesaverage": "7.351",
+    "average": "7.84",
+    "numvoters": 9758
+  },
+  {
+    "rank": 214,
+    "id": 283355,
+    "name": "Dune",
+    "year": 2019,
+    "description": "Wildly different factions vie for control of Arrakis through alliance and treachery.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/283355.jpg",
+    "bayesaverage": "7.351",
+    "average": "7.91",
+    "numvoters": 11043
+  },
+  {
+    "rank": 215,
+    "id": 329082,
+    "name": "Radlands",
+    "year": 2021,
+    "description": "Post-apocalyptic bands of punks fight to destroy the rival tribe's camps.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/329082.png",
+    "bayesaverage": "7.350",
+    "average": "7.73",
+    "numvoters": 14598
+  },
+  {
+    "rank": 216,
+    "id": 374173,
+    "name": "Star Wars: The Deckbuilding Game",
+    "year": 2023,
+    "description": "The Rebels and Empire go head-to-head to eliminate one another's bases.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/374173.png",
+    "bayesaverage": "7.348",
+    "average": "7.81",
+    "numvoters": 11381
+  },
+  {
+    "rank": 217,
+    "id": 233867,
+    "name": "Welcome To...",
+    "year": 2018,
+    "description": "Design the most appealing 1950s neighborhood, with fences, parks, and swimming pools.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/233867.jpg",
+    "bayesaverage": "7.347",
+    "average": "7.50",
+    "numvoters": 35155
+  },
+  {
+    "rank": 218,
+    "id": 332686,
+    "name": "John Company: Second Edition",
+    "year": 2022,
+    "description": "Promise and cajole your way to the top whilst running the East India Company.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/332686.jpg",
+    "bayesaverage": "7.347",
+    "average": "8.22",
+    "numvoters": 5678
+  },
+  {
+    "rank": 219,
+    "id": 375459,
+    "name": "Speakeasy",
+    "year": 2025,
+    "description": "Earn money running a Manhattan speakeasy business during Prohibition.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/375459.jpg",
+    "bayesaverage": "7.340",
+    "average": "8.43",
+    "numvoters": 4444
+  },
+  {
+    "rank": 220,
+    "id": 314491,
+    "name": "Meadow",
+    "year": 2021,
+    "description": "Start your journey into nature and collect cards to become a true nature observer.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/314491.jpg",
+    "bayesaverage": "7.337",
+    "average": "7.70",
+    "numvoters": 14180
+  },
+  {
+    "rank": 221,
+    "id": 43111,
+    "name": "Chaos in the Old World",
+    "year": 2009,
+    "description": "Rival chaos gods send forth their minions to spread corruption and destruction.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/43111.jpg",
+    "bayesaverage": "7.334",
+    "average": "7.66",
+    "numvoters": 16222
+  },
+  {
+    "rank": 222,
+    "id": 188920,
+    "name": "This War of Mine: The Board Game",
+    "year": 2017,
+    "description": "Civilians trapped in a war-torn city must make difficult decisions to survive.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/188920.jpg",
+    "bayesaverage": "7.332",
+    "average": "7.75",
+    "numvoters": 14691
+  },
+  {
+    "rank": 223,
+    "id": 118,
+    "name": "Modern Art",
+    "year": 1992,
+    "description": "Four types of auctions challenge players in this classic game of art speculation.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/118.png",
+    "bayesaverage": "7.331",
+    "average": "7.52",
+    "numvoters": 25776
+  },
+  {
+    "rank": 224,
+    "id": 342070,
+    "name": "Thunder Road: Vendetta",
+    "year": 2023,
+    "description": "Crews race and shoot to win the race... or be the last car standing.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/342070.png",
+    "bayesaverage": "7.330",
+    "average": "7.88",
+    "numvoters": 8671
+  },
+  {
+    "rank": 225,
+    "id": 10630,
+    "name": "Memoir '44",
+    "year": 2004,
+    "description": "Revisit the battles of D-Day and control the forces of the Allies and the Axis!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/10630.png",
+    "bayesaverage": "7.326",
+    "average": "7.53",
+    "numvoters": 32139
+  },
+  {
+    "rank": 226,
+    "id": 9609,
+    "name": "War of the Ring",
+    "year": 2004,
+    "description": "Rings, Fellowship, diplomacy and war in the Third Age of Middle Earth.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/9609.jpg",
+    "bayesaverage": "7.326",
+    "average": "7.78",
+    "numvoters": 11008
+  },
+  {
+    "rank": 227,
+    "id": 227224,
+    "name": "The Red Cathedral",
+    "year": 2020,
+    "description": "Lead a construction team to build Saint Basil's Cathedral under the Tsar's reign.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/227224.jpg",
+    "bayesaverage": "7.326",
+    "average": "7.65",
+    "numvoters": 15898
+  },
+  {
+    "rank": 228,
+    "id": 199561,
+    "name": "Sagrada",
+    "year": 2017,
+    "description": "Craft the best stained-glass windows by carefully placing colorful translucent dice.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/199561.png",
+    "bayesaverage": "7.325",
+    "average": "7.47",
+    "numvoters": 48681
+  },
+  {
+    "rank": 229,
+    "id": 242302,
+    "name": "Space Base",
+    "year": 2018,
+    "description": "Amass spaceships for your fleet as you roll your way to domination.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/242302.jpg",
+    "bayesaverage": "7.324",
+    "average": "7.54",
+    "numvoters": 23974
+  },
+  {
+    "rank": 230,
+    "id": 256680,
+    "name": "Return to Dark Tower",
+    "year": 2022,
+    "description": "Cooperative or competitive strategy game pitting heroes against an ominous Tower.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/256680.jpg",
+    "bayesaverage": "7.322",
+    "average": "8.19",
+    "numvoters": 6058
+  },
+  {
+    "rank": 231,
+    "id": 299659,
+    "name": "Clash of Cultures: Monumental Edition",
+    "year": 2021,
+    "description": "Advance your ancient civilization from tiny settlement to mighty empire.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/299659.jpg",
+    "bayesaverage": "7.315",
+    "average": "8.26",
+    "numvoters": 5192
+  },
+  {
+    "rank": 232,
+    "id": 104162,
+    "name": "Descent: Journeys in the Dark (Second Edition)",
+    "year": 2012,
+    "description": "Fight the Overlord and level up your heroes in this fantasy dungeon campaign.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/104162.jpg",
+    "bayesaverage": "7.312",
+    "average": "7.60",
+    "numvoters": 26107
+  },
+  {
+    "rank": 233,
+    "id": 39463,
+    "name": "Cosmic Encounter",
+    "year": 2008,
+    "description": "Conquer the galaxy with shifting alliances and the unique powers of your alien race.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/39463.jpg",
+    "bayesaverage": "7.311",
+    "average": "7.51",
+    "numvoters": 35171
+  },
+  {
+    "rank": 234,
+    "id": 367150,
+    "name": "Dune: War for Arrakis",
+    "year": 2024,
+    "description": "Fight for control of Arrakis and its precious Spice.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/367150.jpg",
+    "bayesaverage": "7.310",
+    "average": "8.48",
+    "numvoters": 4393
+  },
+  {
+    "rank": 235,
+    "id": 25021,
+    "name": "Sekigahara: The Unification of Japan",
+    "year": 2011,
+    "description": "Defend or depose the Toyotomi heir by commanding the loyalty of the feudal lords.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/25021.jpg",
+    "bayesaverage": "7.308",
+    "average": "7.98",
+    "numvoters": 6741
+  },
+  {
+    "rank": 236,
+    "id": 300531,
+    "name": "Paleo",
+    "year": 2020,
+    "description": "Your Stone Age tribe must work together to eat, survive, and develop new tech.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/300531.jpg",
+    "bayesaverage": "7.306",
+    "average": "7.64",
+    "numvoters": 16467
+  },
+  {
+    "rank": 237,
+    "id": 155426,
+    "name": "Castles of Mad King Ludwig",
+    "year": 2014,
+    "description": "Choose and play tiles to satisfy the king's whims and build the best fantasy castle.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/155426.jpg",
+    "bayesaverage": "7.304",
+    "average": "7.50",
+    "numvoters": 28107
+  },
+  {
+    "rank": 238,
+    "id": 188,
+    "name": "Go",
+    "year": null,
+    "description": "(-2200) Use stones to control space in this ancient game with simple rules.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/188.jpg",
+    "bayesaverage": "7.302",
+    "average": "7.66",
+    "numvoters": 18509
+  },
+  {
+    "rank": 239,
+    "id": 128882,
+    "name": "The Resistance: Avalon",
+    "year": 2012,
+    "description": "Who can you trust? A game of social deduction set in King Arthur’s legendary realm.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/128882.jpg",
+    "bayesaverage": "7.300",
+    "average": "7.49",
+    "numvoters": 36996
+  },
+  {
+    "rank": 240,
+    "id": 822,
+    "name": "Carcassonne",
+    "year": 2000,
+    "description": "Shape the medieval French landscape, claiming cities, monasteries, roads, and farms.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/822.jpg",
+    "bayesaverage": "7.299",
+    "average": "7.42",
+    "numvoters": 141348
+  },
+  {
+    "rank": 241,
+    "id": 103343,
+    "name": "A Game of Thrones: The Board Game (Second Edition)",
+    "year": 2011,
+    "description": "Make alliances—and break them!—as you strive to both unite and conquer Westeros.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/103343.jpg",
+    "bayesaverage": "7.297",
+    "average": "7.53",
+    "numvoters": 37230
+  },
+  {
+    "rank": 242,
+    "id": 31627,
+    "name": "Ticket to Ride: Nordic Countries",
+    "year": 2007,
+    "description": "Build railways to connect destinations across Scandinavia and neighboring countries.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/31627.png",
+    "bayesaverage": "7.296",
+    "average": "7.62",
+    "numvoters": 15260
+  },
+  {
+    "rank": 243,
+    "id": 148228,
+    "name": "Splendor",
+    "year": 2014,
+    "description": "Renaissance merchants race to grab gems, acquire property, and please nobility.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/148228.png",
+    "bayesaverage": "7.293",
+    "average": "7.42",
+    "numvoters": 91431
+  },
+  {
+    "rank": 244,
+    "id": 17133,
+    "name": "Railways of the World",
+    "year": 2005,
+    "description": "Build rails, race to deliver scarce goods, and fulfill your Rail Baron's secret goal.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/17133.jpg",
+    "bayesaverage": "7.290",
+    "average": "7.66",
+    "numvoters": 12625
+  },
+  {
+    "rank": 245,
+    "id": 287954,
+    "name": "Azul: Summer Pavilion",
+    "year": 2019,
+    "description": "You're an artisan working on creating striking patterns within a king's palace.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/287954.jpg",
+    "bayesaverage": "7.290",
+    "average": "7.56",
+    "numvoters": 19722
+  },
+  {
+    "rank": 246,
+    "id": 282524,
+    "name": "Horrified",
+    "year": 2019,
+    "description": "Classic movie monsters terrorize a town! Can your team stop them in time?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/282524.jpg",
+    "bayesaverage": "7.289",
+    "average": "7.58",
+    "numvoters": 20302
+  },
+  {
+    "rank": 247,
+    "id": 70149,
+    "name": "Ora et Labora",
+    "year": 2011,
+    "description": "Manage workers and resources to build up the land around your medieval monastery.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/70149.jpg",
+    "bayesaverage": "7.285",
+    "average": "7.67",
+    "numvoters": 11683
+  },
+  {
+    "rank": 248,
+    "id": 171131,
+    "name": "Captain Sonar",
+    "year": 2016,
+    "description": "Torpedoes away! Hunt for your opponent's sub in this exciting, real-time team game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/171131.jpg",
+    "bayesaverage": "7.283",
+    "average": "7.50",
+    "numvoters": 24100
+  },
+  {
+    "rank": 249,
+    "id": 381248,
+    "name": "Nemesis: Retaliation",
+    "year": 2025,
+    "description": "Highly trained marines enter an alien nest with strict orders and advanced tools.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/381248.jpg",
+    "bayesaverage": "7.282",
+    "average": "8.67",
+    "numvoters": 4145
+  },
+  {
+    "rank": 250,
+    "id": 104006,
+    "name": "Village",
+    "year": 2011,
+    "description": "Send your villagers to work, travel, pray, and in death become a part of history!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/104006.jpg",
+    "bayesaverage": "7.281",
+    "average": "7.48",
+    "numvoters": 24572
+  },
+  {
+    "rank": 251,
+    "id": 269207,
+    "name": "The Taverns of Tiefenthal",
+    "year": 2019,
+    "description": "\"Build your way to the best Tavern in town with this deckbuilding dice drafting game\"",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/269207.jpg",
+    "bayesaverage": "7.279",
+    "average": "7.57",
+    "numvoters": 17371
+  },
+  {
+    "rank": 252,
+    "id": 367220,
+    "name": "Sea Salt & Paper",
+    "year": 2022,
+    "description": "A few delicate Origami-style illustrations and a whole marine universe comes to life!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/367220.jpg",
+    "bayesaverage": "7.276",
+    "average": "7.51",
+    "numvoters": 24240
+  },
+  {
+    "rank": 253,
+    "id": 123260,
+    "name": "Suburbia",
+    "year": 2012,
+    "description": "Expand your meager neighborhood into a sprawling suburb to attract the most citizens.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/123260.png",
+    "bayesaverage": "7.274",
+    "average": "7.45",
+    "numvoters": 26660
+  },
+  {
+    "rank": 254,
+    "id": 215,
+    "name": "Tichu",
+    "year": 1991,
+    "description": "Be the first team to empty your hands in this popular partnership climbing card game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/215.png",
+    "bayesaverage": "7.274",
+    "average": "7.57",
+    "numvoters": 17021
+  },
+  {
+    "rank": 255,
+    "id": 385761,
+    "name": "Faraway",
+    "year": 2023,
+    "description": "Explore a mysterious land and fulfill quests on your way back.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/385761.png",
+    "bayesaverage": "7.273",
+    "average": "7.54",
+    "numvoters": 19404
+  },
+  {
+    "rank": 256,
+    "id": 150376,
+    "name": "Dead of Winter: A Crossroads Game",
+    "year": 2014,
+    "description": "As you struggle to keep survivors alive, how will you value group vs. personal needs?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/150376.jpg",
+    "bayesaverage": "7.268",
+    "average": "7.44",
+    "numvoters": 49098
+  },
+  {
+    "rank": 257,
+    "id": 14105,
+    "name": "Commands & Colors: Ancients",
+    "year": 2006,
+    "description": "Accessible tactical wargame from the dawn of history to the opening of the Dark Age.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/14105.jpg",
+    "bayesaverage": "7.267",
+    "average": "7.77",
+    "numvoters": 9150
+  },
+  {
+    "rank": 258,
+    "id": 285967,
+    "name": "Ankh: Gods of Egypt",
+    "year": 2021,
+    "description": "Take the role of Egyptian gods fighting to survive and be remembered.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/285967.jpg",
+    "bayesaverage": "7.265",
+    "average": "7.72",
+    "numvoters": 11840
+  },
+  {
+    "rank": 259,
+    "id": 293014,
+    "name": "Nidavellir",
+    "year": 2020,
+    "description": "Assemble and prepare a formidable crew of dwarves to fight the mighty Fafnir!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/293014.jpg",
+    "bayesaverage": "7.263",
+    "average": "7.55",
+    "numvoters": 16465
+  },
+  {
+    "rank": 260,
+    "id": 241451,
+    "name": "Aeon's End: Legacy",
+    "year": 2019,
+    "description": "Defend your increasingly desperate home from The Nameless in an evolving campaign.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/241451.jpg",
+    "bayesaverage": "7.262",
+    "average": "8.03",
+    "numvoters": 5954
+  },
+  {
+    "rank": 261,
+    "id": 165722,
+    "name": "KLASK",
+    "year": 2014,
+    "description": "Use magnets to push a ball into the goal, but beware of falling in yourself!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/165722.png",
+    "bayesaverage": "7.259",
+    "average": "7.62",
+    "numvoters": 12521
+  },
+  {
+    "rank": 262,
+    "id": 7854,
+    "name": "YINSH",
+    "year": 2003,
+    "description": "Move rings over pieces to flip them, creating rows of five in your color.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/7854.png",
+    "bayesaverage": "7.259",
+    "average": "7.70",
+    "numvoters": 10140
+  },
+  {
+    "rank": 263,
+    "id": 9209,
+    "name": "Ticket to Ride",
+    "year": 2004,
+    "description": "All aboard! Collect trains, choo-choo-choose your routes, fulfill your destination!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/9209.jpg",
+    "bayesaverage": "7.259",
+    "average": "7.38",
+    "numvoters": 99367
+  },
+  {
+    "rank": 264,
+    "id": 329839,
+    "name": "So Clover!",
+    "year": 2021,
+    "description": "Work together using one-word clues to disentangle word pairs.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/329839.png",
+    "bayesaverage": "7.250",
+    "average": "7.59",
+    "numvoters": 12670
+  },
+  {
+    "rank": 265,
+    "id": 91,
+    "name": "Paths of Glory",
+    "year": 1999,
+    "description": "Step into the shoes of rulers and generals who triumphed or failed in the Great War.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/91.jpg",
+    "bayesaverage": "7.248",
+    "average": "8.07",
+    "numvoters": 5743
+  },
+  {
+    "rank": 266,
+    "id": 245638,
+    "name": "Coimbra",
+    "year": 2018,
+    "description": "Spread your influence across monasteries of Portugal and beyond!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/245638.jpg",
+    "bayesaverage": "7.247",
+    "average": "7.59",
+    "numvoters": 13073
+  },
+  {
+    "rank": 267,
+    "id": 182631,
+    "name": "Star Realms: Colony Wars",
+    "year": 2015,
+    "description": "Expand your fleet, defend your bases, and prevail in the battle for the colonies.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/182631.jpg",
+    "bayesaverage": "7.247",
+    "average": "7.78",
+    "numvoters": 8884
+  },
+  {
+    "rank": 268,
+    "id": 306735,
+    "name": "Under Falling Skies",
+    "year": 2020,
+    "description": "You alone command the forces of a city holding off invading aliens.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/306735.jpg",
+    "bayesaverage": "7.246",
+    "average": "7.59",
+    "numvoters": 14235
+  },
+  {
+    "rank": 269,
+    "id": 188834,
+    "name": "Secret Hitler",
+    "year": 2016,
+    "description": "In pre-WW2 Germany, Liberals and Fascists square off in an intrigue-filled parliament",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/188834.jpg",
+    "bayesaverage": "7.246",
+    "average": "7.48",
+    "numvoters": 35309
+  },
+  {
+    "rank": 270,
+    "id": 260605,
+    "name": "Camel Up (Second Edition)",
+    "year": 2018,
+    "description": "Place your bets and bend the odds in this crazy camel-stacking race!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/260605.jpg",
+    "bayesaverage": "7.246",
+    "average": "7.53",
+    "numvoters": 18448
+  },
+  {
+    "rank": 271,
+    "id": 295486,
+    "name": "My City",
+    "year": 2020,
+    "description": "Develop your city through the ages in this family-friendly legacy experience.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/295486.jpg",
+    "bayesaverage": "7.240",
+    "average": "7.57",
+    "numvoters": 13655
+  },
+  {
+    "rank": 272,
+    "id": 54998,
+    "name": "Cyclades",
+    "year": 2009,
+    "description": "Win the favor of the Gods in this competitive auction, area control game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/54998.jpg",
+    "bayesaverage": "7.240",
+    "average": "7.49",
+    "numvoters": 22935
+  },
+  {
+    "rank": 273,
+    "id": 223040,
+    "name": "Fantasy Realms",
+    "year": 2017,
+    "description": "Build the greatest fantasy kingdom by constructing the best hand.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/223040.jpg",
+    "bayesaverage": "7.239",
+    "average": "7.50",
+    "numvoters": 18724
+  },
+  {
+    "rank": 274,
+    "id": 283155,
+    "name": "Calico",
+    "year": 2020,
+    "description": "Sew a quilt, collect buttons, attract cats!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/283155.jpg",
+    "bayesaverage": "7.237",
+    "average": "7.47",
+    "numvoters": 23969
+  },
+  {
+    "rank": 275,
+    "id": 126042,
+    "name": "Nations",
+    "year": 2013,
+    "description": "Steer the fate of your nation, from the ancient world until the outbreak of WW1.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/126042.png",
+    "bayesaverage": "7.237",
+    "average": "7.59",
+    "numvoters": 12714
+  },
+  {
+    "rank": 276,
+    "id": 224037,
+    "name": "Codenames: Duet",
+    "year": 2017,
+    "description": "Swap one-word coded clues with your partner, trying to identify specific word cards.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/224037.png",
+    "bayesaverage": "7.233",
+    "average": "7.41",
+    "numvoters": 27140
+  },
+  {
+    "rank": 277,
+    "id": 232832,
+    "name": "Century: Golem Edition",
+    "year": 2017,
+    "description": "Snatch up costly crystals and synthesize them to create wondrous golems.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/232832.jpg",
+    "bayesaverage": "7.231",
+    "average": "7.58",
+    "numvoters": 14386
+  },
+  {
+    "rank": 278,
+    "id": 295895,
+    "name": "Distilled",
+    "year": 2023,
+    "description": "Purchase goods, upgrade your distillery, and craft the world's finest spirits.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/295895.png",
+    "bayesaverage": "7.231",
+    "average": "7.74",
+    "numvoters": 9247
+  },
+  {
+    "rank": 279,
+    "id": 146886,
+    "name": "La Granja",
+    "year": 2014,
+    "description": "Develop your farm and compete to deliver goods to the market at the right time.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/146886.jpg",
+    "bayesaverage": "7.227",
+    "average": "7.59",
+    "numvoters": 12050
+  },
+  {
+    "rank": 280,
+    "id": 351913,
+    "name": "Tiletum",
+    "year": 2022,
+    "description": "Use dice for resources and actions to gain riches in the Renaissance.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/351913.jpg",
+    "bayesaverage": "7.227",
+    "average": "7.85",
+    "numvoters": 7129
+  },
+  {
+    "rank": 281,
+    "id": 434654,
+    "name": "Toy Battle",
+    "year": 2025,
+    "description": "Send forth an army of toys to conquer territories.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/434654.jpg",
+    "bayesaverage": "7.225",
+    "average": "7.83",
+    "numvoters": 7582
+  },
+  {
+    "rank": 282,
+    "id": 21050,
+    "name": "Combat Commander: Europe",
+    "year": 2006,
+    "description": "Recreate the European theater of World War II in this acclaimed card-driven wargame.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/21050.jpg",
+    "bayesaverage": "7.224",
+    "average": "7.96",
+    "numvoters": 6171
+  },
+  {
+    "rank": 283,
+    "id": 195421,
+    "name": "Near and Far",
+    "year": 2017,
+    "description": "Explore the lands to discover the Last Ruin and become the most storied traveller.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/195421.jpg",
+    "bayesaverage": "7.223",
+    "average": "7.64",
+    "numvoters": 11250
+  },
+  {
+    "rank": 284,
+    "id": 150145,
+    "name": "Skull King",
+    "year": 2013,
+    "description": "Trick-taking on the high seas. Meet your bid to please the Skull King.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/150145.jpg",
+    "bayesaverage": "7.221",
+    "average": "7.53",
+    "numvoters": 16279
+  },
+  {
+    "rank": 285,
+    "id": 129437,
+    "name": "Legendary: A Marvel Deck Building Game",
+    "year": 2012,
+    "description": "Assemble Marvel's finest Heroes to combat Masterminds and thwart their Schemes!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/129437.jpg",
+    "bayesaverage": "7.221",
+    "average": "7.52",
+    "numvoters": 23457
+  },
+  {
+    "rank": 286,
+    "id": 3,
+    "name": "Samurai",
+    "year": 1998,
+    "description": "Dispute the favor of three different castes in order to unite Japan under your rule.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/3.jpg",
+    "bayesaverage": "7.220",
+    "average": "7.48",
+    "numvoters": 17282
+  },
+  {
+    "rank": 287,
+    "id": 158600,
+    "name": "Hanamikoji",
+    "year": 2013,
+    "description": "Win the favor of the geishas through careful speculation and bold moves.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/158600.png",
+    "bayesaverage": "7.220",
+    "average": "7.45",
+    "numvoters": 21711
+  },
+  {
+    "rank": 288,
+    "id": 221194,
+    "name": "Dinosaur Island",
+    "year": 2017,
+    "description": "Clone dinosaurs and build attractions to gain the most excitement.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/221194.png",
+    "bayesaverage": "7.219",
+    "average": "7.52",
+    "numvoters": 17316
+  },
+  {
+    "rank": 289,
+    "id": 192291,
+    "name": "Sushi Go Party!",
+    "year": 2016,
+    "description": "Pass sushi around a bigger table and take the best dishes. Save room for dessert!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/192291.jpg",
+    "bayesaverage": "7.216",
+    "average": "7.37",
+    "numvoters": 40804
+  },
+  {
+    "rank": 290,
+    "id": 232405,
+    "name": "Western Legends",
+    "year": 2018,
+    "description": "Become a gun-toting outlaw, or a law-abiding marshal in this Wild West sandbox.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/232405.png",
+    "bayesaverage": "7.213",
+    "average": "7.59",
+    "numvoters": 13209
+  },
+  {
+    "rank": 291,
+    "id": 199478,
+    "name": "Flamme Rouge",
+    "year": 2016,
+    "description": "Give orders to your peloton and avoid exhaustion in this card-pedaled Tour de Force.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/199478.jpg",
+    "bayesaverage": "7.213",
+    "average": "7.47",
+    "numvoters": 20039
+  },
+  {
+    "rank": 292,
+    "id": 274637,
+    "name": "Unmatched: Battle of Legends, Volume One",
+    "year": 2019,
+    "description": "Heroes and villains of legend (and their sidekicks) fight to the death.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/274637.jpg",
+    "bayesaverage": "7.213",
+    "average": "7.68",
+    "numvoters": 11191
+  },
+  {
+    "rank": 293,
+    "id": 176189,
+    "name": "Zombicide: Black Plague",
+    "year": 2015,
+    "description": "Work together to kill zombies in the Middle Ages! Then kill more zombies!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/176189.jpg",
+    "bayesaverage": "7.213",
+    "average": "7.60",
+    "numvoters": 17526
+  },
+  {
+    "rank": 294,
+    "id": 156129,
+    "name": "Deception: Murder in Hong Kong",
+    "year": 2014,
+    "description": "Interpret forensic evidence to solve a murder. Beware, the murderer may be among you!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/156129.jpg",
+    "bayesaverage": "7.211",
+    "average": "7.42",
+    "numvoters": 25462
+  },
+  {
+    "rank": 295,
+    "id": 176494,
+    "name": "Isle of Skye: From Chieftain to King",
+    "year": 2015,
+    "description": "Build your kingdom as Chieftain one tile at a time and rule all of Scotland!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/176494.jpg",
+    "bayesaverage": "7.210",
+    "average": "7.39",
+    "numvoters": 27468
+  },
+  {
+    "rank": 296,
+    "id": 446497,
+    "name": "Hot Streak",
+    "year": 2025,
+    "description": "Which mascot will cross the finish line first? Who will be DQ'd?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/446497.jpg",
+    "bayesaverage": "7.210",
+    "average": "7.79",
+    "numvoters": 7603
+  },
+  {
+    "rank": 297,
+    "id": 19857,
+    "name": "Glory to Rome",
+    "year": 2005,
+    "description": "Build card combos and race to rebuild Rome to become the most influential Patrician.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/19857.png",
+    "bayesaverage": "7.209",
+    "average": "7.49",
+    "numvoters": 14973
+  },
+  {
+    "rank": 298,
+    "id": 284189,
+    "name": "Foundations of Rome",
+    "year": 2022,
+    "description": "Construct buildings, vie for city lots, and compete to shape the city of Rome.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/284189.jpg",
+    "bayesaverage": "7.208",
+    "average": "8.02",
+    "numvoters": 5374
+  },
+  {
+    "rank": 299,
+    "id": 318977,
+    "name": "MicroMacro: Crime City",
+    "year": 2020,
+    "description": "Find the small traces to solve the big cases.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/318977.jpg",
+    "bayesaverage": "7.208",
+    "average": "7.44",
+    "numvoters": 20186
+  },
+  {
+    "rank": 300,
+    "id": 329500,
+    "name": "Unconscious Mind",
+    "year": 2024,
+    "description": "As one of Freud's followers, delve into clients’ unconscious minds to bring healing.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/329500.jpg",
+    "bayesaverage": "7.207",
+    "average": "7.87",
+    "numvoters": 7029
+  },
+  {
+    "rank": 301,
+    "id": 311193,
+    "name": "Anno 1800: The Board Game",
+    "year": 2020,
+    "description": "Fulfill the wishes of your population by producing ever more luxurious goods.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/311193.jpg",
+    "bayesaverage": "7.206",
+    "average": "7.69",
+    "numvoters": 9154
+  },
+  {
+    "rank": 302,
+    "id": 156546,
+    "name": "Monikers",
+    "year": 2015,
+    "description": "Get your friends to guess the name on the card with different rule each round.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/156546.png",
+    "bayesaverage": "7.204",
+    "average": "7.75",
+    "numvoters": 7948
+  },
+  {
+    "rank": 303,
+    "id": 19777,
+    "name": "Indonesia",
+    "year": 2005,
+    "description": "Produce and ship goods in a dynamic economic ecosystem in the Indonesian archipelago.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/19777.jpg",
+    "bayesaverage": "7.204",
+    "average": "7.94",
+    "numvoters": 5477
+  },
+  {
+    "rank": 304,
+    "id": 286096,
+    "name": "Tapestry",
+    "year": 2019,
+    "description": "Lead a unique civilization to greatness through cultural and technological advances.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/286096.jpg",
+    "bayesaverage": "7.204",
+    "average": "7.43",
+    "numvoters": 23239
+  },
+  {
+    "rank": 305,
+    "id": 270633,
+    "name": "Aeon's End: The New Age",
+    "year": 2019,
+    "description": "Take a crew of mages on Expeditions to face monstrosities from beyond the Breach.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/270633.jpg",
+    "bayesaverage": "7.203",
+    "average": "8.47",
+    "numvoters": 3517
+  },
+  {
+    "rank": 306,
+    "id": 169426,
+    "name": "Roll Player",
+    "year": 2016,
+    "description": "Draft dice and purchase skills, traits and equipment to create the perfect RPG hero.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/169426.jpg",
+    "bayesaverage": "7.203",
+    "average": "7.42",
+    "numvoters": 22757
+  },
+  {
+    "rank": 307,
+    "id": 224783,
+    "name": "Vindication",
+    "year": 2018,
+    "description": "Reclaim your honor by defeating monsters and gaining heroic attributes.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/224783.jpg",
+    "bayesaverage": "7.200",
+    "average": "7.76",
+    "numvoters": 8404
+  },
+  {
+    "rank": 308,
+    "id": 300322,
+    "name": "Hallertau",
+    "year": 2020,
+    "description": "Lead a small town: grow hops, improve workshops, and raise wealth to develop further.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/300322.jpg",
+    "bayesaverage": "7.200",
+    "average": "7.81",
+    "numvoters": 7066
+  },
+  {
+    "rank": 309,
+    "id": 323612,
+    "name": "Bitoku",
+    "year": 2021,
+    "description": "Become the next great spirit of the forest, exploring it and helping lost souls.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/323612.jpg",
+    "bayesaverage": "7.199",
+    "average": "7.77",
+    "numvoters": 8146
+  },
+  {
+    "rank": 310,
+    "id": 555,
+    "name": "The Princes of Florence",
+    "year": 2000,
+    "description": "Attract artisans and scholars to your palazzo by building and landscaping.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/555.jpg",
+    "bayesaverage": "7.197",
+    "average": "7.49",
+    "numvoters": 16127
+  },
+  {
+    "rank": 311,
+    "id": 454103,
+    "name": "Magical Athlete",
+    "year": 2025,
+    "description": "Pit a cast of crazy characters against each other in a madcap race to the finish.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/454103.png",
+    "bayesaverage": "7.195",
+    "average": "7.78",
+    "numvoters": 8077
+  },
+  {
+    "rank": 312,
+    "id": 198994,
+    "name": "Hero Realms",
+    "year": 2016,
+    "description": "Wisely choose your allies, minions, and spells to craft the path to prosperity!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/198994.png",
+    "bayesaverage": "7.192",
+    "average": "7.49",
+    "numvoters": 20147
+  },
+  {
+    "rank": 313,
+    "id": 297562,
+    "name": "Kemet: Blood and Sand",
+    "year": 2021,
+    "description": "Play as warring Egyptian Gods and build the most powerful army to dominate Egypt.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/297562.jpg",
+    "bayesaverage": "7.191",
+    "average": "7.89",
+    "numvoters": 6367
+  },
+  {
+    "rank": 314,
+    "id": 277085,
+    "name": "Love Letter",
+    "year": 2019,
+    "description": "Help sneakily maneuver your love letter to the Princess—or to those closest to her.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/277085.png",
+    "bayesaverage": "7.190",
+    "average": "7.50",
+    "numvoters": 16668
+  },
+  {
+    "rank": 315,
+    "id": 349067,
+    "name": "The Lord of the Rings: The Card Game – Revised Core Set",
+    "year": 2022,
+    "description": "Revised core set repackages the original with support for 1-4p and a new campaign.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/349067.jpg",
+    "bayesaverage": "7.188",
+    "average": "8.43",
+    "numvoters": 3881
+  },
+  {
+    "rank": 316,
+    "id": 194655,
+    "name": "Santorini",
+    "year": 2016,
+    "description": "Use different divine powers to build and climb the towers!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/194655.png",
+    "bayesaverage": "7.187",
+    "average": "7.33",
+    "numvoters": 42594
+  },
+  {
+    "rank": 317,
+    "id": 228341,
+    "name": "Pulsar 2849",
+    "year": 2017,
+    "description": "Draft dice to harness the power of pulsars in the gold rush of a new millennium!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/228341.jpg",
+    "bayesaverage": "7.187",
+    "average": "7.63",
+    "numvoters": 9855
+  },
+  {
+    "rank": 318,
+    "id": 230253,
+    "name": "Star Realms: Frontiers",
+    "year": 2018,
+    "description": "Expand your fleet, explore new frontiers, and impose your authority over your rivals.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/230253.png",
+    "bayesaverage": "7.186",
+    "average": "7.90",
+    "numvoters": 6381
+  },
+  {
+    "rank": 319,
+    "id": 421,
+    "name": "1830: Railways & Robber Barons",
+    "year": 1986,
+    "description": "A classic game of managing railroads and investing wisely.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/421.jpg",
+    "bayesaverage": "7.183",
+    "average": "7.87",
+    "numvoters": 6040
+  },
+  {
+    "rank": 320,
+    "id": 9216,
+    "name": "Goa",
+    "year": 2004,
+    "description": "Run a spice trade business in colonial-era India in this closed-loop economy game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/9216.jpg",
+    "bayesaverage": "7.180",
+    "average": "7.54",
+    "numvoters": 12028
+  },
+  {
+    "rank": 321,
+    "id": 31481,
+    "name": "Galaxy Trucker",
+    "year": 2007,
+    "description": "Prepare for unknown dangers by building the best spaceship possible.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/31481.jpg",
+    "bayesaverage": "7.180",
+    "average": "7.32",
+    "numvoters": 35925
+  },
+  {
+    "rank": 322,
+    "id": 400314,
+    "name": "Apiary",
+    "year": 2023,
+    "description": "Hyper-intelligent bees take to outer space to build, explore, and grow.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/400314.png",
+    "bayesaverage": "7.179",
+    "average": "7.65",
+    "numvoters": 9612
+  },
+  {
+    "rank": 323,
+    "id": 20551,
+    "name": "Shogun",
+    "year": 2006,
+    "description": "Gain control of medieval Japan by amassing troops and sending them out to battles.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/20551.jpg",
+    "bayesaverage": "7.179",
+    "average": "7.50",
+    "numvoters": 14684
+  },
+  {
+    "rank": 324,
+    "id": 109276,
+    "name": "Kanban: Driver's Edition",
+    "year": 2014,
+    "description": "Car-factory workers optimise and innovate to stand out at the big board meeting.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/109276.jpg",
+    "bayesaverage": "7.179",
+    "average": "7.78",
+    "numvoters": 7152
+  },
+  {
+    "rank": 325,
+    "id": 284653,
+    "name": "Mind MGMT: The Psychic Espionage “Game.”",
+    "year": 2021,
+    "description": "Psychic rogue agents team up to track down the Recruiter in Zanzibar.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/284653.jpg",
+    "bayesaverage": "7.178",
+    "average": "7.77",
+    "numvoters": 7481
+  },
+  {
+    "rank": 326,
+    "id": 356123,
+    "name": "Turing Machine",
+    "year": 2022,
+    "description": "Crack codes using a real analog computer.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/356123.png",
+    "bayesaverage": "7.177",
+    "average": "7.60",
+    "numvoters": 10898
+  },
+  {
+    "rank": 327,
+    "id": 128621,
+    "name": "Viticulture",
+    "year": 2013,
+    "description": "Seasons pass as you develop your vineyard, harvest grapes, make wine and fill orders.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/128621.jpg",
+    "bayesaverage": "7.177",
+    "average": "7.47",
+    "numvoters": 15741
+  },
+  {
+    "rank": 328,
+    "id": 417197,
+    "name": "Rebirth",
+    "year": 2024,
+    "description": "Rebuild old lands in a lush, hopeful future.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/417197.png",
+    "bayesaverage": "7.176",
+    "average": "7.77",
+    "numvoters": 7458
+  },
+  {
+    "rank": 329,
+    "id": 244271,
+    "name": "Dice Throne: Season Two – Battle Chest",
+    "year": 2019,
+    "description": "A Player Vs Player dice dueling game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/244271.jpg",
+    "bayesaverage": "7.176",
+    "average": "8.03",
+    "numvoters": 5576
+  },
+  {
+    "rank": 330,
+    "id": 370591,
+    "name": "Dorfromantik: The Board Game",
+    "year": 2022,
+    "description": "Experience the peaceful and relaxed atmosphere of the video game on your table.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/370591.jpg",
+    "bayesaverage": "7.174",
+    "average": "7.58",
+    "numvoters": 11735
+  },
+  {
+    "rank": 331,
+    "id": 331106,
+    "name": "The Witcher: Old World",
+    "year": 2023,
+    "description": "Explore the Continent, upgrade your skills, and fight monsters/witchers for trophies.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/331106.jpg",
+    "bayesaverage": "7.173",
+    "average": "7.88",
+    "numvoters": 9260
+  },
+  {
+    "rank": 332,
+    "id": 262211,
+    "name": "Cloudspire",
+    "year": 2019,
+    "description": "Use towers, minions, and heroes to help your faction claim an island in the sky.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/262211.jpg",
+    "bayesaverage": "7.172",
+    "average": "8.18",
+    "numvoters": 4578
+  },
+  {
+    "rank": 333,
+    "id": 204583,
+    "name": "Kingdomino",
+    "year": 2016,
+    "description": "Build a kingdom with varied terrains on domino-shaped tiles in this fast family game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/204583.png",
+    "bayesaverage": "7.168",
+    "average": "7.29",
+    "numvoters": 53618
+  },
+  {
+    "rank": 334,
+    "id": 760,
+    "name": "Battle Line",
+    "year": 2000,
+    "description": "Mobilize stronger formations to counter the enemy along an ever-changing battle-line.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/760.jpg",
+    "bayesaverage": "7.167",
+    "average": "7.41",
+    "numvoters": 18389
+  },
+  {
+    "rank": 335,
+    "id": 140620,
+    "name": "Lewis & Clark: The Expedition",
+    "year": 2013,
+    "description": "Explorers race from Missouri to Oregon, asking local Native American tribes for help.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/140620.jpg",
+    "bayesaverage": "7.166",
+    "average": "7.43",
+    "numvoters": 16675
+  },
+  {
+    "rank": 336,
+    "id": 291572,
+    "name": "Oath",
+    "year": 2021,
+    "description": "Change the course of history as empires rise and fall and your tale becomes legend.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/291572.jpg",
+    "bayesaverage": "7.165",
+    "average": "7.71",
+    "numvoters": 9714
+  },
+  {
+    "rank": 337,
+    "id": 318184,
+    "name": "Imperium: Classics",
+    "year": 2021,
+    "description": "Compete to become the most dominant empire the world has ever seen!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/318184.jpg",
+    "bayesaverage": "7.165",
+    "average": "7.68",
+    "numvoters": 9008
+  },
+  {
+    "rank": 338,
+    "id": 2655,
+    "name": "Hive",
+    "year": 2001,
+    "description": "Use your insects to trap your opponent's Queen Bee in this board-less abstract game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/2655.jpg",
+    "bayesaverage": "7.165",
+    "average": "7.31",
+    "numvoters": 40747
+  },
+  {
+    "rank": 339,
+    "id": 127060,
+    "name": "Bora Bora",
+    "year": 2013,
+    "description": "Lead the men and women of your tribe to expand and thrive in an island paradise.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/127060.jpg",
+    "bayesaverage": "7.165",
+    "average": "7.56",
+    "numvoters": 10765
+  },
+  {
+    "rank": 340,
+    "id": 298047,
+    "name": "Marvel United",
+    "year": 2020,
+    "description": "Cooperate as Marvel Superheroes to stop the Villains' master plans!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/298047.jpg",
+    "bayesaverage": "7.164",
+    "average": "7.53",
+    "numvoters": 13542
+  },
+  {
+    "rank": 341,
+    "id": 206718,
+    "name": "Ethnos",
+    "year": 2017,
+    "description": "Call upon unique fantasy tribes to gain control of the land and earn glory.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/206718.png",
+    "bayesaverage": "7.163",
+    "average": "7.46",
+    "numvoters": 14894
+  },
+  {
+    "rank": 342,
+    "id": 342810,
+    "name": "Marrakesh",
+    "year": 2022,
+    "description": "Influential families react to the whims of the cube tower to gain power in the city.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/342810.jpg",
+    "bayesaverage": "7.161",
+    "average": "8.06",
+    "numvoters": 4574
+  },
+  {
+    "rank": 343,
+    "id": 27708,
+    "name": "1960: The Making of the President",
+    "year": 2007,
+    "description": "Conquer America in 1960: debate, campaign, and rewrite history.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/27708.jpg",
+    "bayesaverage": "7.160",
+    "average": "7.61",
+    "numvoters": 9543
+  },
+  {
+    "rank": 344,
+    "id": 246784,
+    "name": "Cryptid",
+    "year": 2018,
+    "description": "Be the first to locate the cryptid through pure deduction and subtle deception.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/246784.jpg",
+    "bayesaverage": "7.160",
+    "average": "7.42",
+    "numvoters": 17501
+  },
+  {
+    "rank": 345,
+    "id": 385529,
+    "name": "The Vale of Eternity",
+    "year": 2023,
+    "description": "Tame many mythical creatures, harnessing their powers in order to summon dragons.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/385529.png",
+    "bayesaverage": "7.160",
+    "average": "7.59",
+    "numvoters": 10408
+  },
+  {
+    "rank": 346,
+    "id": 144344,
+    "name": "Rococo",
+    "year": 2013,
+    "description": "Make dresses for a prestigious ball while managing your deck of employees!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/144344.jpg",
+    "bayesaverage": "7.159",
+    "average": "7.58",
+    "numvoters": 9629
+  },
+  {
+    "rank": 347,
+    "id": 350316,
+    "name": "Wayfarers of the South Tigris",
+    "year": 2022,
+    "description": "Explore the waterways, map the land, and chart the stars in medieval Baghdad.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/350316.jpg",
+    "bayesaverage": "7.155",
+    "average": "7.76",
+    "numvoters": 6961
+  },
+  {
+    "rank": 348,
+    "id": 305096,
+    "name": "Endless Winter: Paleoamericans",
+    "year": 2022,
+    "description": "Settle new lands, grow your population, and build megaliths - in an endless winter.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/305096.jpg",
+    "bayesaverage": "7.154",
+    "average": "7.61",
+    "numvoters": 10164
+  },
+  {
+    "rank": 349,
+    "id": 50,
+    "name": "Lost Cities",
+    "year": 1999,
+    "description": "Set out on expeditions, but will your findings outweigh the cost of each adventure?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/50.jpg",
+    "bayesaverage": "7.154",
+    "average": "7.26",
+    "numvoters": 51466
+  },
+  {
+    "rank": 350,
+    "id": 27833,
+    "name": "Steam",
+    "year": 2009,
+    "description": "Rival railways compete to build networks and maximise profits by transporting goods.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/27833.jpg",
+    "bayesaverage": "7.151",
+    "average": "7.54",
+    "numvoters": 10510
+  },
+  {
+    "rank": 351,
+    "id": 223321,
+    "name": "Detective: A Modern Crime Board Game",
+    "year": 2018,
+    "description": "Collaborate in an FBI unit to solve cases using high-tech & traditional techniques.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/223321.jpg",
+    "bayesaverage": "7.150",
+    "average": "7.60",
+    "numvoters": 11559
+  },
+  {
+    "rank": 352,
+    "id": 46213,
+    "name": "Telestrations",
+    "year": 2009,
+    "description": "Guess what they drew, then draw what they guessed, and see how funny the changes get.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/46213.jpg",
+    "bayesaverage": "7.146",
+    "average": "7.38",
+    "numvoters": 21011
+  },
+  {
+    "rank": 353,
+    "id": 257499,
+    "name": "Arkham Horror (Third Edition)",
+    "year": 2018,
+    "description": "Piece the clues together to stop the horrors before your sanity shatters.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/257499.jpg",
+    "bayesaverage": "7.144",
+    "average": "7.68",
+    "numvoters": 11228
+  },
+  {
+    "rank": 354,
+    "id": 333255,
+    "name": "Keep the Heroes Out!",
+    "year": 2022,
+    "description": "As monsters, work together to defend your dungeon against so-called heroes.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/333255.jpg",
+    "bayesaverage": "7.142",
+    "average": "7.88",
+    "numvoters": 6501
+  },
+  {
+    "rank": 355,
+    "id": 239188,
+    "name": "Chronicles of Crime",
+    "year": 2018,
+    "description": "Lay out the case, interrogate suspects, and investigate crime scenes with your phone.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/239188.jpg",
+    "bayesaverage": "7.142",
+    "average": "7.52",
+    "numvoters": 25145
+  },
+  {
+    "rank": 356,
+    "id": 139976,
+    "name": "Cthulhu Wars",
+    "year": 2015,
+    "description": "Armageddon came. Humanity fell. Which Elder God will rule the last remains of Earth?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/139976.png",
+    "bayesaverage": "7.142",
+    "average": "7.83",
+    "numvoters": 6933
+  },
+  {
+    "rank": 357,
+    "id": 172,
+    "name": "For Sale",
+    "year": 1997,
+    "description": "What's your bid? Bid on promising property bundles, then sell properties for checks.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/172.jpg",
+    "bayesaverage": "7.142",
+    "average": "7.27",
+    "numvoters": 34738
+  },
+  {
+    "rank": 358,
+    "id": 411567,
+    "name": "The Gang",
+    "year": 2024,
+    "description": "Bet together the order of your hands in Texas Hold'em Poker to win together.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/411567.jpg",
+    "bayesaverage": "7.140",
+    "average": "7.55",
+    "numvoters": 10360
+  },
+  {
+    "rank": 359,
+    "id": 92828,
+    "name": "Dixit: Odyssey",
+    "year": 2011,
+    "description": "Don’t be too vague or precise when describing beautifully surreal art.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/92828.jpg",
+    "bayesaverage": "7.140",
+    "average": "7.38",
+    "numvoters": 23181
+  },
+  {
+    "rank": 360,
+    "id": 332800,
+    "name": "Summoner Wars (Second Edition)",
+    "year": 2021,
+    "description": "The fight for Itharia is on! Defeat the enemy summoner before they cut yours down.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/332800.jpg",
+    "bayesaverage": "7.140",
+    "average": "8.03",
+    "numvoters": 5016
+  },
+  {
+    "rank": 361,
+    "id": 108745,
+    "name": "Seasons",
+    "year": 2012,
+    "description": "Mages compete across twelve seasons to collect crystals and become the new archmage.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/108745.jpg",
+    "bayesaverage": "7.140",
+    "average": "7.33",
+    "numvoters": 26668
+  },
+  {
+    "rank": 362,
+    "id": 276182,
+    "name": "Dead Reckoning",
+    "year": 2022,
+    "description": "Card Crafting meets 4X! Sail the high seas and choose your path to victory!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/276182.jpg",
+    "bayesaverage": "7.137",
+    "average": "8.14",
+    "numvoters": 4232
+  },
+  {
+    "rank": 363,
+    "id": 350933,
+    "name": "The Guild of Merchant Explorers",
+    "year": 2022,
+    "description": "Explore strange lands, establish trade routes, and search for treasure.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/350933.jpg",
+    "bayesaverage": "7.137",
+    "average": "7.61",
+    "numvoters": 8553
+  },
+  {
+    "rank": 364,
+    "id": 160477,
+    "name": "Onitama",
+    "year": 2014,
+    "description": "Assert your martial prowess by harnessing the power of various animal spirits.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/160477.jpg",
+    "bayesaverage": "7.135",
+    "average": "7.33",
+    "numvoters": 25240
+  },
+  {
+    "rank": 365,
+    "id": 111341,
+    "name": "The Great Zimbabwe",
+    "year": 2012,
+    "description": "Plot out supply lines and build monuments to impress the African god of your choice.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/111341.jpg",
+    "bayesaverage": "7.134",
+    "average": "7.84",
+    "numvoters": 5545
+  },
+  {
+    "rank": 366,
+    "id": 146508,
+    "name": "T.I.M.E Stories",
+    "year": 2015,
+    "description": "Protect the world from paradoxes with your team of time-traveling agents.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/146508.png",
+    "bayesaverage": "7.133",
+    "average": "7.34",
+    "numvoters": 28888
+  },
+  {
+    "rank": 367,
+    "id": 5,
+    "name": "Acquire",
+    "year": 1963,
+    "description": "Invest, divest, and stage hostile takeovers in this classic real estate game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/5.jpg",
+    "bayesaverage": "7.128",
+    "average": "7.36",
+    "numvoters": 22382
+  },
+  {
+    "rank": 368,
+    "id": 408180,
+    "name": "Shackleton Base: A Journey to the Moon",
+    "year": 2024,
+    "description": "Lead your space agency to expand your presence on the Moon.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/408180.jpg",
+    "bayesaverage": "7.125",
+    "average": "8.01",
+    "numvoters": 4587
+  },
+  {
+    "rank": 369,
+    "id": 308119,
+    "name": "Pax Renaissance: 2nd Edition",
+    "year": 2021,
+    "description": "Become the most influential banker and pull the strings that decide Europe's future.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/308119.png",
+    "bayesaverage": "7.123",
+    "average": "8.38",
+    "numvoters": 3333
+  },
+  {
+    "rank": 370,
+    "id": 129622,
+    "name": "Love Letter",
+    "year": 2012,
+    "description": "Can you get a letter to the princess or remove all your rivals? You win either way!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/129622.jpg",
+    "bayesaverage": "7.122",
+    "average": "7.23",
+    "numvoters": 72300
+  },
+  {
+    "rank": 371,
+    "id": 302723,
+    "name": "Forgotten Waters",
+    "year": 2020,
+    "description": "Seek fortune and infamy in a fantastical world of piratical misadventure.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/302723.jpg",
+    "bayesaverage": "7.120",
+    "average": "7.72",
+    "numvoters": 7168
+  },
+  {
+    "rank": 372,
+    "id": 295374,
+    "name": "Long Shot: The Dice Game",
+    "year": 2022,
+    "description": "Bet, buy horses, and influence jockeys for cash in an exciting 1930's era horse race.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/295374.jpg",
+    "bayesaverage": "7.120",
+    "average": "7.51",
+    "numvoters": 10720
+  },
+  {
+    "rank": 373,
+    "id": 319966,
+    "name": "The King Is Dead: Second Edition",
+    "year": 2020,
+    "description": "A subtle game of shifting power and control over medieval Britain.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/319966.jpg",
+    "bayesaverage": "7.120",
+    "average": "7.58",
+    "numvoters": 8854
+  },
+  {
+    "rank": 374,
+    "id": 384213,
+    "name": "Fromage",
+    "year": 2024,
+    "description": "Cheesemakers compete to run the most prosperous creamery in France.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/384213.jpg",
+    "bayesaverage": "7.120",
+    "average": "7.68",
+    "numvoters": 7298
+  },
+  {
+    "rank": 375,
+    "id": 155068,
+    "name": "Arcadia Quest",
+    "year": 2014,
+    "description": "Fight against rival guilds and monsters in a campaign to reclaim the city of Arcadia.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/155068.jpg",
+    "bayesaverage": "7.119",
+    "average": "7.58",
+    "numvoters": 10845
+  },
+  {
+    "rank": 376,
+    "id": 66589,
+    "name": "Navegador",
+    "year": 2010,
+    "description": "Sail around the globe while managing your trade in the Portuguese Colonial Empire.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/66589.jpg",
+    "bayesaverage": "7.118",
+    "average": "7.53",
+    "numvoters": 9714
+  },
+  {
+    "rank": 377,
+    "id": 434367,
+    "name": "Nippon: Zaibatsu",
+    "year": 2026,
+    "description": "Control conglomerates of companies driving Japan’s economy.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/434367.png",
+    "bayesaverage": "7.117",
+    "average": "8.50",
+    "numvoters": 3032
+  },
+  {
+    "rank": 378,
+    "id": 354934,
+    "name": "Legacy of Yu",
+    "year": 2023,
+    "description": "Build the canals, repel the barbarians, and rise to fame as Yu the Great!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/354934.png",
+    "bayesaverage": "7.117",
+    "average": "8.07",
+    "numvoters": 4348
+  },
+  {
+    "rank": 379,
+    "id": 311988,
+    "name": "Frostpunk: The Board Game",
+    "year": 2022,
+    "description": "A city-survival game where heat means life and every decision comes with a cost.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/311988.jpg",
+    "bayesaverage": "7.117",
+    "average": "8.12",
+    "numvoters": 4745
+  },
+  {
+    "rank": 380,
+    "id": 176734,
+    "name": "The Manhattan Project: Energy Empire",
+    "year": 2016,
+    "description": "Build power plants, not bombs, in this standalone sequel to The Manhattan Project.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/176734.jpg",
+    "bayesaverage": "7.117",
+    "average": "7.71",
+    "numvoters": 6664
+  },
+  {
+    "rank": 381,
+    "id": 63888,
+    "name": "Innovation",
+    "year": 2010,
+    "description": "Guide your civilization with inventions from the stone age through to the modern era.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/63888.png",
+    "bayesaverage": "7.116",
+    "average": "7.33",
+    "numvoters": 20833
+  },
+  {
+    "rank": 382,
+    "id": 345972,
+    "name": "Cat in the Box: Deluxe Edition",
+    "year": 2022,
+    "description": "Win tricks without knowing the colour of your cards until you play them.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/345972.jpg",
+    "bayesaverage": "7.115",
+    "average": "7.43",
+    "numvoters": 13279
+  },
+  {
+    "rank": 383,
+    "id": 379078,
+    "name": "Expeditions",
+    "year": 2023,
+    "description": "Venture to the dangerous north in this tile-exploration sequel to Scythe.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/379078.jpg",
+    "bayesaverage": "7.115",
+    "average": "7.62",
+    "numvoters": 8849
+  },
+  {
+    "rank": 384,
+    "id": 24181,
+    "name": "Imperial",
+    "year": 2006,
+    "description": "Invest in imperialist powers to extract wealth by industrialization and expansion.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/24181.jpg",
+    "bayesaverage": "7.111",
+    "average": "7.59",
+    "numvoters": 9035
+  },
+  {
+    "rank": 385,
+    "id": 97207,
+    "name": "Dungeon Petz",
+    "year": 2011,
+    "description": "Raise monstrous pets and sell them to demanding Dungeon Lords for fame and fortune.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/97207.jpg",
+    "bayesaverage": "7.109",
+    "average": "7.38",
+    "numvoters": 15654
+  },
+  {
+    "rank": 386,
+    "id": 2653,
+    "name": "Survive: Escape from Atlantis!",
+    "year": 1982,
+    "description": "Sharks, whales, and sea monsters, oh my! Hurry and escape before Atlantis disappears!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/2653.png",
+    "bayesaverage": "7.108",
+    "average": "7.31",
+    "numvoters": 28092
+  },
+  {
+    "rank": 387,
+    "id": 47,
+    "name": "Chinatown",
+    "year": 1999,
+    "description": "Negotiate and build the most successful business in all of Chinatown!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/47.jpg",
+    "bayesaverage": "7.108",
+    "average": "7.44",
+    "numvoters": 12541
+  },
+  {
+    "rank": 388,
+    "id": 260180,
+    "name": "Project L",
+    "year": 2020,
+    "description": "Fast-paced, tile-matching, engine building game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/260180.jpg",
+    "bayesaverage": "7.107",
+    "average": "7.44",
+    "numvoters": 13589
+  },
+  {
+    "rank": 389,
+    "id": 234277,
+    "name": "Nusfjord",
+    "year": 2017,
+    "description": "Use your three workers to clear trees, build a harbor, and fish in northern Norway.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/234277.jpg",
+    "bayesaverage": "7.106",
+    "average": "7.63",
+    "numvoters": 7505
+  },
+  {
+    "rank": 390,
+    "id": 54,
+    "name": "Tikal",
+    "year": 1999,
+    "description": "Strategically create pathways through jungle, collect treasure, and excavate temples.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/54.jpg",
+    "bayesaverage": "7.105",
+    "average": "7.32",
+    "numvoters": 21620
+  },
+  {
+    "rank": 391,
+    "id": 38453,
+    "name": "Space Alert",
+    "year": 2008,
+    "description": "This ship runs itself! Wait, why are our shields down and where did you go? Help us!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/38453.jpg",
+    "bayesaverage": "7.104",
+    "average": "7.38",
+    "numvoters": 16595
+  },
+  {
+    "rank": 392,
+    "id": 184921,
+    "name": "Bunny Kingdom",
+    "year": 2017,
+    "description": "Adorable bunnies build cities, harvest carrots, and go on missions to be \"Big Ears!\"",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/184921.jpg",
+    "bayesaverage": "7.104",
+    "average": "7.40",
+    "numvoters": 15125
+  },
+  {
+    "rank": 393,
+    "id": 397385,
+    "name": "Pirates of Maracaibo",
+    "year": 2023,
+    "description": "Set sail for an adventurous raid…for perhaps it will be your last!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/397385.png",
+    "bayesaverage": "7.104",
+    "average": "7.92",
+    "numvoters": 4813
+  },
+  {
+    "rank": 394,
+    "id": 209685,
+    "name": "Century: Spice Road",
+    "year": 2017,
+    "description": "Grow and trade spices and use them to gain estate.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/209685.jpg",
+    "bayesaverage": "7.101",
+    "average": "7.29",
+    "numvoters": 27942
+  },
+  {
+    "rank": 395,
+    "id": 202426,
+    "name": "Sidereal Confluence",
+    "year": 2017,
+    "description": "Nine bizarre alien races barter their way to the top of a new utopian community.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/202426.jpg",
+    "bayesaverage": "7.099",
+    "average": "7.76",
+    "numvoters": 6373
+  },
+  {
+    "rank": 396,
+    "id": 22545,
+    "name": "Age of Empires III: The Age of Discovery",
+    "year": 2007,
+    "description": "Send monks, merchants, soldiers, & more to explore, settle, & battle in the New World",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/22545.jpg",
+    "bayesaverage": "7.098",
+    "average": "7.50",
+    "numvoters": 10499
+  },
+  {
+    "rank": 397,
+    "id": 143693,
+    "name": "Glass Road",
+    "year": 2013,
+    "description": "Clear the land, hire specialists, build and gather to make your own trade empire.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/143693.jpg",
+    "bayesaverage": "7.098",
+    "average": "7.41",
+    "numvoters": 12854
+  },
+  {
+    "rank": 398,
+    "id": 136888,
+    "name": "Bruges",
+    "year": 2013,
+    "description": "Vie for influence, manage threats, build, and employ the unique denizens of the city!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/136888.jpg",
+    "bayesaverage": "7.098",
+    "average": "7.42",
+    "numvoters": 12346
+  },
+  {
+    "rank": 399,
+    "id": 219650,
+    "name": "Arydia: The Paths We Dare Tread",
+    "year": 2025,
+    "description": "Exiles explore the lands of Arydia, fighting and questing, to earn their way home.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/219650.png",
+    "bayesaverage": "7.097",
+    "average": "8.98",
+    "numvoters": 2608
+  },
+  {
+    "rank": 400,
+    "id": 271601,
+    "name": "Feed the Kraken",
+    "year": 2022,
+    "description": "Social deduction - Loyal sailors, ruthless pirates, crazy cultists and... The Kraken!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/271601.jpg",
+    "bayesaverage": "7.097",
+    "average": "7.77",
+    "numvoters": 6781
+  },
+  {
+    "rank": 401,
+    "id": 227789,
+    "name": "Heaven & Ale",
+    "year": 2017,
+    "description": "Harvest beer ingredients and master the art of monastic brewcrafting.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/227789.jpg",
+    "bayesaverage": "7.095",
+    "average": "7.52",
+    "numvoters": 9380
+  },
+  {
+    "rank": 402,
+    "id": 163967,
+    "name": "Tiny Epic Galaxies",
+    "year": 2015,
+    "description": "Roll your dice and colonize planets, utilizing your energy and culture.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/163967.jpg",
+    "bayesaverage": "7.094",
+    "average": "7.32",
+    "numvoters": 22374
+  },
+  {
+    "rank": 403,
+    "id": 301880,
+    "name": "Raiders of Scythia",
+    "year": 2020,
+    "description": "Raid and plunder your way through ancient empires on horseback.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/301880.png",
+    "bayesaverage": "7.093",
+    "average": "7.69",
+    "numvoters": 7157
+  },
+  {
+    "rank": 404,
+    "id": 245655,
+    "name": "The King's Dilemma",
+    "year": 2019,
+    "description": "Leaders join in council to vote on the kingdom’s issues, but with hidden motives!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/245655.jpg",
+    "bayesaverage": "7.092",
+    "average": "7.67",
+    "numvoters": 7305
+  },
+  {
+    "rank": 405,
+    "id": 155873,
+    "name": "Power Grid Deluxe: Europe/North America",
+    "year": 2014,
+    "description": "Manage resources, build networks and supply the most cities with power.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/155873.jpg",
+    "bayesaverage": "7.091",
+    "average": "7.94",
+    "numvoters": 4673
+  },
+  {
+    "rank": 406,
+    "id": 336382,
+    "name": "Marvel United: X-Men",
+    "year": 2021,
+    "description": "Co-operate as Marvel Heroes to stop the Villains' master plans!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/336382.jpg",
+    "bayesaverage": "7.089",
+    "average": "7.97",
+    "numvoters": 4850
+  },
+  {
+    "rank": 407,
+    "id": 154203,
+    "name": "Imperial Settlers",
+    "year": 2014,
+    "description": "Construct buildings, harvest resources, and attack your neighbor!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/154203.jpg",
+    "bayesaverage": "7.088",
+    "average": "7.28",
+    "numvoters": 25573
+  },
+  {
+    "rank": 408,
+    "id": 336986,
+    "name": "Flamecraft",
+    "year": 2022,
+    "description": "Gather goods, place dragons and enchant shops to enhance the town.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/336986.jpg",
+    "bayesaverage": "7.087",
+    "average": "7.36",
+    "numvoters": 22177
+  },
+  {
+    "rank": 409,
+    "id": 436126,
+    "name": "Finspan",
+    "year": 2025,
+    "description": "Dive into the watery depths to find and observe a vast array of aquatic life.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/436126.jpg",
+    "bayesaverage": "7.086",
+    "average": "7.67",
+    "numvoters": 7754
+  },
+  {
+    "rank": 410,
+    "id": 54138,
+    "name": "Imperial 2030",
+    "year": 2009,
+    "description": "Use money to manipulate countries into warring with each other for your own profit.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/54138.jpg",
+    "bayesaverage": "7.084",
+    "average": "7.63",
+    "numvoters": 7367
+  },
+  {
+    "rank": 411,
+    "id": 181279,
+    "name": "Fury of Dracula (Third/Fourth Edition)",
+    "year": 2015,
+    "description": "Dracula is attacking! Or is it a trick while he hides? Track him down to find out.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/181279.jpg",
+    "bayesaverage": "7.084",
+    "average": "7.39",
+    "numvoters": 15659
+  },
+  {
+    "rank": 412,
+    "id": 40692,
+    "name": "Small World",
+    "year": 2009,
+    "description": "Control one fantasy race after another to expand quickly throughout the land.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/40692.jpg",
+    "bayesaverage": "7.082",
+    "average": "7.19",
+    "numvoters": 75382
+  },
+  {
+    "rank": 413,
+    "id": 318084,
+    "name": "Furnace",
+    "year": 2020,
+    "description": "19th century capitalists manipulate the market and manage their industrial empires.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/318084.png",
+    "bayesaverage": "7.080",
+    "average": "7.38",
+    "numvoters": 13621
+  },
+  {
+    "rank": 414,
+    "id": 188866,
+    "name": "Awkward Guests: The Walton Case",
+    "year": 2016,
+    "description": "A thrilling whodunit where only logic saves you from bluff and false leads.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/188866.jpg",
+    "bayesaverage": "7.079",
+    "average": "7.52",
+    "numvoters": 9852
+  },
+  {
+    "rank": 415,
+    "id": 93260,
+    "name": "Summoner Wars: Master Set",
+    "year": 2011,
+    "description": "Harness the magic! Summon your warrior hordes onto the field of battle.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/93260.jpg",
+    "bayesaverage": "7.078",
+    "average": "7.47",
+    "numvoters": 11173
+  },
+  {
+    "rank": 416,
+    "id": 187617,
+    "name": "Nemo's War (Second Edition)",
+    "year": 2017,
+    "description": "Sail the Seven Seas as the hardened captain Nemo, fighting the Imperialist powers.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/187617.jpg",
+    "bayesaverage": "7.077",
+    "average": "7.78",
+    "numvoters": 5854
+  },
+  {
+    "rank": 417,
+    "id": 285192,
+    "name": "Destinies",
+    "year": 2021,
+    "description": "Characters explore a medieval-fantasy land as they race to fulfill their destiny.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/285192.png",
+    "bayesaverage": "7.077",
+    "average": "7.64",
+    "numvoters": 10232
+  },
+  {
+    "rank": 418,
+    "id": 48726,
+    "name": "Alien Frontiers",
+    "year": 2010,
+    "description": "Race to develop and colonize the surface of planet Maxwell.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/48726.png",
+    "bayesaverage": "7.075",
+    "average": "7.34",
+    "numvoters": 15632
+  },
+  {
+    "rank": 419,
+    "id": 246192,
+    "name": "Gizmos",
+    "year": 2018,
+    "description": "Gather energy marbles to build gizmos parts and trigger chain reactions and combos.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/246192.png",
+    "bayesaverage": "7.073",
+    "average": "7.36",
+    "numvoters": 15106
+  },
+  {
+    "rank": 420,
+    "id": 59294,
+    "name": "Runewars",
+    "year": 2010,
+    "description": "Build, conquer, gather, recruit, and find runes in the Terrinoth realm.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/59294.jpg",
+    "bayesaverage": "7.071",
+    "average": "7.60",
+    "numvoters": 8618
+  },
+  {
+    "rank": 421,
+    "id": 21241,
+    "name": "Neuroshima Hex",
+    "year": 2006,
+    "description": "Battle robots, gangs, and more in tactical post-apocalyptic warfare.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/21241.png",
+    "bayesaverage": "7.071",
+    "average": "7.38",
+    "numvoters": 15848
+  },
+  {
+    "rank": 422,
+    "id": 304420,
+    "name": "Bonfire",
+    "year": 2020,
+    "description": "Gnomes struggle to re-ignite mystical bonfires to bring light to their dark planet.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/304420.jpg",
+    "bayesaverage": "7.071",
+    "average": "7.59",
+    "numvoters": 7745
+  },
+  {
+    "rank": 423,
+    "id": 203420,
+    "name": "EXIT: The Game – The Abandoned Cabin",
+    "year": 2016,
+    "description": "A kind stranger's invitation becomes a grim trap - can you escape before he returns?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/203420.jpg",
+    "bayesaverage": "7.070",
+    "average": "7.40",
+    "numvoters": 12261
+  },
+  {
+    "rank": 424,
+    "id": 368173,
+    "name": "Let's Go! To Japan",
+    "year": 2024,
+    "description": "Create a travel itinerary and go on your dream vacation to Japan.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/368173.jpg",
+    "bayesaverage": "7.069",
+    "average": "7.56",
+    "numvoters": 8073
+  },
+  {
+    "rank": 425,
+    "id": 247367,
+    "name": "Air, Land, & Sea",
+    "year": 2019,
+    "description": "Submit orders on three fronts to outwit and outmatch your military opponent.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/247367.jpg",
+    "bayesaverage": "7.069",
+    "average": "7.44",
+    "numvoters": 11018
+  },
+  {
+    "rank": 426,
+    "id": 345584,
+    "name": "Mindbug: First Contact",
+    "year": 2022,
+    "description": "Serve the Mindbug, summon hybrids, and mind-control your opponent's best cards.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/345584.png",
+    "bayesaverage": "7.069",
+    "average": "7.55",
+    "numvoters": 9430
+  },
+  {
+    "rank": 427,
+    "id": 172081,
+    "name": "Burgle Bros.",
+    "year": 2015,
+    "description": "As part of a heist team, break in, get the loot, and get out without getting caught.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/172081.png",
+    "bayesaverage": "7.068",
+    "average": "7.40",
+    "numvoters": 12769
+  },
+  {
+    "rank": 428,
+    "id": 334986,
+    "name": "Daybreak",
+    "year": 2023,
+    "description": "Cooperatively decarbonize the planet and create resilient societies.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/334986.png",
+    "bayesaverage": "7.067",
+    "average": "7.66",
+    "numvoters": 6782
+  },
+  {
+    "rank": 429,
+    "id": 274638,
+    "name": "Unmatched: Robin Hood vs. Bigfoot",
+    "year": 2019,
+    "description": "The big beast and the wily rogue fight to see who's king of the forest.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/274638.jpg",
+    "bayesaverage": "7.067",
+    "average": "7.90",
+    "numvoters": 5197
+  },
+  {
+    "rank": 430,
+    "id": 25292,
+    "name": "Merchants & Marauders",
+    "year": 2010,
+    "description": "Live the life of an influential merchant or a dreaded pirate in the Caribbean.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/25292.jpg",
+    "bayesaverage": "7.067",
+    "average": "7.38",
+    "numvoters": 14812
+  },
+  {
+    "rank": 431,
+    "id": 219513,
+    "name": "Bärenpark",
+    "year": 2017,
+    "description": "Build a bear park on personal boards by carefully placing polyominoes.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/219513.jpg",
+    "bayesaverage": "7.065",
+    "average": "7.27",
+    "numvoters": 21176
+  },
+  {
+    "rank": 432,
+    "id": 193037,
+    "name": "Dead of Winter: The Long Night",
+    "year": 2016,
+    "description": "A new group stands alone against the undead, bandits, and the horrors of Raxxon.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/193037.jpg",
+    "bayesaverage": "7.063",
+    "average": "7.50",
+    "numvoters": 10637
+  },
+  {
+    "rank": 433,
+    "id": 297030,
+    "name": "Tekhenu: Obelisk of the Sun",
+    "year": 2020,
+    "description": "As the Obelisk's shadow moves, use dice to build Ipet-Isut and the temple of Amun-Ra.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/297030.jpg",
+    "bayesaverage": "7.063",
+    "average": "7.66",
+    "numvoters": 6798
+  },
+  {
+    "rank": 434,
+    "id": 172818,
+    "name": "Above and Below",
+    "year": 2015,
+    "description": "Build your newly founded village above while exploring the caves and stories below.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/172818.jpg",
+    "bayesaverage": "7.063",
+    "average": "7.34",
+    "numvoters": 17223
+  },
+  {
+    "rank": 435,
+    "id": 39856,
+    "name": "Dixit",
+    "year": 2008,
+    "description": "Give the perfect clue so most (not all) players guess the right surreal image card.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/39856.jpg",
+    "bayesaverage": "7.062",
+    "average": "7.18",
+    "numvoters": 72042
+  },
+  {
+    "rank": 436,
+    "id": 40354,
+    "name": "Maria",
+    "year": 2009,
+    "description": "Maneuver martially and politically in this 3 player War of the Austrian Succession.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/40354.jpg",
+    "bayesaverage": "7.062",
+    "average": "8.00",
+    "numvoters": 4120
+  },
+  {
+    "rank": 437,
+    "id": 372,
+    "name": "Schotten Totten",
+    "year": 1999,
+    "description": "Place your kilted clansmen, control stones, expand territory & foil the rival clan.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/372.jpg",
+    "bayesaverage": "7.062",
+    "average": "7.35",
+    "numvoters": 14526
+  },
+  {
+    "rank": 438,
+    "id": 77130,
+    "name": "Sid Meier's Civilization: The Board Game",
+    "year": 2010,
+    "description": "Lead your civilization to greatness in military, arts, science or economy.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/77130.jpg",
+    "bayesaverage": "7.061",
+    "average": "7.37",
+    "numvoters": 16408
+  },
+  {
+    "rank": 439,
+    "id": 176920,
+    "name": "Mission: Red Planet (Second/Third Edition)",
+    "year": 2015,
+    "description": "Launch your rockets, sabotage the competition as you vie to control Mars.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/176920.jpg",
+    "bayesaverage": "7.060",
+    "average": "7.38",
+    "numvoters": 12502
+  },
+  {
+    "rank": 440,
+    "id": 128271,
+    "name": "Ginkgopolis",
+    "year": 2012,
+    "description": "Build upwards as well as outwards to control the most buildings in a future eco-city.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/128271.jpg",
+    "bayesaverage": "7.058",
+    "average": "7.48",
+    "numvoters": 9011
+  },
+  {
+    "rank": 441,
+    "id": 140934,
+    "name": "Arboretum",
+    "year": 2015,
+    "description": "Build the Arboretum of your dreams, and prevent your rival from building theirs.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/140934.png",
+    "bayesaverage": "7.057",
+    "average": "7.24",
+    "numvoters": 24151
+  },
+  {
+    "rank": 442,
+    "id": 334590,
+    "name": "For Northwood! A Solo Trick-Taking Game",
+    "year": 2021,
+    "description": "Woodland rulers engage in debate in this tactical solo trick-taking game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/334590.png",
+    "bayesaverage": "7.057",
+    "average": "7.75",
+    "numvoters": 5672
+  },
+  {
+    "rank": 443,
+    "id": 59959,
+    "name": "Letters from Whitechapel",
+    "year": 2011,
+    "description": "Slip away as Jack the Ripper or track his hidden movement as a team of investigators.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/59959.jpg",
+    "bayesaverage": "7.056",
+    "average": "7.33",
+    "numvoters": 17144
+  },
+  {
+    "rank": 444,
+    "id": 351040,
+    "name": "Ready Set Bet",
+    "year": 2022,
+    "description": "Head to the races for a day of cheering, jeering, and betting!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/351040.jpg",
+    "bayesaverage": "7.056",
+    "average": "7.48",
+    "numvoters": 9227
+  },
+  {
+    "rank": 445,
+    "id": 70919,
+    "name": "Takenoko",
+    "year": 2011,
+    "description": "Carefully cultivate a bamboo garden with the help of a gardener and a hungry panda.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/70919.jpg",
+    "bayesaverage": "7.055",
+    "average": "7.20",
+    "numvoters": 48442
+  },
+  {
+    "rank": 446,
+    "id": 155987,
+    "name": "Abyss",
+    "year": 2014,
+    "description": "Control factions, influence the court and reign over underwater realms!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/155987.jpg",
+    "bayesaverage": "7.055",
+    "average": "7.32",
+    "numvoters": 17012
+  },
+  {
+    "rank": 447,
+    "id": 45315,
+    "name": "Dungeon Lords",
+    "year": 2009,
+    "description": "Prepare your dungeon. Set evil traps. Release your monsters. Stop the good guys.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/45315.jpg",
+    "bayesaverage": "7.053",
+    "average": "7.34",
+    "numvoters": 14351
+  },
+  {
+    "rank": 448,
+    "id": 552,
+    "name": "Bus",
+    "year": 1999,
+    "description": "Expand your bus line and maybe bend time in this worker placement classic!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/552.jpg",
+    "bayesaverage": "7.052",
+    "average": "7.71",
+    "numvoters": 5632
+  },
+  {
+    "rank": 449,
+    "id": 357563,
+    "name": "Akropolis",
+    "year": 2022,
+    "description": "Build your Greek city on multiple levels to keep your districts perfectly placed.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/357563.jpg",
+    "bayesaverage": "7.051",
+    "average": "7.44",
+    "numvoters": 10774
+  },
+  {
+    "rank": 450,
+    "id": 8217,
+    "name": "San Juan",
+    "year": 2004,
+    "description": "Cards have multiple potential uses -- choose wisely to build the city.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/8217.jpg",
+    "bayesaverage": "7.050",
+    "average": "7.23",
+    "numvoters": 24444
+  },
+  {
+    "rank": 451,
+    "id": 319910,
+    "name": "Pagan: Fate of Roanoke",
+    "year": 2022,
+    "description": "Witch and Hunter duel for the fate of Roanoke in an asymmetrical deduction card game.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/319910.png",
+    "bayesaverage": "7.049",
+    "average": "7.84",
+    "numvoters": 5172
+  },
+  {
+    "rank": 452,
+    "id": 342900,
+    "name": "Earthborne Rangers",
+    "year": 2023,
+    "description": "Explore the wilderness of the far future as rangers of a wondrous mountain valley.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/342900.jpg",
+    "bayesaverage": "7.049",
+    "average": "8.04",
+    "numvoters": 4463
+  },
+  {
+    "rank": 453,
+    "id": 13122,
+    "name": "Antiquity",
+    "year": 2004,
+    "description": "Achieve your civilization’s goal before being overwhelmed by famine and pollution.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/13122.png",
+    "bayesaverage": "7.049",
+    "average": "7.82",
+    "numvoters": 4762
+  },
+  {
+    "rank": 454,
+    "id": 318182,
+    "name": "Imperium: Legends",
+    "year": 2021,
+    "description": "Compete to become the most dominant empire the world has ever seen!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/318182.jpg",
+    "bayesaverage": "7.048",
+    "average": "7.84",
+    "numvoters": 5129
+  },
+  {
+    "rank": 455,
+    "id": 90137,
+    "name": "Blood Bowl: Team Manager – The Card Game",
+    "year": 2011,
+    "description": "Coach your “fantasy” football team and gather most fans to win.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/90137.jpg",
+    "bayesaverage": "7.047",
+    "average": "7.40",
+    "numvoters": 11874
+  },
+  {
+    "rank": 456,
+    "id": 246684,
+    "name": "Smartphone Inc.",
+    "year": 2018,
+    "description": "Success is measured in money as you build your global smartphone empire.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/246684.jpg",
+    "bayesaverage": "7.047",
+    "average": "7.55",
+    "numvoters": 7497
+  },
+  {
+    "rank": 457,
+    "id": 425549,
+    "name": "Moon Colony Bloodbath",
+    "year": 2025,
+    "description": "Whatever can go wrong will go wrong. Players compete to keep their colonists alive.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/425549.jpg",
+    "bayesaverage": "7.046",
+    "average": "7.63",
+    "numvoters": 6858
+  },
+  {
+    "rank": 458,
+    "id": 303057,
+    "name": "Pan Am",
+    "year": 2020,
+    "description": "Triumph in the golden age of air travel.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/303057.jpg",
+    "bayesaverage": "7.046",
+    "average": "7.52",
+    "numvoters": 8566
+  },
+  {
+    "rank": 459,
+    "id": 181304,
+    "name": "Mysterium",
+    "year": 2015,
+    "description": "Become a psychic and divine spectral visions to solve the murder of a restless ghost.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/181304.jpg",
+    "bayesaverage": "7.046",
+    "average": "7.19",
+    "numvoters": 49746
+  },
+  {
+    "rank": 460,
+    "id": 245934,
+    "name": "Carpe Diem",
+    "year": 2018,
+    "description": "Build villas and lands to produce gold, bread and goods in ancient Rome.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/245934.jpg",
+    "bayesaverage": "7.045",
+    "average": "7.49",
+    "numvoters": 8939
+  },
+  {
+    "rank": 461,
+    "id": 315767,
+    "name": "Cartographers Heroes",
+    "year": 2021,
+    "description": "Explore new lands and chart the deeds of brave heroes who defeat monsters.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/315767.png",
+    "bayesaverage": "7.043",
+    "average": "7.69",
+    "numvoters": 6139
+  },
+  {
+    "rank": 462,
+    "id": 368305,
+    "name": "Life of the Amazonia",
+    "year": 2023,
+    "description": "Build your very own thriving jungle by discovering various wild animals.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/368305.png",
+    "bayesaverage": "7.043",
+    "average": "8.08",
+    "numvoters": 3823
+  },
+  {
+    "rank": 463,
+    "id": 171,
+    "name": "Chess",
+    "year": 1475,
+    "description": "Checkmate your opponent in this timeless abstract.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/171.jpg",
+    "bayesaverage": "7.042",
+    "average": "7.24",
+    "numvoters": 40990
+  },
+  {
+    "rank": 464,
+    "id": 199042,
+    "name": "Harry Potter: Hogwarts Battle",
+    "year": 2016,
+    "description": "Battle for the fate of the Wizarding World over your 7 years at Hogwarts.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/199042.jpg",
+    "bayesaverage": "7.042",
+    "average": "7.33",
+    "numvoters": 22299
+  },
+  {
+    "rank": 465,
+    "id": 386368,
+    "name": "Ezra and Nehemiah",
+    "year": 2024,
+    "description": "Rebuild the walls and temple for the returning exiles of ancient Jerusalem.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/386368.jpg",
+    "bayesaverage": "7.040",
+    "average": "8.13",
+    "numvoters": 3570
+  },
+  {
+    "rank": 466,
+    "id": 195539,
+    "name": "The Godfather: Corleone's Empire",
+    "year": 2017,
+    "description": "Reach the top of the cut-throat mob world...all others sleep with the fishes.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/195539.jpg",
+    "bayesaverage": "7.040",
+    "average": "7.53",
+    "numvoters": 8655
+  },
+  {
+    "rank": 467,
+    "id": 146439,
+    "name": "BattleLore: Second Edition",
+    "year": 2013,
+    "description": "Fantasy Command & Colors spiced up with magic.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/146439.jpg",
+    "bayesaverage": "7.040",
+    "average": "7.67",
+    "numvoters": 6626
+  },
+  {
+    "rank": 468,
+    "id": 119890,
+    "name": "Agricola: All Creatures Big and Small",
+    "year": 2012,
+    "description": "Breed animals and expand your small farm in this two player version of the original.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/119890.jpg",
+    "bayesaverage": "7.038",
+    "average": "7.32",
+    "numvoters": 14328
+  },
+  {
+    "rank": 469,
+    "id": 37046,
+    "name": "Ghost Stories",
+    "year": 2008,
+    "description": "Taoist monks must defeat the undead or humanity is lost as Wu Feng returns.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/37046.jpg",
+    "bayesaverage": "7.037",
+    "average": "7.25",
+    "numvoters": 21935
+  },
+  {
+    "rank": 470,
+    "id": 41114,
+    "name": "The Resistance",
+    "year": 2009,
+    "description": "Assign operatives to missions while avoiding enemy spies.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/41114.jpg",
+    "bayesaverage": "7.036",
+    "average": "7.19",
+    "numvoters": 42884
+  },
+  {
+    "rank": 471,
+    "id": 367498,
+    "name": "Horizons of Spirit Island",
+    "year": 2022,
+    "description": "Island Spirits join forces using elemental powers to defend their home from invaders.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/367498.jpg",
+    "bayesaverage": "7.034",
+    "average": "8.12",
+    "numvoters": 3596
+  },
+  {
+    "rank": 472,
+    "id": 335764,
+    "name": "Unmatched: Battle of Legends, Volume Two",
+    "year": 2021,
+    "description": "More heroes, more sidekicks, more legends, more fights!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/335764.jpg",
+    "bayesaverage": "7.032",
+    "average": "8.19",
+    "numvoters": 3611
+  },
+  {
+    "rank": 473,
+    "id": 269210,
+    "name": "Twice as Clever!",
+    "year": 2019,
+    "description": "Roll colorful dice, choosing just one each roll to combo bonuses and points!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/269210.jpg",
+    "bayesaverage": "7.031",
+    "average": "7.41",
+    "numvoters": 10377
+  },
+  {
+    "rank": 474,
+    "id": 318243,
+    "name": "Hitster",
+    "year": 2022,
+    "description": "Listen to music hits and take turns guessing when the songs were released.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/318243.png",
+    "bayesaverage": "7.030",
+    "average": "7.52",
+    "numvoters": 8178
+  },
+  {
+    "rank": 475,
+    "id": 25554,
+    "name": "Notre Dame",
+    "year": 2007,
+    "description": "Improve the area around Notre Dame Cathedral to earn prestige for your family.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/25554.jpg",
+    "bayesaverage": "7.028",
+    "average": "7.31",
+    "numvoters": 13875
+  },
+  {
+    "rank": 476,
+    "id": 284742,
+    "name": "Honey Buzz",
+    "year": 2020,
+    "description": "Bees have discovered economics! Make and sell honey to get money and win!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/284742.jpg",
+    "bayesaverage": "7.028",
+    "average": "7.49",
+    "numvoters": 8971
+  },
+  {
+    "rank": 477,
+    "id": 290484,
+    "name": "Unsettled",
+    "year": 2021,
+    "description": "A cooperative survival game in the bizarre and wondrous reaches of deep space.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/290484.jpg",
+    "bayesaverage": "7.028",
+    "average": "8.05",
+    "numvoters": 3961
+  },
+  {
+    "rank": 478,
+    "id": 365258,
+    "name": "World Wonders",
+    "year": 2023,
+    "description": "Buy tiles, manage resources and place wonder tokens to build your own Ancient City.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/365258.png",
+    "bayesaverage": "7.027",
+    "average": "7.60",
+    "numvoters": 7204
+  },
+  {
+    "rank": 479,
+    "id": 206480,
+    "name": "Imperial Struggle",
+    "year": 2020,
+    "description": "France and Britain clash globally over trade, influence and territory in the 1700s.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/206480.jpg",
+    "bayesaverage": "7.027",
+    "average": "8.21",
+    "numvoters": 3454
+  },
+  {
+    "rank": 480,
+    "id": 24480,
+    "name": "The Pillars of the Earth",
+    "year": 2006,
+    "description": "Produce, craft, and recruit to build a cathedral in this classic worker placement.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/24480.jpg",
+    "bayesaverage": "7.027",
+    "average": "7.25",
+    "numvoters": 18533
+  },
+  {
+    "rank": 481,
+    "id": 385610,
+    "name": "Kutná Hora: The City of Silver",
+    "year": 2023,
+    "description": "Smelt precious silver, develop a medieval city, but mind the ever-changing economy!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/385610.png",
+    "bayesaverage": "7.027",
+    "average": "7.74",
+    "numvoters": 5654
+  },
+  {
+    "rank": 482,
+    "id": 352515,
+    "name": "Trio",
+    "year": 2021,
+    "description": "Reveal anyone's lowest or highest card and aim to collect three of a kind.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/352515.jpg",
+    "bayesaverage": "7.026",
+    "average": "7.39",
+    "numvoters": 12449
+  },
+  {
+    "rank": 483,
+    "id": 367041,
+    "name": "Scholars of the South Tigris",
+    "year": 2023,
+    "description": "Gather scrolls and bring them back to the House of Wisdom to be translated.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/367041.png",
+    "bayesaverage": "7.024",
+    "average": "8.02",
+    "numvoters": 3863
+  },
+  {
+    "rank": 484,
+    "id": 177478,
+    "name": "IKI",
+    "year": 2015,
+    "description": "Hire artisans, set them up in the market and acquire prestige in feudal Japan.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/177478.png",
+    "bayesaverage": "7.024",
+    "average": "7.58",
+    "numvoters": 6959
+  },
+  {
+    "rank": 485,
+    "id": 244711,
+    "name": "Newton",
+    "year": 2018,
+    "description": "Action selection and hand management in the age of enlightenment.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/244711.jpg",
+    "bayesaverage": "7.023",
+    "average": "7.49",
+    "numvoters": 8119
+  },
+  {
+    "rank": 486,
+    "id": 260428,
+    "name": "Fall of Rome",
+    "year": 2018,
+    "description": "Will you be strong enough to protect the Imperium from the Barbarians?",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/260428.jpg",
+    "bayesaverage": "7.022",
+    "average": "7.58",
+    "numvoters": 7057
+  },
+  {
+    "rank": 487,
+    "id": 163745,
+    "name": "Star Wars: Armada",
+    "year": 2015,
+    "description": "Form your fleet, plan a strategy, and execute it with your commands.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/163745.jpg",
+    "bayesaverage": "7.020",
+    "average": "7.81",
+    "numvoters": 5738
+  },
+  {
+    "rank": 488,
+    "id": 379629,
+    "name": "Knarr",
+    "year": 2023,
+    "description": "Assemble your Viking crew to explore new destinations in the world and trade!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/379629.png",
+    "bayesaverage": "7.018",
+    "average": "7.47",
+    "numvoters": 8642
+  },
+  {
+    "rank": 489,
+    "id": 15987,
+    "name": "Arkham Horror",
+    "year": 2005,
+    "description": "Work as a team to save the town of Arkham from monsters and a Great Old One.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/15987.jpg",
+    "bayesaverage": "7.018",
+    "average": "7.24",
+    "numvoters": 40541
+  },
+  {
+    "rank": 490,
+    "id": 39683,
+    "name": "At the Gates of Loyang",
+    "year": 2009,
+    "description": "Harvest crops and fulfill orders to become the most prosperous merchant.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/39683.jpg",
+    "bayesaverage": "7.017",
+    "average": "7.35",
+    "numvoters": 11745
+  },
+  {
+    "rank": 491,
+    "id": 381297,
+    "name": "Unmatched Adventures: Tales to Amaze",
+    "year": 2023,
+    "description": "Team up in Unmatched to take down the Mothman or Martian Invader.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/381297.png",
+    "bayesaverage": "7.017",
+    "average": "7.93",
+    "numvoters": 4522
+  },
+  {
+    "rank": 492,
+    "id": 250458,
+    "name": "Gùgōng",
+    "year": 2018,
+    "description": "Exchange gifts, send servants, and visit the Emperor in a luscious 1570 China.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/250458.jpg",
+    "bayesaverage": "7.016",
+    "average": "7.42",
+    "numvoters": 9696
+  },
+  {
+    "rank": 493,
+    "id": 234487,
+    "name": "Altiplano",
+    "year": 2017,
+    "description": "Bag building in the highlands of Peru.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/234487.jpg",
+    "bayesaverage": "7.016",
+    "average": "7.42",
+    "numvoters": 9794
+  },
+  {
+    "rank": 494,
+    "id": 404431,
+    "name": "Men-Nefer",
+    "year": 2024,
+    "description": "Travel to the capital of ancient Egypt & take part in the development of its culture.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/404431.jpg",
+    "bayesaverage": "7.016",
+    "average": "8.15",
+    "numvoters": 3395
+  },
+  {
+    "rank": 495,
+    "id": 322708,
+    "name": "Descent: Legends of the Dark",
+    "year": 2021,
+    "description": "An app-driven dungeon crawl set in the world of Terrinoth.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/322708.png",
+    "bayesaverage": "7.015",
+    "average": "7.88",
+    "numvoters": 5945
+  },
+  {
+    "rank": 496,
+    "id": 9217,
+    "name": "Saint Petersburg",
+    "year": 2004,
+    "description": "Hire craftsmen, pay for buildings, snag noblemen as you compete for rubles and glory.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/9217.jpg",
+    "bayesaverage": "7.014",
+    "average": "7.26",
+    "numvoters": 16632
+  },
+  {
+    "rank": 497,
+    "id": 286751,
+    "name": "Zombicide: 2nd Edition",
+    "year": 2021,
+    "description": "The ultimate zombie game made reality. Don't get surrounded!",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/286751.jpg",
+    "bayesaverage": "7.010",
+    "average": "7.89",
+    "numvoters": 5663
+  },
+  {
+    "rank": 498,
+    "id": 192458,
+    "name": "51st State: Master Set",
+    "year": 2016,
+    "description": "Build, deal and raise your state out of the ashes of the apocalypse.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/192458.jpg",
+    "bayesaverage": "7.010",
+    "average": "7.53",
+    "numvoters": 7723
+  },
+  {
+    "rank": 499,
+    "id": 371330,
+    "name": "Luthier",
+    "year": 2025,
+    "description": "Craft musical instruments for patrons through worker placement and hidden bidding.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/371330.png",
+    "bayesaverage": "7.010",
+    "average": "8.14",
+    "numvoters": 3415
+  },
+  {
+    "rank": 500,
+    "id": 343905,
+    "name": "Boonlake",
+    "year": 2021,
+    "description": "Build, raise cattle, expand and explore in a fictional Western US region.",
+    "thumbnail": "https://raw.githubusercontent.com/Drezamer/gbbcache/main/images/343905.jpg",
+    "bayesaverage": "7.009",
+    "average": "7.60",
+    "numvoters": 6314
   }
 ]
