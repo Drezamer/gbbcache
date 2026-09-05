@@ -5,7 +5,9 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-URL = "https://r.jina.ai/https://boardgamegeek.com/browse/boardgame?sort=rank"
+URL_TEMPLATE = "https://r.jina.ai/https://boardgamegeek.com/browse/boardgame/page/{page}?sort=rank"
+
+TARGET_GAMES = 500
 
 OUTPUT = "top100.json"
 
@@ -38,17 +40,22 @@ def fetch_url(url, user_agent, timeout=TIMEOUT):
     return data
 
 
-def fetch_bgg():
+def fetch_bgg(page):
+    print("========================================")
+    print(f"STEP 1: FETCH BGG PAGE {page}")
+    print("========================================")
 
-    print("========================================")
-    print("STEP 1: FETCH BGG")
-    print("========================================")
-    print(f"URL: {URL}")
+    url = URL_TEMPLATE.format(
+        page=page
+    )
+
+    print(
+        f"URL: {url}"
+    )
 
     try:
-
         data = fetch_url(
-            URL,
+            url,
             (
                 "Mozilla/5.0 "
                 "(compatible; DnDClub-BGG-Cache/1.0)"
@@ -101,17 +108,16 @@ def fetch_bgg():
     return text
 
 
-def parse_games(text):
-
+def parse_games(
+    text,
+    games,
+    seen_ids,
+    seen_ranks
+):
     print()
     print("========================================")
     print("STEP 2: PARSE BGG TABLE")
     print("========================================")
-
-    games = []
-
-    seen_ids = set()
-    seen_ranks = set()
 
     table_rows = 0
     valid_rows = 0
@@ -152,7 +158,10 @@ def parse_games(text):
             rank_match.group(1)
         )
 
-        if rank < 1 or rank > 100:
+        if (
+            rank < 1
+            or rank > TARGET_GAMES
+        ):
             continue
 
         # ----------------------------------------
@@ -362,9 +371,6 @@ def parse_games(text):
                 f"  Description: "
                 f"{'YES' if description else 'NO'}"
             )
-
-        if len(games) >= 100:
-            break
 
     games.sort(
         key=lambda game: game["rank"]
@@ -610,15 +616,15 @@ def validate_games(games):
     print("STEP 4: VALIDATE DATA")
     print("========================================")
 
-    if len(games) != 100:
+    if len(games) != TARGET_GAMES:
 
         raise RuntimeError(
-            f"Expected exactly 100 games, "
+            f"Expected exactly {TARGET_GAMES} games, "
             f"found {len(games)}"
         )
 
     print(
-        "Count check: OK (100 games)"
+        f"Count check: OK ({TARGET_GAMES} games)"
     )
 
     for index, game in enumerate(
@@ -719,53 +725,58 @@ def validate_games(games):
 
     print(
         f"Geek Ratings found: "
-        f"{ratings_count}/100"
+        f"{ratings_count}/{TARGET_GAMES}"
     )
 
     print(
         f"Average Ratings found: "
-        f"{averages_count}/100"
+        f"{averages_count}/{TARGET_GAMES}"
     )
 
     print(
         f"Num Voters found: "
-        f"{voters_count}/100"
+        f"{voters_count}/{TARGET_GAMES}"
     )
 
     print(
         f"Years found: "
-        f"{years_count}/100"
+        f"{years_count}/{TARGET_GAMES}"
     )
 
     print(
         f"Cached thumbnails found: "
-        f"{thumbnails_count}/100"
+        f"{thumbnails_count}/{TARGET_GAMES}"
     )
 
     print(
         f"Descriptions found: "
-        f"{descriptions_count}/100"
+        f"{descriptions_count}/{TARGET_GAMES}"
     )
 
-    if ratings_count < 90:
+    minimum_expected =
+        int(
+            TARGET_GAMES * 0.90
+        )
+    
+    if ratings_count < minimum_expected:
 
         raise RuntimeError(
             "Too many missing Geek Ratings"
         )
 
-    if averages_count < 90:
+    if averages_count < minimum_expected:
 
         raise RuntimeError(
             "Too many missing Average Ratings"
         )
 
-    if voters_count < 90:
+    if voters_count < minimum_expected:
 
         raise RuntimeError(
             "Too many missing Num Voters"
         )
 
-    if thumbnails_count < 90:
+    if thumbnails_count < minimum_expected:
 
         raise RuntimeError(
             "Too many missing cached thumbnails"
@@ -817,18 +828,64 @@ def main():
     )
 
     print(
-        "BGG TOP 100 CACHE GENERATOR"
+        "BGG TOP 500 CACHE GENERATOR"
     )
 
     print(
         "========================================"
     )
 
-    text = fetch_bgg()
+    games = []
 
-    games = parse_games(
-        text
+seen_ids = set()
+
+seen_ranks = set()
+
+pages_needed =
+    (
+        TARGET_GAMES + 99
+    ) // 100
+
+
+for page in range(
+    1,
+    pages_needed + 1
+):
+
+    print()
+    print(
+        "########################################"
     )
+    print(
+        f"PAGE {page}/{pages_needed}"
+    )
+    print(
+        "########################################"
+    )
+
+    text =
+        fetch_bgg(
+            page
+        )
+
+    parse_games(
+        text,
+        games,
+        seen_ids,
+        seen_ranks
+    )
+
+    print(
+        f"Collected games: "
+        f"{len(games)}/{TARGET_GAMES}"
+    )
+
+    if (
+        len(games)
+        >= TARGET_GAMES
+    ):
+
+        break
 
     cache_images(
         games
@@ -898,7 +955,7 @@ def main():
     )
 
     print(
-        "SUCCESS: BGG TOP 100 UPDATED"
+        "SUCCESS: BGG TOP 500 UPDATED"
     )
 
     print(
