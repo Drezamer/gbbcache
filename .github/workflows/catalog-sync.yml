@@ -43,12 +43,19 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test -n "${BGG_APP_TOKEN}" || { echo "BGG_APP_TOKEN secret is missing."; exit 1; }
           echo "Fetching official BGG CSV dump..."
-          curl --fail --show-error --location --retry 3 --retry-delay 5 \
-            -H "Authorization: Bearer ${BGG_APP_TOKEN}" \
-            -H "User-Agent: dndclub-bgg-catalog-sync/1.0" \
-            "${BGG_CSV_URL}" -o work/source/bgg-ranks-download
+          if [ -n "${BGG_APP_TOKEN:-}" ]; then
+            echo "Using configured BGG application token."
+            curl --fail --show-error --location --retry 3 --retry-delay 5 \
+              -H "Authorization: Bearer ${BGG_APP_TOKEN}" \
+              -H "User-Agent: dndclub-bgg-catalog-sync/1.0" \
+              "${BGG_CSV_URL}" -o work/source/bgg-ranks-download
+          else
+            echo "BGG_APP_TOKEN is not configured; requesting the official dump without an Authorization header."
+            curl --fail --show-error --location --retry 3 --retry-delay 5 \
+              -H "User-Agent: dndclub-bgg-catalog-sync/1.0" \
+              "${BGG_CSV_URL}" -o work/source/bgg-ranks-download
+          fi
           file work/source/bgg-ranks-download
           unzip -Z1 work/source/bgg-ranks-download > work/source/zip-list.txt
           csv_name=$(grep -Ei '\.csv$' work/source/zip-list.txt | head -n 1 || true)
