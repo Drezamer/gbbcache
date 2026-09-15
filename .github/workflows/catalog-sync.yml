@@ -1,0 +1,222 @@
+name: Catalog Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: bgg-catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SERVER_STATE_URL: https://dndclub.ir/bgg/catalog_state.php
+      SERVER_RECEIVER_URL: https://dndclub.ir/bgg/admin/catalog_update_receiver.php
+      BGG_CSV_URL: https://boardgamegeek.com/data_dumps/bg_ranks
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Prepare workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf work
+          mkdir -p work/source work/state work/out
+
+      - name: Download official BGG rank dump
+        env:
+          BGG_APP_TOKEN: ${{ secrets.BGG_APP_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "${BGG_APP_TOKEN}" || { echo "BGG_APP_TOKEN secret is missing."; exit 1; }
+          echo "Fetching official BGG CSV dump..."
+          curl --fail --show-error --location --retry 3 --retry-delay 5 \
+            -H "Authorization: Bearer ${BGG_APP_TOKEN}" \
+            -H "User-Agent: dndclub-bgg-catalog-sync/1.0" \
+            "${BGG_CSV_URL}" -o work/source/bgg-ranks-download
+          file work/source/bgg-ranks-download
+          unzip -Z1 work/source/bgg-ranks-download > work/source/zip-list.txt
+          csv_name=$(grep -Ei '\.csv$' work/source/zip-list.txt | head -n 1 || true)
+          test -n "${csv_name}" || { echo "No CSV found in BGG dump."; exit 1; }
+          unzip -p work/source/bgg-ranks-download "${csv_name}" > work/source/boardgames_ranks.csv
+          test -s work/source/boardgames_ranks.csv
+          echo "CSV extracted: ${csv_name}"
+          wc -l work/source/boardgames_ranks.csv
+
+      - name: Build full catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/build_catalog.py work/source/boardgames_ranks.csv work/out/catalog.sqlite3 | tee work/out/build.log
+          test -s work/out/catalog.sqlite3
+          test -s work/out/catalog.manifest.json
+
+      - name: Retrieve previous catalog state
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SYNC_TOKEN: ${{ secrets.BGG_CATALOG_SYNC_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          artifact_id=$(gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?per_page=100&name=catalog-state" \
+            --jq '.artifacts | map(select(.expired == false)) | sort_by(.created_at) | reverse | .[0].id // empty')
+          if [ -n "${artifact_id}" ]; then
+            echo "Using previous catalog-state artifact candidate: ${artifact_id}"
+            gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts/${artifact_id}/zip" > work/state/state.zip
+            unzip -q work/state/state.zip -d work/state/artifact
+            if [ -s work/state/artifact/catalog.sqlite3 ]; then
+              cp work/state/artifact/catalog.sqlite3 work/state/old.sqlite3
+              echo "Previous catalog loaded from Actions artifact."
+            fi
+          fi
+          test -n "${SYNC_TOKEN}" || { echo "BGG_CATALOG_SYNC_TOKEN secret is missing."; exit 1; }
+          echo "Checking which catalog is actually active on the server..."
+          curl --fail --show-error --location \
+            -H "X-Sync-Token: ${SYNC_TOKEN}" \
+            "${SERVER_STATE_URL}" -o work/state/server-state-before.json
+          if [ -s work/state/old.sqlite3 ]; then
+            local_sha=$(sha256sum work/state/old.sqlite3 | awk '{print $1}')
+            server_sha=$(python -c "import json; print(json.load(open('work/state/server-state-before.json'))['sha256'])")
+            if [ "${local_sha}" != "${server_sha}" ]; then
+              echo "Artifact is stale; downloading the actual active server catalog."
+              curl --fail --show-error --location \
+                -H "X-Sync-Token: ${SYNC_TOKEN}" \
+                "${SERVER_STATE_URL}?download=1" -o work/state/old.sqlite3
+            else
+              echo "Artifact matches the active server catalog."
+            fi
+          else
+            echo "No usable artifact; downloading the active catalog from server..."
+            curl --fail --show-error --location \
+              -H "X-Sync-Token: ${SYNC_TOKEN}" \
+              "${SERVER_STATE_URL}?download=1" -o work/state/old.sqlite3
+          fi
+          python - <<'PY'
+          import sqlite3
+          con=sqlite3.connect('work/state/old.sqlite3')
+          print('Previous rows:', con.execute('select count(*) from games').fetchone()[0])
+          print('Previous ranked:', con.execute('select count(*) from games where rank > 0').fetchone()[0])
+          print('Previous integrity:', con.execute('pragma integrity_check').fetchone()[0])
+          con.close()
+          PY
+
+      - name: Generate Delta
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/build_delta.py work/state/old.sqlite3 work/out/catalog.sqlite3 work/out/delta.jsonl.gz | tee work/out/delta.log
+          test -s work/out/delta.jsonl.gz
+          test -s work/out/delta.jsonl.manifest.json
+
+      - name: Decide Delta or Full
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          m=json.loads(Path('work/out/delta.jsonl.manifest.json').read_text(encoding='utf-8'))
+          ops=sum(int(m['counts'][k]) for k in ('added','changed','removed'))
+          delta_bytes=int(m['delta_bytes'])
+          full_bytes=Path('work/out/catalog.sqlite3').stat().st_size
+          # Conservative thresholds: a delta up to 20k row operations and 20 MiB is preferred.
+          use_delta=(ops <= 20000 and delta_bytes <= 20*1024*1024)
+          mode='delta' if use_delta else 'full'
+          Path('work/mode').write_text(mode,encoding='utf-8')
+          print(f'mode={mode} operations={ops} delta_bytes={delta_bytes} full_bytes={full_bytes}')
+          PY
+
+      - name: Send update to server
+        env:
+          SYNC_TOKEN: ${{ secrets.BGG_CATALOG_SYNC_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "${SYNC_TOKEN}" || { echo "BGG_CATALOG_SYNC_TOKEN secret is missing."; exit 1; }
+          mode=$(cat work/mode)
+          if [ "${mode}" = "delta" ]; then
+            cp work/out/delta.jsonl.manifest.json work/send.manifest.json
+            package=work/out/delta.jsonl.gz
+          else
+            python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          import sqlite3
+          p=Path('work/out/catalog.sqlite3')
+          con=sqlite3.connect(p)
+          logical=__import__('hashlib').sha256()
+          sql="""SELECT CAST(id AS TEXT), name, name_norm, CASE WHEN yearpublished IS NULL THEN '' ELSE CAST(yearpublished AS TEXT) END, CAST(rank AS TEXT), CASE WHEN bayesaverage IS NULL THEN '' ELSE printf('%.17g', bayesaverage) END, CASE WHEN average IS NULL THEN '' ELSE printf('%.17g', average) END, CAST(usersrated AS TEXT), CAST(is_expansion AS TEXT), CASE WHEN abstracts_rank IS NULL THEN '' ELSE CAST(abstracts_rank AS TEXT) END, CASE WHEN cgs_rank IS NULL THEN '' ELSE CAST(cgs_rank AS TEXT) END, CASE WHEN childrensgames_rank IS NULL THEN '' ELSE CAST(childrensgames_rank AS TEXT) END, CASE WHEN familygames_rank IS NULL THEN '' ELSE CAST(familygames_rank AS TEXT) END, CASE WHEN partygames_rank IS NULL THEN '' ELSE CAST(partygames_rank AS TEXT) END, CASE WHEN strategygames_rank IS NULL THEN '' ELSE CAST(strategygames_rank AS TEXT) END, CASE WHEN thematic_rank IS NULL THEN '' ELSE CAST(thematic_rank AS TEXT) END, CASE WHEN wargames_rank IS NULL THEN '' ELSE CAST(wargames_rank AS TEXT) END FROM games ORDER BY id"""
+          for row in con.execute(sql): logical.update(('\x1f'.join(map(str,row))+'\x1e').encode())
+          manifest={'schema_version':1,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'logical_sha256':logical.hexdigest(),'games':con.execute('select count(*) from games').fetchone()[0],'ranked':con.execute('select count(*) from games where rank>0').fetchone()[0]}
+          con.close()
+          Path('work/send.manifest.json').write_text(json.dumps(manifest),encoding='utf-8')
+          PY
+            package=work/out/catalog.sqlite3
+          fi
+          echo "Sending ${mode} update..."
+          http=$(curl -sS -o work/response.json -w '%{http_code}' -X POST \
+            -H "X-Sync-Token: ${SYNC_TOKEN}" \
+            -F "mode=${mode}" \
+            -F "manifest=<work/send.manifest.json" \
+            -F "package=@${package}" \
+            "${SERVER_RECEIVER_URL}")
+          cat work/response.json
+          echo "HTTP ${http}"
+          case "${http}" in
+            2*) ;;
+            *) exit 1;;
+          esac
+
+      - name: Verify active state
+        env:
+          SYNC_TOKEN: ${{ secrets.BGG_CATALOG_SYNC_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --show-error --location \
+            -H "X-Sync-Token: ${SYNC_TOKEN}" \
+            "${SERVER_STATE_URL}" | tee work/server-state.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('work/out/catalog.manifest.json').read_text())
+          s=json.loads(Path('work/server-state.json').read_text())
+          assert s.get('ok') is True
+          assert int(s['games']) == int(a['games'])
+          assert int(s['ranked']) == int(a['ranked'])
+          assert s['logical_sha256'] == a['logical_sha256']
+          print('Server verification: PASS')
+          PY
+
+      - name: Publish catalog state artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-state
+          path: |
+            work/out/catalog.sqlite3
+            work/out/catalog.manifest.json
+          retention-days: 30
+          overwrite: true
+
+      - name: Publish sync diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-sync-${{ github.run_id }}
+          path: work/
+          retention-days: 30
